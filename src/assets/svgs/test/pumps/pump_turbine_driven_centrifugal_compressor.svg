@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg version='1.1'
+    xmlns='http://www.w3.org/2000/svg'
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    x='0px'
+    y='0px'
+    width='180.588px'
+    height='102.82px'
+    viewBox='0 0 180.588 102.82'
+    xmlns:agg='http://www.example.com'
+    xml:space='preserve'>
+<agg:params>
+	<agg:param  type="C" name="Color" classes="boundary" description="Color" cssAttributes="fill"></agg:param>
+	<agg:param  type="C" name="strokeColor" classes="contours,dashed,thick" description="Stroke Color" cssAttributes="stroke"></agg:param>
+</agg:params>
+
+<style type="text/css" >
+<![CDATA[
+
+	.contours,.dashed,.thick{
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: #000000;
+		fill:none;
+	}
+	
+	.contours,dashed {
+		stroke-width:0.5;
+	}
+	
+	.thick {
+		stroke-width:1.5;
+	}
+	
+	.boundary {
+		fill:   #A1BFE2;
+		stroke:none;
+	}
+	
+	.dashed {
+		stroke-dasharray:1.5,1.5;
+	}
+]]>
+</style>
+ <g id='boundary'
+     class='boundary'>
+  <polygon points='60.869,29.934 60.869,65.844 60.869,101.764 156.64,83.804 156.64,47.894 138.689,44.523  ' />
+  <polygon points='40.589,65.844 40.589,51.184 1.06,58.104 1.06,73.594 40.589,80.514  ' />
+ </g>
+ <g id='contours'
+     class='contours'>
+  <polygon points='40.591,80.509 40.591,51.186 1.056,58.106 1.056,73.59  ' />
+  <line x1='20.822'
+      y1='70.88'
+      x2='20.822'
+      y2='60.813' />
+  <line x1='16.846'
+      y1='60.813'
+      x2='24.8'
+      y2='60.813' />
+  <polyline points='78.825,33.298 78.825,5.987 42.909,5.987  ' />
+  <line x1='60.867'
+      y1='65.849'
+      x2='40.591'
+      y2='65.849' />
+  <polygon points='156.643,47.89 156.643,83.807 60.867,101.765 60.867,29.932  ' />
+  <polyline points='138.685,44.522 138.685,5.987 168.616,5.987  ' />
+ </g>
+ <g id='fill'
+     class='fill'>
+  <polygon points='168.616,0 168.616,11.974 180.588,5.987  ' />
+ </g>
+</svg>

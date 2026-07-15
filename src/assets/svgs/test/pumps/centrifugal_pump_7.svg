@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	   xmlns:agg="http://www.example.com">
+	 
+<agg:params>
+	<agg:param type="C" name="color" description="Color" cssAttributes="fill" classes="color"/>
+	<agg:param type="F" name="saturation" description="Saturation" min="0" max="1" cssAttributes="opacity" classes="color"/>
+</agg:params>
+
+<style type="text/css" >
+   <![CDATA[
+
+	.stroke,.thin,.thick{
+		stroke-linecap:butt;
+		stroke-linejoin:round;
+		stroke: black;
+		fill:none;
+		opacity:0.5;
+	}
+
+	.stroke{stroke-width:0.5;}
+
+	.thin {stroke-width:0.25;}
+
+	.thick {stroke-width:0.75;}
+	
+	.color {
+		fill:#3664BF;
+		opacity:0.2;
+	}
+
+      ]]>
+</style>
+	 
+<defs>	 
+	<linearGradient id="case" gradientUnits="userSpaceOnUse" x1="150.0874" y1="0.9141" x2="150.0874" y2="12.7995">
+		<stop  offset="0" style="stop-color:#757575"/>
+		<stop  offset="0.06" style="stop-color:#959595"/>
+		<stop  offset="0.13" style="stop-color:#BABABA"/>
+		<stop  offset="0.21" style="stop-color:#D7D7D7"/>
+		<stop  offset="0.29" style="stop-color:#EBEBEB"/>
+		<stop  offset="0.35" style="stop-color:#F8F8F8"/>
+		<stop  offset="0.42" style="stop-color:#FCFCFC"/>
+		<stop  offset="0.47" style="stop-color:#F8F8F8"/>
+		<stop  offset="0.53" style="stop-color:#EBEBEB"/>
+		<stop  offset="0.59" style="stop-color:#D7D7D7"/>
+		<stop  offset="0.73" style="stop-color:#BABABA"/>
+		<stop  offset="1" style="stop-color:#BFBFBF"/>
+	</linearGradient>
+	
+	<linearGradient id="support" gradientUnits="userSpaceOnUse" x1="145.853" y1="81.6309" x2="153.9624" y2="68.8876">
+		<stop  offset="0.0051" style="stop-color:#BFBFBF"/>
+		<stop  offset="0.461" style="stop-color:#AEAEAE"/>
+		<stop  offset="0.4788" style="stop-color:#ADADAD"/>
+		<stop  offset="0.503" style="stop-color:#C9C9C9"/>
+		<stop  offset="0.9997" style="stop-color:#D4D7D9"/>
+	</linearGradient>
+	
+	<linearGradient id="cyl" gradientUnits="userSpaceOnUse" x1="9.4946" y1="0.5283" x2="9.4946" y2="86.1829">
+		<stop  offset="0" style="stop-color:#757575"/>
+		<stop  offset="0.0583" style="stop-color:#959595"/>
+		<stop  offset="0.132" style="stop-color:#BABABA"/>
+		<stop  offset="0.2058" style="stop-color:#D7D7D7"/>
+		<stop  offset="0.2788" style="stop-color:#EBEBEB"/>
+		<stop  offset="0.3507" style="stop-color:#F8F8F8"/>
+		<stop  offset="0.42" style="stop-color:#FCFCFC"/>
+		<stop  offset="0.4749" style="stop-color:#F8F8F8"/>
+		<stop  offset="0.5318" style="stop-color:#EBEBEB"/>
+		<stop  offset="0.5897" style="stop-color:#D7D7D7"/>
+		<stop  offset="0.6481" style="stop-color:#BABABA"/>
+		<stop  offset="0.7066" style="stop-color:#959595"/>
+		<stop  offset="0.72" style="stop-color:#8B8B8B"/>
+		<stop  offset="1" style="stop-color:#FCFCFC"/>
+	</linearGradient>
+	
+	<linearGradient id="cyl_1" xlink:href="#cyl" x1="9.4946" y1="0.5283" x2="9.4946" y2="86.1829"/>
+	<linearGradient id="cyl_2" xlink:href="#cyl" x1="101" y1="9.4023" x2="101" y2="77.6957"/>
+	<linearGradient id="cyl_3" xlink:href="#cyl" x1="56.3589" y1="25.9927" x2="56.3589" y2="59.9797"/>
+	<linearGradient id="cyl_4" xlink:href="#cyl" x1="149.8882" y1="17.5044" x2="149.8882" y2="69.2958"/>
+	<linearGradient id="cyl_5" xlink:href="#cyl" x1="194.5293" y1="25.9927" x2="194.5293" y2="61.4963"/>
+	<linearGradient id="cyl_6" xlink:href="#cyl" x1="198.7764" y1="30.6221" x2="198.7764" y2="56.3213"/>
+	<linearGradient id="cyl_7" xlink:href="#cyl" x1="175.0952" y1="83.7495" x2="124.0965" y2="83.7495"/>
+	
+	<polygon id="boundary" points="196.553,30.681 196.553,26.693 
+		192.505,26.693 192.505,18.205 184.01,18.205 184.01,1.228 116.165,1.228 116.165,18.205 107.271,18.205 107.271,9.715 
+		94.729,9.715 94.729,26.693 17.989,26.693 17.989,1.228 1,1.228 1,86 17.989,86 17.989,60.59 94.729,60.59 94.729,77.511 
+		107.271,77.511 107.271,69.08 132.698,69.08 132.698,81.555 124.261,81.555 124.261,86 175.572,86 175.572,81.555 167.077,81.555 
+		167.077,69.08 192.505,69.08 192.505,60.59 196.553,60.59 196.553,56.147 201,56.147 201,30.681 "/>
+</defs>
+	
+<rect x="116.165" y="1.199" fill="url(#case)"  />
+<rect x="132.698" y="69.051" fill="url(#support)"  />
+
+<g id="cyl">
+	<rect x="1" y="1.199" fill="url(#cyl_1)"  />
+	<rect x="94.729" y="9.687" fill="url(#cyl_2)"  />
+	<rect x="17.989" y="26.665" fill="url(#cyl_3)"  />
+	<rect x="107.271" y="18.176" fill="url(#cyl_4)"  />
+	<rect x="192.505" y="26.665" fill="url(#cyl_5)"  />
+	<rect x="196.553" y="30.653" fill="url(#cyl_6)"  />
+	<rect x="124.261" y="81.528" fill="url(#cyl_7)"  />
+</g>
+
+<use xlink:href="#boundary" class="color"/>
+
+<g class="stroke">
+	<use xlink:href="#boundary"/>
+	<line x1="9.495" y1="1" x2="9.495" y2="85.772"/>
+	<line x1="101" y1="9.687" x2="101" y2="77.482"/>
+	<line x1="188.457" y1="18.176" x2="188.457" y2="69.051"/>
+	<line x1="17.989" y1="26.665" x2="17.989" y2="60.563"/>
+	<line x1="94.729" y1="26.665" x2="94.729" y2="60.563"/>
+	<line x1="116.165" y1="18.176" x2="184.01" y2="18.176"/>
+	<line x1="132.698" y1="69.051" x2="167.077" y2="69.051"/>
+	<line x1="132.698" y1="81.528" x2="167.077" y2="81.528"/>
+	<line x1="192.505" y1="26.665" x2="192.505" y2="60.563"/>
+	<line x1="196.553" y1="30.653" x2="196.553" y2="56.119"/>
+	<line x1="107.271" y1="18.176" x2="107.271" y2="69.051"/>
+</g>
+</svg>

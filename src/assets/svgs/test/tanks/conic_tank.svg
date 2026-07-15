@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:agg="http://www.example.com"
+	 xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  
+	 viewBox="0 0 150 130" xml:space="preserve">
+	 
+<agg:params>
+	<agg:param type="C" name="color" description="Color" cssAttributes="fill" classes="color"/>
+	<agg:param type="F" name="saturation" description="Saturation" min="0" max="1" cssAttributes="opacity" classes="color"/>
+	<agg:param name="supportColor" description="Support Color" type="C" cssAttributes="fill" classes="color"/>
+</agg:params>
+
+<style type="text/css" >
+   <![CDATA[
+
+	.stroke {
+		stroke-width:0.3;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: black;
+		fill:none;
+	}
+	
+	.color {
+		fill:#3664BF;
+		opacity:0.2;
+	}
+	
+      ]]>
+</style>
+
+<defs>
+<path id="tankBody" d="M0.001,15.397C-0.121,6.926,6.675-0.009,15.095,0
+	c39.939,0,79.879,0,119.819,0c8.41-0.003,15.194,6.918,15.085,15.382c0,17.146,0,34.296,0,51.444
+	c-0.098,6.979-2.221,11.87-7.235,16.688c-13.123,12.749-26.244,25.493-39.367,38.24c-4.889,4.91-11.582,6.685-18.279,7.577
+	c-6.698,0.887-13.398,0.891-20.098,0.011c-6.699-0.881-13.396-2.643-18.291-7.541C33.575,109.065,20.421,96.329,7.267,83.591
+	c-5.029-4.815-7.159-9.71-7.265-16.697C0.001,49.729,0.001,32.564,0.001,15.397z"/>
+</defs>
+	 
+<linearGradient id="horizontalGradient" gradientUnits="userSpaceOnUse" x1="0" y1="100" x2="150" y2="100">
+	<stop  offset="0" style="stop-color:#767676"/>
+	<stop  offset="0.06" style="stop-color:#919191"/>
+	<stop  offset="0.14" style="stop-color:#B1B1B1"/>
+	<stop  offset="0.21" style="stop-color:#CECECE"/>
+	<stop  offset="0.28" style="stop-color:#E4E4E4"/>
+	<stop  offset="0.35" style="stop-color:#F6F6F6"/>
+	<stop  offset="0.42" style="stop-color:#FEFEFF"/>
+	<stop  offset="0.47" style="stop-color:#F6F6F6"/>
+	<stop  offset="0.53" style="stop-color:#E7E7E7"/>
+	<stop  offset="0.58" style="stop-color:#D2D1D1"/>
+	<stop  offset="0.64" style="stop-color:#B7B7B7"/>
+	<stop  offset="0.7" style="stop-color:#989898"/>
+	<stop  offset="0.72" style="stop-color:#8B8B8B"/>
+	<stop  offset="1" style="stop-color:#FDFDFD"/>
+</linearGradient>
+
+<linearGradient id="verticalGradient" gradientUnits="userSpaceOnUse" x1="75" y1="0" x2="75" y2="130">
+	<stop  offset="0" style="stop-color:#757575"/>
+	<stop  offset="0.03" style="stop-color:#959595"/>
+	<stop  offset="0.06" style="stop-color:#BABABA"/>
+	<stop  offset="0.1" style="stop-color:#D7D7D7"/>
+	<stop  offset="0.13" style="stop-color:#EBEBEB"/>
+	<stop  offset="0.17" style="stop-color:#F8F8F8"/>
+	<stop  offset="0.2" style="stop-color:#FCFCFC"/>
+	<stop  offset="0.9" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#B0B0B0"/>
+</linearGradient>
+
+<use xlink:href="#tankBody" fill="url(#horizontalGradient)"/>
+<use xlink:href="#tankBody" fill="url(#verticalGradient)" opacity="0.5"/>
+<use xlink:href="#tankBody" class="color"/>
+<use xlink:href="#tankBody" class="stroke"/>
+
+</svg>

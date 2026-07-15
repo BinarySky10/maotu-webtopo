@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"   x="0px" y="0px"
+	   xmlns:agg="http://www.example.com" xml:space="preserve">
+
+<agg:params>
+	<agg:param type="C" name="color" description="Color" cssAttributes="fill" classes="color"/>
+	<agg:param type="C" name="strokeColor" description="Stroke Color" cssAttributes="stroke" classes="color,stroked"/>
+</agg:params>
+
+<style type="text/css" >
+   <![CDATA[
+
+	.color,.stroked,.dashed{
+		stroke-width:1;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: #000000;
+	}
+	
+	.color {
+		fill:   #A1BFE2;
+
+	}
+	
+	.stroked,.dashed {
+		fill:none;
+	}
+	
+	.dashed {
+		stroke-dasharray:4,4;
+	}
+
+      ]]>
+</style>		 
+	 
+<polygon class="color" points="1,39.483 39.804,78 101,61.756 39.804,1 1,39.483 "/>
+<line class="dashed stroked" x1="23.324" y1="23.306" x2="67.498" y2="67.081"/>
+
+</svg>

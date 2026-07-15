@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"  xmlns:agg="http://www.example.com" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	   viewBox="0 0 85 152" xml:space="preserve">
+	 
+<agg:params>
+	<agg:param type="C" name="color" description="Color" cssAttributes="fill" classes="color"/>
+    <agg:param type="F" name="saturation" description="Saturation" min="0" max="1" cssAttributes="opacity" classes="color"/>
+</agg:params>
+
+<style type="text/css" >
+   <![CDATA[
+
+	.stroke{
+		stroke-width:0.5;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: black;
+		fill:none;
+	}
+	
+	.color {
+		fill:#3664BF;
+		opacity:0.2;
+	}
+
+      ]]>
+</style>
+
+<defs>
+	<linearGradient id="tankBody" gradientUnits="userSpaceOnUse" x1="1" y1="0" x2="84" y2="0">
+		<stop  offset="0" style="stop-color:#767676"/>
+		<stop  offset="0.06" style="stop-color:#919191"/>
+		<stop  offset="0.14" style="stop-color:#B1B1B1"/>
+		<stop  offset="0.21" style="stop-color:#CECECE"/>
+		<stop  offset="0.28" style="stop-color:#E4E4E4"/>
+		<stop  offset="0.35" style="stop-color:#F6F6F6"/>
+		<stop  offset="0.42" style="stop-color:#FEFEFF"/>
+		<stop  offset="0.47" style="stop-color:#F6F6F6"/>
+		<stop  offset="0.53" style="stop-color:#E7E7E7"/>
+		<stop  offset="0.58" style="stop-color:#D2D1D1"/>
+		<stop  offset="0.64" style="stop-color:#B7B7B7"/>
+		<stop  offset="0.7" style="stop-color:#989898"/>
+		<stop  offset="0.72" style="stop-color:#8B8B8B"/>
+		<stop  offset="1" style="stop-color:#FDFDFD"/>
+	</linearGradient>
+	
+	<rect id="body" x="1" y="14.889"  />
+</defs>
+
+<use xlink:href="#body" fill="url(#tankBody)"/>
+<use xlink:href="#body" class="color"/>
+<use xlink:href="#body" class="stroke"/>
+	 
+<g id="fence" class="stroke">
+	<line x1="1" y1="1" x2="84" y2="1"/>
+	<line x1="84" y1="14.889" x2="84" y2="1"/>
+	<line x1="81.367" y1="14.889" x2="81.367" y2="1"/>
+	<line x1="77.292" y1="14.889" x2="77.292" y2="1"/>
+	<line x1="71.822" y1="14.889" x2="71.822" y2="1"/>
+	<line x1="65.182" y1="14.889" x2="65.182" y2="1"/>
+	<line x1="57.643" y1="14.889" x2="57.643" y2="1"/>
+	<line x1="49.515" y1="14.889" x2="49.515" y2="1"/>
+	<line x1="41.128" y1="14.889" x2="41.128" y2="1"/>
+	<line x1="32.828" y1="14.889" x2="32.828" y2="1"/>
+	<line x1="24.954" y1="14.889" x2="24.954" y2="1"/>
+	<line x1="3.633" y1="14.889" x2="3.633" y2="1"/>
+	<line x1="1" y1="14.889" x2="1" y2="1"/>
+</g>
+
+<g id="ladder" class="stroke">
+	<polyline points="17.828,1.219 17.828,123.667 6.8,123.667 6.8,1.219"/>
+	<line x1="6.8" y1="8.021" x2="17.828" y2="8.021"/>
+	<line x1="6.8" y1="14.824" x2="17.828" y2="14.824"/>
+	<line x1="6.8" y1="21.626" x2="17.828" y2="21.626"/>
+	<line x1="6.8" y1="28.429" x2="17.828" y2="28.429"/>
+	<line x1="6.8" y1="35.232" x2="17.828" y2="35.232"/>
+	<line x1="6.8" y1="42.035" x2="17.828" y2="42.035"/>
+	<line x1="6.8" y1="48.837" x2="17.828" y2="48.837"/>
+	<line x1="6.8" y1="55.64" x2="17.828" y2="55.64"/>
+	<line x1="6.8" y1="62.442" x2="17.828" y2="62.442"/>
+	<line x1="6.8" y1="69.246" x2="17.828" y2="69.246"/>
+	<line x1="6.8" y1="76.048" x2="17.828" y2="76.048"/>
+	<line x1="6.8" y1="82.851" x2="17.828" y2="82.851"/>
+	<line x1="6.8" y1="89.653" x2="17.828" y2="89.653"/>
+	<line x1="6.8" y1="96.456" x2="17.828" y2="96.456"/>
+	<line x1="6.8" y1="103.259" x2="17.828" y2="103.259"/>
+	<line x1="6.8" y1="110.062" x2="17.828" y2="110.062"/>
+	<line x1="6.8" y1="116.864" x2="17.828" y2="116.864"/>
+</g>
+</svg>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg version='1.1'
+    xmlns='http://www.w3.org/2000/svg'
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    x='0px'
+    y='0px'
+    width='103.875px'
+    height='73.944px'
+    viewBox='0 0 103.875 73.944'
+    xmlns:agg='http://www.example.com'
+    xml:space='preserve'>
+<agg:params>
+	<agg:param  type="C" name="Color" classes="boundary" description="Color" cssAttributes="fill"></agg:param>
+	<agg:param  type="C" name="strokeColor" classes="contours,dashed,thick" description="Stroke Color" cssAttributes="stroke"></agg:param>
+</agg:params>
+
+<style type="text/css" >
+<![CDATA[
+
+	.contours,.dashed,.thick{
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: #000000;
+		fill:none;
+	}
+	
+	.contours,dashed {
+		stroke-width:0.5;
+	}
+	
+	.thick {
+		stroke-width:1.5;
+	}
+	
+	.boundary {
+		fill:   #A1BFE2;
+		stroke:none;
+	}
+	
+	.dashed {
+		stroke-dasharray:1.5,1.5;
+	}
+]]>
+</style>
+ <g id='boundary'
+     class='boundary'>
+  <polygon points='66.892,19.015 66.892,1.064 30.992,1.064 30.992,72.886 102.813,72.886 102.813,36.965 66.892,36.965     ' />
+ </g>
+ <g id='contours'
+     class='contours'>
+  <line x1='30.985'
+      y1='1.056'
+      x2='30.985'
+      y2='72.889' />
+  <line x1='102.819'
+      y1='72.889'
+      x2='102.819'
+      y2='36.973' />
+  <polyline points='30.985,1.056 66.902,1.056 66.902,36.973 102.819,36.973  ' />
+  <line x1='19.014'
+      y1='48.943'
+      x2='1.056'
+      y2='48.943' />
+  <line x1='30.985'
+      y1='72.889'
+      x2='102.819'
+      y2='72.889' />
+  <line x1='84.86'
+      y1='19.015'
+      x2='66.902'
+      y2='19.015' />
+ </g>
+ <g id='fill'
+     class='fill'>
+  <polygon points='19.014,42.958 19.014,54.931 30.985,48.943  ' />
+  <polygon points='84.86,13.027 84.86,25 96.833,19.015  ' />
+ </g>
+</svg>

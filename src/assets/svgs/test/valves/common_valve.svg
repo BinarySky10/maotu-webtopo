@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 xmlns:agg="http://www.example.com"   viewBox="-0.2 -0.2 55.4 55.4" xml:space="preserve">
+	 
+<agg:params>
+	<agg:param type="C" name="color" description="Color" cssAttributes="fill" classes="color"/>
+	<agg:param type="F" name="saturation" description="Saturation" min="0" max="1" cssAttributes="opacity" classes="color"/>
+</agg:params>
+
+<style type="text/css" >
+   <![CDATA[
+
+	.stroke{
+		stroke-width:0.3;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: black;
+		fill:none;
+	}
+	
+	.color {
+		fill:#3664BF;
+		opacity:0.2;
+	}
+
+      ]]>
+</style>
+	 
+<defs>
+	<linearGradient id="base" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#767676"/>
+		<stop  offset="0.06" style="stop-color:#919191"/>
+		<stop  offset="0.14" style="stop-color:#B1B1B1"/>
+		<stop  offset="0.21" style="stop-color:#CECECE"/>
+		<stop  offset="0.28" style="stop-color:#E4E4E4"/>
+		<stop  offset="0.35" style="stop-color:#F6F6F6"/>
+		<stop  offset="0.42" style="stop-color:#FEFEFF"/>
+		<stop  offset="0.47" style="stop-color:#F6F6F6"/>
+		<stop  offset="0.53" style="stop-color:#E7E7E7"/>
+		<stop  offset="0.58" style="stop-color:#D2D1D1"/>
+		<stop  offset="0.64" style="stop-color:#B7B7B7"/>
+		<stop  offset="0.7" style="stop-color:#989898"/>
+		<stop  offset="0.72" style="stop-color:#8B8B8B"/>
+		<stop  offset="1" style="stop-color:#FDFDFD"/>
+	</linearGradient>
+	
+	<linearGradient id="SVGID_1_" xlink:href="#base" x1="0" y1="30" x2="0" y2="50"/>
+	<linearGradient id="SVGID_2_" xlink:href="#base" x1="20" y1="0" x2="35" y2="0"/>
+	<linearGradient id="SVGID_3_" xlink:href="#base" x1="0" y1="25" x2="0" y2="55"/>
+	<linearGradient id="SVGID_4_" xlink:href="#base" x1="0" y1="25" x2="0" y2="55"/>
+	<linearGradient id="SVGID_5_" xlink:href="#base" x1="10" y1="0" x2="45" y2="0"/>
+	<linearGradient id="SVGID_6_" xlink:href="#base" x1="25" y1="0" x2="30" y2="0"/>
+	<linearGradient id="SVGID_7_" xlink:href="#base" x1="15" y1="0" x2="40" y2="0"/>
+</defs>
+	
+<rect x="10" y="30" fill="url(#SVGID_1_)"  />
+<path fill="url(#SVGID_2_)" d="M20,20v10c0,2.854,3.358,5.167,7.5,5.167S35,32.854,35,30V20H20z"/>
+<rect y="25" fill="url(#SVGID_3_)"  />
+<rect x="45" y="25" fill="url(#SVGID_4_)"  />
+<rect x="10" fill="url(#SVGID_5_)"  />
+<rect x="25" y="5" fill="url(#SVGID_6_)"  />
+<rect x="15" y="10" fill="url(#SVGID_7_)"  />
+
+<polygon class="color" points="45,25 45,30 35,30 35,20 40,20 40,10 30,10 30,5 45,5 45,0 10,0 10,5 25,5 25,10 15,10 15,20 20,20 20,30 10,30 10,25 0,25 0,55 10,55 10,50 45,50 45,55 55,55 55,25 "/>
+
+<g class="stroke">
+	<rect x="10"  />
+	<rect x="15" y="10"  />
+	<rect y="25"  />
+	<rect x="45" y="25"  />
+	<line x1="10" y1="50" x2="45" y2="50"/>
+	<line x1="25" y1="5" x2="25" y2="10"/>
+	<line x1="30" y1="5" x2="30" y2="10"/>
+	<path d="M20,20v9.917c0,2.854,3.358,5.167,7.5,5.167c4.143,0,7.5-2.314,7.5-5.167V20"/>
+	<line x1="20" y1="30" x2="10" y2="30"/>
+	<line x1="35" y1="30" x2="45" y2="30"/>
+</g>
+
+</svg>

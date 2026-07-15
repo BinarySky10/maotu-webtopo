@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Default" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	   xmlns:agg="http://www.example.com" xml:space="preserve">
+	 
+<agg:params>
+	<agg:param type="C" name="color" description="Color" cssAttributes="fill" classes="color"/>
+	<agg:param type="F" name="saturation" description="Saturation" min="0" max="1" cssAttributes="opacity" classes="color"/>
+</agg:params>
+	 
+<style type="text/css" >
+   <![CDATA[
+
+	.stroke,.thin,.thick{
+		stroke-linecap:butt;
+		stroke-linejoin:round;
+		stroke: black;
+		fill:none;
+		opacity:0.5;
+	}
+
+	.stroke{stroke-width:0.5;}
+
+	.thin {stroke-width:0.25;}
+
+	.thick {stroke-width:0.75;}
+	
+	.color {
+		fill:#3664BF;
+		opacity:0.2;
+	}
+
+      ]]>
+</style>
+
+<defs>	 
+	<linearGradient id="cyl" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#4D5C75"/>
+		<stop  offset="0.05" style="stop-color:#697188"/>
+		<stop  offset="0.1127" style="stop-color:#8C90A3"/>
+		<stop  offset="0.1759" style="stop-color:#ADB0BD"/>
+		<stop  offset="0.2385" style="stop-color:#C9CBD4"/>
+		<stop  offset="0.3004" style="stop-color:#E0E2E7"/>
+		<stop  offset="0.3613" style="stop-color:#F0F3F5"/>
+		<stop  offset="0.42" style="stop-color:#F6FAFC"/>
+		<stop  offset="0.4703" style="stop-color:#F1F3F4"/>
+		<stop  offset="0.5225" style="stop-color:#E3E4E5"/>
+		<stop  offset="0.5755" style="stop-color:#CECDCF"/>
+		<stop  offset="0.6291" style="stop-color:#B3B1B4"/>
+		<stop  offset="0.6826" style="stop-color:#959296"/>
+		<stop  offset="0.7005" style="stop-color:#8A888B"/>
+		<stop  offset="1" style="stop-color:#F6FAFC"/>
+	</linearGradient>
+	<linearGradient id="cyl_1" xlink:href="#cyl" x1="25" y1="0" x2="41" y2="0"/>
+	<linearGradient id="cyl_2" xlink:href="#cyl" x1="1" y1="0" x2="17" y2="0"/>
+	<linearGradient id="cyl_3" xlink:href="#cyl" x1="27" y1="0" x2="38" y2="0"/>
+	<linearGradient id="cyl_4" xlink:href="#cyl" x1="3" y1="0" x2="15" y2="0"/>
+</defs>
+	 
+<polygon fill="url(#cyl_1)" points="41,37 41,41 25,41 25,37 27,37 39,37"/>
+<polygon fill="url(#cyl_2)" points="17,37 17,41 1,41 1,37 3,37 15,37"/>
+<polygon fill="url(#cyl_2)" points="17,1 17,5 15,5 3,5 1,5 1,1 "/>
+<polygon fill="url(#cyl_1)" points="41,1 41,5 39,5 27,5 25,5 25,1"/>
+<rect x="27" y="5" fill="url(#cyl_3)"  />
+<rect x="3" y="5" fill="url(#cyl_4)"  />
+<path class="color" d="M1,1h16v4h-2v32h2V41H1v-4h2.001V5H1V1z M41,5V1H25v4h2v32h-2V41H41v-4h-2V5H41z"/>
+<g class="stroke">
+	<polygon points="15,5 17,5 17,1 1,1 1,5 3,5"/>
+	<line x1="15" y1="5" x2="15" y2="37"/>
+	<polygon points="39,5 41,5 41,1 25,1 25,5 27,5"/>
+	<polygon points="3,37 1,37 1,41 17,41 17,37 15,37"/>
+	<polygon points="27,37 25,37 25,41 41,41 41,37 39,37"/>
+	<line x1="39" y1="5" x2="39" y2="37"/>
+	<line x1="27" y1="5" x2="27" y2="37"/>
+	<line x1="3" y1="5" x2="3" y2="37"/>
+</g>
+
+</svg>

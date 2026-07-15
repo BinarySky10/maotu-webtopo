@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Default" xmlns:agg="http://www.example.com"
+	 xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+	  viewBox="0 0 127.21 127.21" enable-background="new 0 0 127.21 127.21" xml:space="preserve">
+
+<agg:params>
+    <agg:param name="color" description="Color" type="C" cssAttributes="fill, stop-color" classes="maincolor" forceRepaint="true"/>
+</agg:params>
+
+<style type="text/css" >
+   <![CDATA[
+
+	.maincolor {
+		fill: green;
+		stop-color:green;
+
+	}
+
+      ]]>
+</style>
+
+
+<defs>
+	<circle id="body" cx="63.604" cy="63.604" r="44"/>
+
+	<clipPath id="bodyClip">
+		<use xlink:href="#body"  overflow="visible"/>
+	</clipPath>
+</defs>
+
+<circle class="maincolor" cx="63.604" cy="63.604" r="46.221"/>
+
+<radialGradient id="SVGID_1_" cx="29.7715" cy="33.4385" r="91.0111" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:white"/>
+	<stop  offset="1" class="maincolor"/>
+</radialGradient>
+
+<use xlink:href="#body" fill="url(#SVGID_1_)"/>
+
+<path opacity="0.5" fill="#FFFFFF" d="M25.532,74.503c-5.46-31.579,13.149-50.338,31.092-53.169
+	C36.639,22.692,20.8,41.055,20.8,63.566c0,3.784,0.46,7.45,1.299,10.938H25.532z"/>
+
+<path opacity="0.5" fill="#FFFFFF" d="M22.867,77.693c4.647,12.701,14.21,22.453,25.966,26.129
+	c-8.619-3.168-20.089-15.555-22.671-26.16L22.867,77.693z"/>
+
+<path opacity="0.3" fill="white" clip-path="url(#bodyClip)" d="M103.365,45.808h15.782v-45H10.397v41.411h13.435
+	c1.109,0.263,2.217,0.612,3.325,1.038c3.221,1.239,6.44,3.129,9.661,5.021c3.221,1.89,6.44,3.781,9.661,5.019
+	c3.221,1.239,6.441,1.825,9.662,1.555c3.221-0.269,6.441-1.394,9.662-2.983c3.221-1.591,6.441-3.648,9.662-5.462
+	c3.219-1.814,6.439-3.385,9.66-4.171c3.222-0.786,6.444-0.786,9.662,0C97.645,42.933,100.501,44.252,103.365,45.808z"/>
+</svg>

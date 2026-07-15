@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg version='1.1'
+    xmlns='http://www.w3.org/2000/svg'
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    x='0px'
+    y='0px'
+    width='169.722px'
+    height='50px'
+    viewBox='0 0 169.722 50'
+    xmlns:agg='http://www.example.com'
+    xml:space='preserve'>
+<agg:params>
+	<agg:param  type="C" name="Color" classes="boundary" description="Color" cssAttributes="fill"></agg:param>
+	<agg:param  type="C" name="strokeColor" classes="contours,dashed,thick" description="Stroke Color" cssAttributes="stroke"></agg:param>
+</agg:params>
+
+<style type="text/css" >
+<![CDATA[
+
+	.contours,.dashed,.thick{
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: #000000;
+		fill:none;
+	}
+	
+	.contours,dashed {
+		stroke-width:0.5;
+	}
+	
+	.thick {
+		stroke-width:1.5;
+	}
+	
+	.boundary {
+		fill:   #A1BFE2;
+		stroke:none;
+	}
+	
+	.dashed {
+		stroke-dasharray:1.5,1.5;
+	}
+]]>
+</style>
+ <g id='boundary'
+     class='boundary'>
+  <polygon points='144.721,1.064 132.746,13.038 36.979,13.038 25.005,1.064 13.031,1.064 1.059,1.064 1.059,48.938    13.031,48.938 25.005,48.938 36.979,36.964 132.746,36.964 144.721,48.938 156.693,48.938 168.668,48.938 168.668,1.064    156.693,1.064  ' />
+ </g>
+ <g id='contours'
+     class='contours'>
+  <line x1='25'
+      y1='48.944'
+      x2='25'
+      y2='1.056' />
+  <polygon points='132.75,13.028 144.722,1.056 168.666,1.056 168.666,48.944 144.722,48.944 132.75,36.973    36.972,36.973 25,48.944 1.056,48.944 1.056,1.056 25,1.056 36.972,13.028  ' />
+  <line x1='132.75'
+      y1='13.028'
+      x2='132.75'
+      y2='36.973' />
+  <line x1='144.722'
+      y1='48.944'
+      x2='144.722'
+      y2='1.056' />
+  <line x1='13.028'
+      y1='1.056'
+      x2='13.028'
+      y2='48.944' />
+  <line x1='156.693'
+      y1='1.056'
+      x2='156.693'
+      y2='48.944' />
+  <line x1='36.972'
+      y1='13.028'
+      x2='36.972'
+      y2='36.973' />
+ </g>
+</svg>

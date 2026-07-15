@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Default" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"  x="0px" y="0px"
+       viewBox="0 0 62 102" xmlns:agg="http://www.example.com">
+	 
+<agg:params>
+	<agg:param type="C" name="color" description="Color" cssAttributes="fill" classes="color"/>
+	<agg:param type="C" name="strokeColor" description="Stroke Color" cssAttributes="stroke" classes="color,stroked"/>
+</agg:params>	 
+	 
+<style type="text/css" >
+   <![CDATA[
+
+	.color,.stroked{
+		stroke-width:0.5;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: #000000;
+	}
+	
+	.color {
+		fill:   #A1BFE2;
+
+	}
+	
+	.stroked {
+		fill:none;
+	}
+      ]]>
+</style>
+
+<polygon class="color" points="26,1 36,1
+	36,18.48 41.04,18.48 41.04,28.48 43.521,31 46,31 46,46 51,56 51,73.48 53.52,73.48 53.52,76 61,76 61,83.48 53.52,83.48 
+	53.52,86 51,86 51,93.48 61,93.48 61,101 1,101 1,93.48 11,93.48 11,86 16,86 16,83.48 11,78.48 11,56 16,46 16,31 18.52,31 
+	21.04,28.48 21.04,18.48 26,18.48 	"/>
+	 
+<g class="stroked">
+	<line x1="16" y1="86" x2="51" y2="86"/>
+	<line x1="46" y1="73.48" x2="51" y2="73.48"/>
+	<line x1="46" y1="61" x2="46" y2="86"/>
+	<line x1="16" y1="83.48" x2="16" y2="61"/>
+	<line x1="46" y1="46" x2="38.317" y2="47.906"/>
+	<line x1="23.683" y1="47.906" x2="16" y2="46"/>
+	<circle cx="31" cy="61" r="9.822"/>
+	<circle cx="31" cy="61" r="15"/>
+	<line x1="53.52" y1="83.48" x2="53.52" y2="76"/>
+	<line x1="26" y1="18.48" x2="36" y2="18.48"/>
+	<line x1="41.04" y1="28.48" x2="21.04" y2="28.48"/>
+	<line x1="18.52" y1="31" x2="43.52" y2="31"/>
+	<line x1="11" y1="93.48" x2="51" y2="93.48"/>
+</g>
+</svg>

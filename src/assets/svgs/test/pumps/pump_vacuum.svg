@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg version='1.1'
+    xmlns='http://www.w3.org/2000/svg'
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    x='0px'
+    y='0px'
+    width='73.945px'
+    height='49.999px'
+    viewBox='0 0 73.945 49.999'
+    xmlns:agg='http://www.example.com'
+    xml:space='preserve'>
+<agg:params>
+	<agg:param  type="C" name="Color" classes="boundary" description="Color" cssAttributes="fill"></agg:param>
+	<agg:param  type="C" name="strokeColor" classes="contours,dashed,thick" description="Stroke Color" cssAttributes="stroke"></agg:param>
+</agg:params>
+
+<style type="text/css" >
+<![CDATA[
+
+	.contours,.dashed,.thick{
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: #000000;
+		fill:none;
+	}
+	
+	.contours,dashed {
+		stroke-width:0.5;
+	}
+	
+	.thick {
+		stroke-width:1.5;
+	}
+	
+	.boundary {
+		fill:   #A1BFE2;
+		stroke:none;
+	}
+	
+	.dashed {
+		stroke-dasharray:1.5,1.5;
+	}
+]]>
+</style>
+ <g id='boundary'
+     class='boundary'>
+  <path d='M36.968,48.934c8.848,0,16.577-4.794,20.738-11.953H72.89V13.034H57.706   C53.567,5.875,45.837,1.061,36.968,1.061S20.37,5.875,16.23,13.034H1.047V36.98H16.23C20.39,44.14,28.12,48.934,36.968,48.934z' />
+ </g>
+ <g id='contours'
+     class='contours'>
+  <circle cx='36.973'
+      cy='25'
+      r='23.944' />
+  <polyline points='57.709,36.972 72.89,36.972 72.89,13.027 57.709,13.027  ' />
+  <polyline points='16.235,13.027 1.056,13.027 1.056,36.972 16.235,36.972  ' />
+ </g>
+</svg>

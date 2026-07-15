@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"   x="0px" y="0px"
+	   viewBox="0 0 95 100" xml:space="preserve" xmlns:agg="http://www.example.com">
+
+	   <agg:params>
+	   	<agg:param type="C" name="color" description="Color" cssAttributes="fill" classes="color"/>
+	   	<agg:param type="C" name="strokeColor" description="Stroke Color" cssAttributes="stroke" classes="color,stroked"/>
+	   </agg:params>
+	 
+<style type="text/css" >
+   <![CDATA[
+
+	.color,.stroked,.dashed{
+		stroke-width:1;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: #000000;
+	}
+	
+	.color {
+		fill:   #A1BFE2;
+
+	}
+	
+	.stroked,.dashed {
+		fill:none;
+	}
+	
+	.dashed {
+		stroke-dasharray:1,2;
+	}
+
+      ]]>
+</style>
+	 
+<polygon class="color" points="14.578,12.303
+	6.852,12.303 6.852,19.849 24.208,33.013 24.208,82.013 41.598,82.013 41.598,99 57.014,99 57.014,53.756 76.31,53.756 76.31,1 
+	64.738,1 64.738,34.908 57.014,34.908 57.014,8.546 24.208,8.546 24.208,19.849 22.302,21.71 14.578,18.901 "/>
+	
+<g class="dashed stroked">
+	<line x1="34.441" y1="75.022" x2="25.044" y2="75.022"/>
+	<line x1="34.441" y1="14.263" x2="25.044" y2="14.263"/>
+</g>
+
+<g class="stroked">
+	<line x1="1" y1="44.381" x2="32.869" y2="44.381"/>
+	<polyline points="32.869,25.5 32.869,63.785 26.081,64.798 26.081,68.881 39.658,68.881 39.658,64.798 32.869,63.785"/>
+	<polyline points="32.869,25.5 39.658,23.965 39.658,19.881 26.081,19.881 26.081,23.965 32.869,25.5"/>
+	<polyline points="34.441,14.263 42.802,14.263 42.802,27.525 40.729,31.609"/>
+	<polyline points="34.441,75.022 42.802,75.022 42.802,61.76 40.729,57.677"/>
+	<line x1="42.802" y1="75.022" x2="42.802" y2="77.57"/>
+	<line x1="94" y1="44.381" x2="40.729" y2="44.381"/>
+	<polyline points="54.807,33.667 35.478,33.667 35.478,55.096 55.342,55.096"/>
+	<polyline points="35.478,50 40.729,44.381 35.478,38.763"/>
+</g>
+</svg>

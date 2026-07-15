@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg version='1.1'
+    xmlns='http://www.w3.org/2000/svg'
+    xmlns:xlink='http://www.w3.org/1999/xlink'
+    x='0px'
+    y='0px'
+    width='157.75px'
+    height='91.902px'
+    viewBox='0 0 157.75 91.902'
+    xmlns:agg='http://www.example.com'
+    xml:space='preserve'>
+<agg:params>
+	<agg:param  type="C" name="Color" classes="boundary" description="Color" cssAttributes="fill"></agg:param>
+	<agg:param  type="C" name="strokeColor" classes="contours,dashed,thick" description="Stroke Color" cssAttributes="stroke"></agg:param>
+</agg:params>
+
+<style type="text/css" >
+<![CDATA[
+
+	.contours,.dashed,.thick{
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: #000000;
+		fill:none;
+	}
+	
+	.contours,dashed {
+		stroke-width:0.5;
+	}
+	
+	.thick {
+		stroke-width:1.5;
+	}
+	
+	.boundary {
+		fill:   #A1BFE2;
+		stroke:none;
+	}
+	
+	.dashed {
+		stroke-dasharray:1.5,1.5;
+	}
+]]>
+</style>
+ <g id='boundary'
+     class='boundary'>
+  <path d='M144.721,1.061c-6.609,0-11.97,5.35-11.97,11.97c0,9.98,0,19.95,0,29.93c0,9.971,0,19.95,0,29.931   c0,6.609,5.36,11.97,11.97,11.97c6.61,0,11.971-5.36,11.971-11.97c0-19.96,0-39.91,0-59.86   C156.691,6.41,151.331,1.061,144.721,1.061z' />
+  <path d='M102.821,60.91c0-7.149-3.141-13.57-8.11-17.95c-4.229-3.729-9.77-5.989-15.84-5.989s-11.61,2.26-15.83,5.989   c-4.97,4.38-8.11,10.801-8.11,17.95c0,7.57,3.511,14.32,8.99,18.7l-8.99,11.24h47.891l-8.99-11.24   C99.312,75.23,102.821,68.48,102.821,60.91z' />
+  <path d='M25.001,72.891c0-9.98,0-19.96,0-29.931c0-9.979,0-19.95,0-29.93c0-6.62-5.359-11.97-11.97-11.97   c-6.62,0-11.98,5.35-11.98,11.97c0,19.95,0,39.9,0,59.86c0,6.609,5.36,11.97,11.98,11.97C19.642,84.86,25.001,79.5,25.001,72.891z' />
+ </g>
+ <g id='contours'
+     class='contours'>
+  <line x1='94.711'
+      y1='42.956'
+      x2='132.75'
+      y2='42.956' />
+  <circle cx='78.875'
+      cy='60.915'
+      r='23.945' />
+  <line x1='36.972'
+      y1='30.985'
+      x2='36.972'
+      y2='54.93' />
+  <path d='M132.75,72.888c0,6.612,5.359,11.974,11.971,11.974c6.612,0,11.974-5.361,11.974-11.974   c0-19.954,0-39.906,0-59.86c0-6.612-5.361-11.972-11.974-11.972c-6.611,0-11.971,5.359-11.971,11.972   C132.75,32.981,132.75,52.934,132.75,72.888z' />
+  <path d='M24.999,72.888c0,6.612-5.358,11.974-11.972,11.974c-6.611,0-11.972-5.361-11.972-11.974   c0-19.954,0-39.906,0-59.86c0-6.612,5.36-11.972,11.972-11.972c6.613,0,11.972,5.359,11.972,11.972   C24.999,32.981,24.999,52.934,24.999,72.888z' />
+  <line x1='120.778'
+      y1='30.985'
+      x2='120.778'
+      y2='54.93' />
+  <polyline points='63.918,79.613 54.931,90.847 102.82,90.847 93.833,79.613  ' />
+  <line x1='63.037'
+      y1='42.956'
+      x2='24.999'
+      y2='42.956' />
+ </g>
+</svg>

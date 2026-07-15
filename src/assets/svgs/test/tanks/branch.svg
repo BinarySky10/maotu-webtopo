@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 xmlns:agg="http://www.example.com"   viewBox="0 0 15 20" xml:space="preserve" offset="0.15">
+	 
+<agg:params>
+	<agg:param type="C" name="color" description="Color" cssAttributes="fill" classes="color"/>
+	<agg:param type="F" name="saturation" description="Saturation" min="0" max="1" cssAttributes="opacity" classes="color"/>
+</agg:params>
+
+<style type="text/css" >
+   <![CDATA[
+
+	.stroke{
+		stroke-width:0.3;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: black;
+		fill:none;
+	}
+	
+	.color {
+		fill:#3664BF;
+		opacity:0.2;
+	}
+
+      ]]>
+</style>
+
+<defs>
+	<path id="branch" d="M10,0H0v20h10c2.761,0,5-4.477,5-10S12.761,0,10,0z"/>
+</defs>
+	 
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="7.5" y1="0" x2="7.5" y2="20">
+	<stop  offset="0" style="stop-color:#4C5B75"/>
+	<stop  offset="0.03" style="stop-color:#616F86"/>
+	<stop  offset="0.1" style="stop-color:#8E99AA"/>
+	<stop  offset="0.16" style="stop-color:#B4BCC7"/>
+	<stop  offset="0.23" style="stop-color:#D1D7DE"/>
+	<stop  offset="0.29" style="stop-color:#E5EAEF"/>
+	<stop  offset="0.36" style="stop-color:#F2F6F9"/>
+	<stop  offset="0.42" style="stop-color:#F6FAFC"/>
+	<stop  offset="0.47" style="stop-color:#F2F6F8"/>
+	<stop  offset="0.53" style="stop-color:#E6E9EC"/>
+	<stop  offset="0.59" style="stop-color:#D3D5D7"/>
+	<stop  offset="0.65" style="stop-color:#B7B8BB"/>
+	<stop  offset="0.70" style="stop-color:#949396"/>
+	<stop  offset="0.72" style="stop-color:#89878B"/>
+	<stop  offset="1" style="stop-color:#F6FAFC"/>
+</linearGradient>
+
+<use xlink:href="#branch" fill="url(#SVGID_1_)"/>
+<use xlink:href="#branch" class="color"/>
+<use xlink:href="#branch" class="stroke"/>
+</svg>

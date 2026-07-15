@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:agg="http://www.example.com"
+	 xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  
+	 viewBox="0 0 152 201" enable-background="new 0 0 152 201" xml:space="preserve">
+<agg:params>
+	<agg:param type="C" name="color" description="Color" cssAttributes="fill" classes="color"/>
+	<agg:param type="F" name="saturation" description="Saturation" min="0" max="1" cssAttributes="opacity" classes="color"/>
+</agg:params>
+
+<agg:params>
+	<agg:param type="C" name="color" description="Color" cssAttributes="fill" classes="color"/>
+	<agg:param type="F" name="saturation" description="Saturation" min="0" max="1" cssAttributes="opacity" classes="color"/>
+</agg:params>
+
+<style type="text/css" >
+   <![CDATA[
+
+	.stroke{
+		stroke-width:0.3;
+		stroke-linecap:round;
+		stroke-linejoin:round;
+		stroke: black;
+		fill:none;
+	}
+	
+	.color {
+		fill:#3664BF;
+		opacity:0.2;
+	}
+
+      ]]>
+</style>
+
+<defs>
+	<linearGradient id="base" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#767676"/>
+		<stop  offset="0.06" style="stop-color:#919191"/>
+		<stop  offset="0.14" style="stop-color:#B1B1B1"/>
+		<stop  offset="0.21" style="stop-color:#CECECE"/>
+		<stop  offset="0.28" style="stop-color:#E4E4E4"/>
+		<stop  offset="0.35" style="stop-color:#F6F6F6"/>
+		<stop  offset="0.42" style="stop-color:#FEFEFF"/>
+		<stop  offset="0.47" style="stop-color:#F6F6F6"/>
+		<stop  offset="0.53" style="stop-color:#E7E7E7"/>
+		<stop  offset="0.58" style="stop-color:#D2D1D1"/>
+		<stop  offset="0.64" style="stop-color:#B7B7B7"/>
+		<stop  offset="0.7" style="stop-color:#989898"/>
+		<stop  offset="0.72" style="stop-color:#8B8B8B"/>
+		<stop  offset="1" style="stop-color:#FDFDFD"/>
+	</linearGradient>
+	<path id="boundary" d="M134.821,28.5L150.587,1H0.862l16.042,27.5c-8.859,0-16.042,7.182-16.042,16.042V200h150V44.542
+	C150.862,35.682,143.681,28.5,134.821,28.5z"/>
+</defs>
+
+<linearGradient id="gradient1" xlink:href="#base" x1="1" y1="114.25" x2="151" y2="114.25"/>
+<path fill="url(#gradient1)" d="M134.959,28.5H17.042C8.182,28.5,1,35.682,1,44.542V200h150V44.542
+	C151,35.682,143.818,28.5,134.959,28.5z"/>
+	
+<linearGradient id="gradient2" xlink:href="#base" x1="1" y1="14.75" x2="150.7246" y2="14.75"/>
+<polygon fill="url(#gradient2)" points="17.042,28.5 134.959,28.5 150.725,1 1,1 "/>
+
+<use xlink:href="#boundary" class="color"/>
+
+<g class="stroke">
+	<use xlink:href="#boundary"/>
+	<line x1="17.042" y1="28.5" x2="134.959" y2="28.5"/>
+</g>
+
+</svg>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Default"
+     xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" 
+     xmlns:agg="http://www.example.com"
+     x="0px" y="0px"  
+     viewBox="0 0 127.21 127.21" enable-background="new 0 0 127.21 127.21"
+     xml:space="preserve">
+
+    <agg:params>
+        <agg:param name="color" description="Color" type="C" cssAttributes="fill, stop-color" classes="maincolor" forceRepaint="true"/>
+    </agg:params>
+
+<style type="text/css" >
+   <![CDATA[
+
+	.maincolor {
+		fill: red;
+		stop-color:red;
+
+	}
+
+      ]]>
+</style>
+
+		<linearGradient id="metallRing" gradientUnits="userSpaceOnUse" x1="32.2031" y1="12.8457" x2="94.3192" y2="113.2523">
+			<stop  offset="0" style="stop-color:#ECECEC"/>
+			<stop  offset="0.48" style="stop-color:#B3B3B3"/>
+			<stop  offset="0.52" style="stop-color:#F2F2F2"/>
+			<stop  offset="1" style="stop-color:#9E9E9E"/>
+		</linearGradient>
+
+		<circle fill="url(#metallRing)" cx="63.605" cy="63.605" r="63.605"/>
+		
+		<circle fill="#707070" cx="63.605" cy="63.605" r="48.714"/>
+
+		<path fill="#FFFFFF" d="M63.605,123.665c-26.501,0-49.126-16.578-58.08-39.928c7.945,24.489,30.942,42.197,58.08,42.197
+			s50.136-17.708,58.08-42.197C112.731,107.087,90.105,123.665,63.605,123.665z"/>
+		<path fill="#FFFFFF" d="M63.605,3.12c26.5,0,49.126,16.578,58.08,39.929c-7.944-24.49-30.942-42.198-58.08-42.198
+			S13.471,18.559,5.525,43.049C14.479,19.698,37.104,3.12,63.605,3.12z"/>
+		<path fill="#FFFFFF" d="M63.605,14.366c14.74,0,28.142,5.724,38.11,15.067c-9.305-10.563-22.928-17.229-38.11-17.229
+			S34.8,18.871,25.495,29.434C35.464,20.09,48.865,14.366,63.605,14.366z"/>
+		<path fill="#FFFFFF" d="M63.605,112.845c14.74,0,28.142-5.724,38.11-15.067c-9.305,10.563-22.928,17.228-38.11,17.228
+			S34.8,108.34,25.495,97.777C35.464,107.121,48.865,112.845,63.605,112.845z"/>
+
+		<circle class="maincolor" cx="63.604" cy="63.604" r="46.221"/>
+			
+		<radialGradient id="glass" cx="30" cy="30" r="100" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#FFFFFF"/>
+				<stop  offset="1" class="maincolor"/>
+		</radialGradient>
+
+		<ellipse fill="url(#glass)" cx="63.604" cy="63.604" rx="43.424" ry="44.2"/>
+
+		<ellipse opacity="0.5" fill="#FFFFFF" cx="63.604" cy="43.419" rx="33.975" ry="22.936"/>
+
+		<path fill="#FFFFFF" d="M25.668,74.504c-5.085-31.579,12.246-50.339,28.956-53.17c-18.612,1.358-33.363,19.721-33.363,42.232
+				c0,3.784,0.429,7.45,1.21,10.938H25.668z"/>
+		<path fill="#FFFFFF" d="M23.186,77.693c4.328,12.701,13.234,22.453,24.182,26.129c-8.026-3.168-18.709-15.555-21.113-26.16
+				L23.186,77.693z"/>
+
+</svg>

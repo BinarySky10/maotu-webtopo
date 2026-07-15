@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Default" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+     y="0px" xmlns:agg="http://www.example.com"   viewBox="0 0 127.21 127.21"
+     enable-background="new 0 0 127.21 127.21" xml:space="preserve">
+
+	<agg:params>
+		<agg:param name="color" description="Color" type="C" cssAttributes="fill" classes="maincolor"/>
+		<agg:param name="position" description="Position" type="F" attributes="transform" ids="maskTransform, switchTransform" pattern="rotate ({0} 62.359 62.96)" forceRepaint="true"/>
+	</agg:params>
+
+<style type="text/css" >
+   <![CDATA[
+
+	.maincolor {
+		fill: #DD0000;
+
+	}
+
+      ]]>
+</style>
+
+<defs>
+	<circle id="base" fill="url(#darkGray)" cx="62.359" cy="62.96" r="51.025"/>
+	<path id="switch" d="M78.12,64.255c-2.955-20.247-2.775-37.783-3.019-55.711c-3.475-0.811-6.858-1.296-10.242-1.458
+	h-5.112c-3.384,0.162-6.768,0.648-10.243,1.458c-0.242,17.928-0.063,35.464-3.018,55.711c-3.806,26.073-6.323,32.155-10.679,49.533
+	c8.281,4.395,17.388,6.59,26.496,6.589c9.109,0.001,18.214-2.194,26.496-6.589C84.442,96.411,81.925,90.329,78.12,64.255z"/>
+
+</defs>
+
+<radialGradient id="darkGray" cx="27.209" cy="8.6011" r="120.3181" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#525252"/>
+</radialGradient>
+
+<radialGradient id="lightGray" cx="39.8042" cy="-4.5991" r="130.3887" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#808080"/>
+</radialGradient>
+
+
+<clipPath id="baseMask">
+	<use xlink:href="#base"  overflow="visible"/>
+</clipPath>
+
+<clipPath id="transformedSwitchMask">
+	<g id="maskTransform" transform="rotate (160 62.359 62.96)">
+		<use xlink:href="#switch"  overflow="visible"/>
+	</g>
+</clipPath>
+
+<use xlink:href="#base" fill="url(#darkGray)"/> 
+
+
+<path fill="#FFFFFF" d="M19.067,75.283c-5.75-34.673,13.846-53.991,32.742-59.381c-21.045,3.485-37.725,22.656-37.725,47.372
+	c0,4.156,0.485,8.181,1.367,12.009H19.067z"/>
+<path fill="#FFFFFF" d="M16.259,78.787c4.894,13.944,14.965,24.653,27.345,28.688c-9.076-3.477-21.155-17.078-23.874-28.724
+	L16.259,78.787z"/>
+
+
+
+<ellipse opacity="0.2" clip-path="url(#baseMask)" fill="#FFFFFF" cx="62" cy="25" rx="42.417" ry="28.635"/>
+
+<g id="switchTransform" transform="rotate (160 62.359 62.96)">
+<path clip-path="url(#baseMask)" opacity="0.3" d="M62.296,121.685c-9.412,0-18.777-2.329-27.084-6.736l-0.882-0.471l0.242-0.967
+	C43.274,78.784,47.743,44.454,48.229,8.558l0.013-0.997l0.972-0.227c3.597-0.839,22.567-0.838,26.174-0.002l0.976,0.227l0.012,1.001
+	c0.472,35.895,4.938,70.223,13.66,104.948l0.242,0.969l-0.882,0.471C81.078,119.356,71.707,121.685,62.296,121.685L62.296,121.685z"/>
+
+
+<use xlink:href="#switch" fill="url(#lightGray)"/>
+
+<path fill="#FFFFFF" d="M62.359,117.43c9.601,0,18.332-2.16,24.826-5.69c-6.059,3.991-14.934,6.51-24.826,6.51
+	c-9.893,0-18.767-2.522-24.827-6.51C44.029,115.27,52.758,117.43,62.359,117.43z"/>
+
+<path class="maincolor" d="M65.049,6.369v25.975c0,1.404-1.134,2.556-2.538,2.556c-1.422,0-2.556-1.151-2.556-2.556V6.369V6.315
+	c1.691-0.072,3.384-0.072,5.094,0V6.369z"/>
+
+</g>
+
+
+<ellipse opacity="0.2" clip-path="url(#transformedSwitchMask)" fill="#FFFFFF" cx="62" cy="33" rx="40" ry="28.635"/>
+
+
+</svg>
