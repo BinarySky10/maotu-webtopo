@@ -1,12 +1,6 @@
 export type ILeftAsideConfig = Map<string, ILeftAsideConfigItem[]>;
 export type ILeftAsideConfigItemPublicPropsType =
-  | 'input'
-  | 'color'
-  | 'select'
-  | 'switch'
-  | 'number'
-  | 'jsonEdit'
-  | 'textArea';
+  'input' | 'color' | 'select' | 'switch' | 'number' | 'jsonEdit' | 'textArea';
 // 开放注册配置
 export type ILeftAsideConfigItemPublicProps = Record<
   string,

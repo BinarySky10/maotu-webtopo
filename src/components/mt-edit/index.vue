@@ -215,6 +215,7 @@ const onUndoClick = () => {
 };
 const onImportYes = async () => {
   const res = await importJsonRef.value?.onImport();
+
   if (res) {
     import_visible.value = false;
     cacheStore.addHistory(globalStore.done_json);

@@ -20,6 +20,11 @@ export const constantRoutes = [
     component: () => import('../views/preview/index.vue')
   },
   {
+    name: 'mypreview',
+    path: '/mypreview',
+    component: () => import('../views/mypreview/index.vue')
+  },
+  {
     name: 'edit-load',
     path: '/edit-load',
     component: () => import('../views/demo/edit-load.vue')

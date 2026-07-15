@@ -83,8 +83,8 @@
                 ? 1000
                 : 0
               : lineRenderProps.itemJson.props.ani_play.val
-              ? 0
-              : 1000
+                ? 0
+                : 1000
           "
           :dur="`${
             lineRenderProps.itemJson.props.ani_dur.val < 1

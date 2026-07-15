@@ -20,11 +20,12 @@ import { ref } from 'vue';
 import type { IExportJson } from '../types';
 import { globalStore } from '../../store/global';
 import { useExportJsonToDoneJson } from '../../composables';
+import JSON5 from 'json5';
 const import_json = ref('');
 const onImport = () => {
   return new Promise((resolve, reject) => {
     try {
-      const json: IExportJson = JSON.parse(import_json.value);
+      const json: IExportJson = JSON5.parse(import_json.value);
 
       const { canvasCfg, gridCfg, importDoneJson } = useExportJsonToDoneJson(json);
       globalStore.canvasCfg = canvasCfg;

@@ -3,4 +3,5 @@ allowBuilds:
   vue-demi: true
   vue-demi@https://registry.npmmirror.com/vue-demi/-/vue-demi-0.13.11.tgz: true
   vue-demi@https://registry.npmmirror.com/vue-demi/-/vue-demi-0.14.6.tgz: true
+  vue-echarts: true
   vue-echarts@https://registry.npmmirror.com/vue-echarts/-/vue-echarts-6.6.5.tgz: true
