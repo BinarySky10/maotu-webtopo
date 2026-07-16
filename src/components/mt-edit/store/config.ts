@@ -172,6 +172,91 @@ const sysComponentItems: ILeftAsideConfigItem[] = [
     }
   },
   {
+    id: 'sys-line2',
+    title: '自由连线2',
+    type: 'sys-line2',
+    thumbnail: `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iY3VycmVudENvbG9yIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMiIgZD0iTTQgMThhMiAyIDAgMSAwIDQgMGEyIDIgMCAxIDAtNCAwTTE2IDZhMiAyIDAgMSAwIDQgMGEyIDIgMCAxIDAtNCAwTTcuNSAxNi41bDktOSIvPjwvc3ZnPg==`,
+    props: {
+      stroke: {
+        title: '线条颜色',
+        type: 'color',
+        val: '#ff0000'
+      },
+      'stroke-width': {
+        title: '线条宽度',
+        type: 'number',
+        val: 2
+      },
+      'marker-start': {
+        title: '起点箭头',
+        type: 'switch',
+        val: false
+      },
+      'marker-end': {
+        title: '终点箭头',
+        type: 'switch',
+        val: true
+      },
+      point_position: {
+        title: '点坐标',
+        type: 'jsonEdit',
+        val: [
+          {
+            x: 0,
+            y: 0
+          },
+          {
+            x: 100,
+            y: 0
+          }
+        ],
+        disabled: true
+      },
+      ani_type: {
+        title: '动画类型',
+        type: 'select',
+        val: 'none',
+        options: [
+          {
+            label: '无',
+            value: 'none'
+          },
+          {
+            label: '电流',
+            value: 'electricity'
+          },
+          {
+            label: '轨迹',
+            value: 'track'
+          },
+          {
+            label: '水珠',
+            value: 'waterdrop'
+          }
+        ]
+      },
+      ani_dur: { title: '持续时间', type: 'number', val: 20 },
+      ani_color: { title: '动画颜色', type: 'color', val: '#0a7ae2' },
+      ani_reverse: { title: '动画反转', type: 'switch', val: false },
+      ani_play: { title: '动画播放', type: 'switch', val: true },
+      bind_anchors: {
+        title: '锚点绑定',
+        type: 'jsonEdit',
+        val: {
+          start: null,
+          end: null
+        },
+        disabled: true
+      }
+    },
+    common_animations: {
+      val: '',
+      delay: 'delay-0s',
+      speed: 'slow',
+      repeat: 'infinite'
+    }
+  },
+  {
     id: 'text-vue',
     title: '文字',
     type: 'vue',

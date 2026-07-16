@@ -48,6 +48,18 @@
       @set-intention="(val) => emits('setIntention', val)"
       @line-mouse-up="emits('lineMouseUp')"
     ></line-render>
+    <LineRender2
+      v-else-if="item_json.type === 'sys-line2'"
+      v-model:item-json="item_json"
+      :canvas-cfg="renderItemProps.canvasCfg"
+      :grid="renderItemProps.grid"
+      :canvas-dom="renderItemProps.canvasDom"
+      :done-json="renderItemProps.doneJson"
+      :lock-state="renderItemProps.lockState"
+      :mode="renderItemProps.lineAppendEnable ? 'line-edit' : 'normal'"
+      @set-intention="(val) => emits('setIntention', val)"
+      @line-mouse-up="emits('lineMouseUp')"
+    />
   </div>
 </template>
 <script setup lang="ts">
@@ -61,6 +73,7 @@ import SvgRender from '@/components/mt-edit/components/svg-render/index.vue';
 import GroupRender from '@/components/mt-edit/components/group-render/index.vue';
 import { prosToVBind } from '@/components/mt-edit/utils';
 import LineRender from '@/components/mt-edit/components/line-render/index.vue';
+import LineRender2 from '@/components/mt-edit/components/LineRender2.vue';
 import CustomSvgRender from '@/components/mt-edit/components/custom-svg-render/index.vue';
 import { computed } from 'vue';
 type RenderItemProps = {
