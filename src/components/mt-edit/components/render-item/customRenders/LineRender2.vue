@@ -11,7 +11,37 @@
     xmlns="http://www.w3.org/2000/svg"
     pointer-events="none"
   >
+    <defs>
+      <!-- 水管主体渐变 -->
+      <linearGradient id="pipeGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#407090" />
+        <stop offset="45%" stop-color="#407090" />
+        <stop offset="55%" stop-color="#407090" />
+        <stop offset="100%" stop-color="#407090" />
+      </linearGradient>
+
+      <!-- 管道顶部静态高光 -->
+      <linearGradient id="pipeHighlight" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5" />
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+      </linearGradient>
+
+      <!-- 流体分段发光渐变 -->
+      <linearGradient id="flowLight" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="rgba(140,240,255,0)" />
+        <stop offset="35%" stop-color="rgba(160,245,255,0.95)" />
+        <stop offset="65%" stop-color="rgba(160,245,255,0.95)" />
+        <stop offset="100%" stop-color="rgba(140,240,255,0)" />
+      </linearGradient>
+
+      <!-- 柔和发光滤镜 -->
+      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="3" result="blur" />
+        <feComposite in="SourceGraphic" in2="blur" operator="over" />
+      </filter>
+    </defs>
     <g>
+      <!-- 底层金属管道 -->
       <path
         :d="
           positionArrarToPath(
@@ -22,121 +52,109 @@
         "
         pointer-events="visibleStroke"
         fill="none"
-        :stroke="
-          lineRenderProps.itemJson.props.ani_type.val === 'electricity'
-            ? lineRenderProps.itemJson.props.ani_color.val
-            : lineRenderProps.itemJson.props.stroke.val
-        "
-        :stroke-width="lineRenderProps.itemJson.props['stroke-width'].val"
-        style="cursor: move"
-        stroke-dashoffset="0"
-        :stroke-dasharray="
-          lineRenderProps.itemJson.props.ani_type.val === 'electricity'
-            ? lineRenderProps.itemJson.props['stroke-width'].val * 3
-            : 0
-        "
-        class="real"
-      >
-        <animate
-          v-if="lineRenderProps.itemJson.props.ani_type.val === 'electricity'"
-          attributeName="stroke-dashoffset"
-          :from="lineRenderProps.itemJson.props.ani_reverse.val ? 0 : 1000"
-          :to="
-            lineRenderProps.itemJson.props.ani_reverse.val
-              ? lineRenderProps.itemJson.props.ani_play.val
-                ? 1000
-                : 0
-              : lineRenderProps.itemJson.props.ani_play.val
-                ? 0
-                : 1000
-          "
-          :dur="`${
-            lineRenderProps.itemJson.props.ani_dur.val < 1
-              ? 1
-              : lineRenderProps.itemJson.props.ani_dur.val
-          }s`"
-          repeatCount="indefinite"
-        />
-      </path>
-      <!-- 电流状态不太好选中，所以放个透明的放下面 -->
-      <path
-        :d="
-          positionArrarToPath(
-            lineRenderProps.itemJson.props.point_position.val,
-            lineRenderProps.itemJson.binfo.left + offset,
-            lineRenderProps.itemJson.binfo.top + offset
-          )
-        "
-        pointer-events="visibleStroke"
-        fill="none"
-        stroke="transparent"
-        :stroke-width="lineRenderProps.itemJson.props['stroke-width'].val"
-        style="cursor: move"
-        stroke-dashoffset="0"
-      ></path>
-      <!-- 水珠 -->
-      <path
-        v-if="lineRenderProps.itemJson.props.ani_type.val === 'waterdrop'"
-        :d="
-          positionArrarToPath(
-            lineRenderProps.itemJson.props.point_position.val,
-            lineRenderProps.itemJson.binfo.left + offset,
-            lineRenderProps.itemJson.binfo.top + offset
-          )
-        "
-        fill="none"
-        fill-opacity="0"
-        :stroke="lineRenderProps.itemJson.props.ani_color.val"
-        :stroke-width="lineRenderProps.itemJson.props['stroke-width'].val"
-        :stroke-dasharray="lineRenderProps.itemJson.props['stroke-width'].val * 3"
-        stroke-dashoffset="0"
+        stroke="url(#pipeGrad)"
+        stroke-width="16"
         stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+
+      <!-- 多段流光层 1 -->
+      <path
+        :d="
+          positionArrarToPath(
+            lineRenderProps.itemJson.props.point_position.val,
+            lineRenderProps.itemJson.binfo.left + offset,
+            lineRenderProps.itemJson.binfo.top + offset
+          )
+        "
+        pointer-events="visibleStroke"
+        fill="none"
+        stroke="url(#flowLight)"
+        stroke-width="6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="18 22"
+        filter="url(#glow)"
       >
         <animate
           attributeName="stroke-dashoffset"
-          :from="lineRenderProps.itemJson.props.ani_reverse.val ? 0 : 1000"
-          :to="
-            lineRenderProps.itemJson.props.ani_reverse.val
-              ? lineRenderProps.itemJson.props.ani_play.val
-                ? 1000
-                : 0
-              : lineRenderProps.itemJson.props.ani_play.val
-                ? 0
-                : 1000
-          "
-          :dur="`${
-            lineRenderProps.itemJson.props.ani_dur.val < 1
-              ? 1
-              : lineRenderProps.itemJson.props.ani_dur.val
-          }s`"
+          from="160"
+          to="0"
+          dur="2.5s"
           repeatCount="indefinite"
-          fill="freeze"
         />
       </path>
-      <!-- 轨迹 -->
-      <circle
-        v-else-if="lineRenderProps.itemJson.props.ani_type.val === 'track'"
-        cx="0"
-        cy="0"
-        :r="lineRenderProps.itemJson.props['stroke-width'].val * 2"
-        :fill="lineRenderProps.itemJson.props.ani_color.val"
+
+      <!-- 多段流光层 2，错开相位 -->
+      <path
+        :d="
+          positionArrarToPath(
+            lineRenderProps.itemJson.props.point_position.val,
+            lineRenderProps.itemJson.binfo.left + offset,
+            lineRenderProps.itemJson.binfo.top + offset
+          )
+        "
+        pointer-events="visibleStroke"
+        fill="none"
+        stroke="url(#flowLight)"
+        stroke-width="6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="18 22"
+        filter="url(#glow)"
       >
-        <animateMotion
-          :path="
-            positionArrarToPath(
-              lineRenderProps.itemJson.props.point_position.val,
-              lineRenderProps.itemJson.binfo.left + offset,
-              lineRenderProps.itemJson.binfo.top + offset
-            )
-          "
-          :dur="`${
-            lineRenderProps.itemJson.props.ani_dur.val < 1
-              ? 1
-              : lineRenderProps.itemJson.props.ani_dur.val
-          }s`"
+        <animate
+          attributeName="stroke-dashoffset"
+          from="80"
+          to="-80"
+          dur="2.5s"
           repeatCount="indefinite"
-        ></animateMotion>
-      </circle>
+        />
+      </path>
+
+      <!-- 多段流光层 3，增强连续流动感 -->
+      <path
+        :d="
+          positionArrarToPath(
+            lineRenderProps.itemJson.props.point_position.val,
+            lineRenderProps.itemJson.binfo.left + offset,
+            lineRenderProps.itemJson.binfo.top + offset
+          )
+        "
+        pointer-events="visibleStroke"
+        fill="none"
+        stroke="url(#flowLight)"
+        stroke-width="5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="18 22"
+        filter="url(#glow)"
+      >
+        <animate
+          attributeName="stroke-dashoffset"
+          from="40"
+          to="-120"
+          dur="2.5s"
+          repeatCount="indefinite"
+        />
+      </path>
+
+      <!-- 管道静态顶部高光 -->
+      <path
+        :d="
+          positionArrarToPath(
+            lineRenderProps.itemJson.props.point_position.val,
+            lineRenderProps.itemJson.binfo.left + offset,
+            lineRenderProps.itemJson.binfo.top + offset
+          )
+        "
+        pointer-events="visibleStroke"
+        fill="none"
+        stroke="url(#pipeHighlight)"
+        stroke-width="5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
       <g v-if="lineRenderProps.itemJson.active">
         <circle
           v-for="(item, index) in addPointPosition"

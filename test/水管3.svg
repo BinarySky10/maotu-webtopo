@@ -1,0 +1,108 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 水管主体渐变 -->
+    <linearGradient id="pipeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8d0e0"/>
+      <stop offset="45%" stop-color="#78a8c8"/>
+      <stop offset="55%" stop-color="#6094b8"/>
+      <stop offset="100%" stop-color="#407090"/>
+    </linearGradient>
+
+    <!-- 管道顶部静态高光 -->
+    <linearGradient id="pipeHighlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- 流体分段发光渐变 -->
+    <linearGradient id="flowLight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="rgba(140,240,255,0)" />
+      <stop offset="35%" stop-color="rgba(160,245,255,0.95)" />
+      <stop offset="65%" stop-color="rgba(160,245,255,0.95)" />
+      <stop offset="100%" stop-color="rgba(140,240,255,0)" />
+    </linearGradient>
+
+    <!-- 柔和发光滤镜 -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- 底层金属管道 -->
+  <path
+    d="M30 100 L120 60 L220 130 L360 90"
+    fill="none"
+    stroke="url(#pipeGrad)"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- 多段流光层 1 -->
+  <path
+    d="M30 100 L120 60 L220 130 L360 90"
+    fill="none"
+    stroke="url(#flowLight)"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-dasharray="18 22"
+    filter="url(#glow)"
+  >
+    <animate
+      attributeName="stroke-dashoffset"
+      from="160" to="0"
+      dur="2.5s"
+      repeatCount="indefinite"
+    />
+  </path>
+
+  <!-- 多段流光层 2，错开相位 -->
+  <path
+    d="M30 100 L120 60 L220 130 L360 90"
+    fill="none"
+    stroke="url(#flowLight)"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-dasharray="18 22"
+    filter="url(#glow)"
+  >
+    <animate
+      attributeName="stroke-dashoffset"
+      from="80" to="-80"
+      dur="2.5s"
+      repeatCount="indefinite"
+    />
+  </path>
+
+  <!-- 多段流光层 3，增强连续流动感 -->
+  <path
+    d="M30 100 L120 60 L220 130 L360 90"
+    fill="none"
+    stroke="url(#flowLight)"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-dasharray="18 22"
+    filter="url(#glow)"
+  >
+    <animate
+      attributeName="stroke-dashoffset"
+      from="40" to="-120"
+      dur="2.5s"
+      repeatCount="indefinite"
+    />
+  </path>
+
+  <!-- 管道静态顶部高光 -->
+  <path
+    d="M30 100 L120 60 L220 130 L360 90"
+    fill="none"
+    stroke="url(#pipeHighlight)"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
