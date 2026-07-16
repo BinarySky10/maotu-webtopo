@@ -1,0 +1,35 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 水管渐变，可修改stop-color更换水管主体颜色 -->
+    <linearGradient id="pipeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8d0e0"/>
+      <stop offset="45%" stop-color="#78a8c8"/>
+      <stop offset="55%" stop-color="#6094b8"/>
+      <stop offset="100%" stop-color="#407090"/>
+    </linearGradient>
+    <!-- 高光渐变 -->
+    <linearGradient id="pipeHighlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 水管主体路径，修改fill="url(#pipeGrad)"内渐变色即可换水管颜色 -->
+  <path
+    d="M30 100 L120 60 L220 130 L360 90"
+    fill="none"
+    stroke="url(#pipeGrad)"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- 顶部高光，模拟圆柱水管立体感 -->
+  <path
+    d="M30 100 L120 60 L220 130 L360 90"
+    fill="none"
+    stroke="url(#pipeHighlight)"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
