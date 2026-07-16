@@ -5,7 +5,7 @@
 // @ts-nocheck
 import { onMounted, ref, useSlots, watch } from 'vue';
 import { renderToString } from 'vue/server-renderer';
-import { svgToImgSrc } from '../../utils';
+import { svgToImgSrc } from '../../../../utils';
 const img_url = ref('');
 const slots = useSlots();
 const setImgUrl = async () => {

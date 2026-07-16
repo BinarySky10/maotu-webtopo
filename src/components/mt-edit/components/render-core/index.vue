@@ -38,7 +38,7 @@
       trigger="hover"
     >
       <template #reference>
-        <render-item
+        <RenderItem
           :item-json="item"
           :canvas-cfg="renderCoreProps.canvasCfg"
           :canvas-dom="renderCoreProps.canvasDom"
@@ -50,7 +50,7 @@
           @set-intention="(val) => renderCoreEmits('setIntention', val)"
           @line-mouse-up="onLineMouseUp"
           v-on="renderCoreProps.preivewMode ? eventToVOn(item) : {}"
-        ></render-item>
+        ></RenderItem>
       </template>
       <template #default>
         <div v-for="(prop_item, prop_item_key) in item.props" :key="prop_item_key">
@@ -58,7 +58,7 @@
         </div>
       </template>
     </el-popover>
-    <render-item
+    <RenderItem
       v-else
       :item-json="item"
       :canvas-cfg="renderCoreProps.canvasCfg"
@@ -71,7 +71,7 @@
       @set-intention="(val) => renderCoreEmits('setIntention', val)"
       @line-mouse-up="onLineMouseUp"
       v-on="renderCoreProps.preivewMode ? eventToVOn(item) : {}"
-    ></render-item>
+    ></RenderItem>
   </mt-dzr>
 </template>
 <script setup lang="ts">

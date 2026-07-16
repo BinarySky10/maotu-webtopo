@@ -4,7 +4,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { symbolGenSvg, svgToImgSrc, genDomPropstr } from '@/components/mt-edit/utils/index';
-import type { ILeftAsideConfigItemPublicProps } from '../../store/types';
+import type { ILeftAsideConfigItemPublicProps } from '../../../../store/types';
 type SvgRenderProps = {
   symbolId: string;
   symbolStr: string;

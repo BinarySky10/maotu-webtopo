@@ -227,7 +227,11 @@
 </template>
 <script setup lang="ts">
 import type { MouseTouchEvent } from '@/components/mt-dzr/utils/types';
-import type { IDoneJson, IGlobalStoreCanvasCfg, IGlobalStoreGridCfg } from '../../store/types';
+import type {
+  IDoneJson,
+  IGlobalStoreCanvasCfg,
+  IGlobalStoreGridCfg
+} from '../../../../store/types';
 import {
   alignToGrid,
   getCenterXY,
@@ -238,7 +242,7 @@ import {
   rotatePoint
 } from '@/components/mt-edit/utils';
 import { computed, reactive, ref, watch } from 'vue';
-import { configStore } from '../store/config';
+import { configStore } from '../../../../store/config';
 type LineRenderProps = {
   itemJson: IDoneJson;
   canvasCfg: IGlobalStoreCanvasCfg;

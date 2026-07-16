@@ -36,7 +36,7 @@
         :id="item_json.id"
       ></component>
     </custom-svg-render>
-    <line-render
+    <LineRender
       v-else-if="item_json.type === 'sys-line'"
       v-model:item-json="item_json"
       :canvas-cfg="renderItemProps.canvasCfg"
@@ -47,7 +47,7 @@
       :mode="renderItemProps.lineAppendEnable ? 'line-edit' : 'normal'"
       @set-intention="(val) => emits('setIntention', val)"
       @line-mouse-up="emits('lineMouseUp')"
-    ></line-render>
+    ></LineRender>
     <LineRender2
       v-else-if="item_json.type === 'sys-line2'"
       v-model:item-json="item_json"
@@ -69,12 +69,12 @@ import type {
   IGlobalStoreGridCfg,
   ILeftAsideConfigItemPublicProps
 } from '../../store/types';
-import SvgRender from '@/components/mt-edit/components/svg-render/index.vue';
-import GroupRender from '@/components/mt-edit/components/group-render/index.vue';
+import SvgRender from '@/components/mt-edit/components/render-item/customRenders/svg-render/index.vue';
+import GroupRender from '@/components/mt-edit/components/render-item/customRenders/group-render/index.vue';
 import { prosToVBind } from '@/components/mt-edit/utils';
-import LineRender from '@/components/mt-edit/components/line-render/index.vue';
-import LineRender2 from '@/components/mt-edit/components/LineRender2.vue';
-import CustomSvgRender from '@/components/mt-edit/components/custom-svg-render/index.vue';
+import LineRender from '@/components/mt-edit/components/render-item/customRenders/line-render/index.vue';
+import LineRender2 from '@/components/mt-edit/components/render-item/customRenders/LineRender2.vue';
+import CustomSvgRender from '@/components/mt-edit/components/render-item/customRenders/custom-svg-render/index.vue';
 import { computed } from 'vue';
 type RenderItemProps = {
   itemJson: IDoneJson;

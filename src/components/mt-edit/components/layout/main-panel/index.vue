@@ -15,7 +15,7 @@
         v-if="globalStore.gridCfg.enabled"
         :grid="globalStore.gridCfg.size"
       ></pattern-grid>
-      <render-core
+      <RenderCore
         v-model:done-json="done_json"
         :canvas-cfg="globalStore.canvasCfg"
         :grid-cfg="globalStore.gridCfg"
@@ -32,7 +32,7 @@
         @on-item-resize-done="onItemResizeDone"
         @on-item-rotate-done="onItemRotateDone"
         @on-item-right-click.stop="onItemRightClick"
-      ></render-core>
+      ></RenderCore>
       <selected-area
         v-show="globalStore.intention === 'beginMulSelect'"
         ref="selectedAreaRef"
