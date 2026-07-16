@@ -5,7 +5,7 @@ import type {
   IDoneJsonBinfo,
   ILeftAsideConfigItemPublicProps
 } from '../store/types';
-import { useUpdateSysLine } from '@/components/mt-edit/composables/sys-line';
+
 export const createGroupInfo = (
   selected_items: IDoneJson[],
   canvas_dom: HTMLElement,

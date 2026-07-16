@@ -13,7 +13,7 @@ export type ILeftAsideConfigItemPublicProps = Record<
   }
 >;
 export type ILeftAsideConfigItemPublicType = 'svg' | 'vue' | 'img' | 'custom-svg';
-export type ILeftAsideConfigItemPrivateType = 'group' | 'sys-line';
+export type ILeftAsideConfigItemPrivateType = 'group' | 'sys-line' | 'sys-line2';
 export interface ILeftAsideConfigItemPublic {
   id: string; //图形的标识 值必须唯一
   title: string; //要显示的标题，一般用中文表示

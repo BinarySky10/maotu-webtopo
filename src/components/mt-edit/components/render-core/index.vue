@@ -26,7 +26,7 @@
     @on-rotate-move="onRotateMove($event)"
     @on-rotate-done="onRotateDone(item)"
     @on-right-click="onRightClick($event, item)"
-    :class="`${item.type == 'sys-line' ? 'pointer-events-none' : ''} ${getCommonAni(
+    :class="`${item.type == 'sys-line' || item.type == 'sys-line2' ? 'pointer-events-none' : ''} ${getCommonAni(
       item
     )} cursor-pointer`"
   >

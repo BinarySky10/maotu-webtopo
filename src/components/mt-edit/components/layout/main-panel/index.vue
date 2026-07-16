@@ -146,7 +146,9 @@ const done_json = computed({
     globalStore.setGlobalStoreDoneJson(val);
   }
 });
-const sys_line_init = configStore.sysComponent.find((f) => f.type == 'sys-line')!;
+const sys_line_init = configStore.sysComponent.find(
+  (f) => f.type == 'sys-line' || f.type == 'sys-line2'
+)!;
 const draw_line_init_data: IDoneJson = {
   id: sys_line_init.id + '-' + randomString(),
   title: sys_line_init.title,
@@ -237,9 +239,9 @@ const onDrop = (e: DragEvent | TouchEvent, isTouch?: boolean) => {
   }
   const deep_find_cfg = objectDeepClone<ILeftAsideConfigItem>(find_cfg);
   // 自由连线 直角连线都有自定义宽高以及禁止缩放和旋转
-  const is_line = deep_find_cfg.type === 'sys-line';
+  const is_line = deep_find_cfg.type === 'sys-line' || deep_find_cfg.type == 'sys-line2';
   // 横线
-  const is_vertical_line = deep_find_cfg.id === 'sys-line';
+  const is_vertical_line = deep_find_cfg.id === 'sys-line' || deep_find_cfg.type == 'sys-line2';
   // 竖线
   const is_horizontal_line = deep_find_cfg.id === 'sys-line-vertical';
   //根据配置创建图形
@@ -391,7 +393,7 @@ const createGroupItem = () => {
   // 如果选中的组件属于连线的锚点跟随组件 并且要组合的组件不包含该连线 那么取消该连线的绑定关系
   const temp_sys_lines = globalStore.done_json.filter(
     (f) =>
-      f.type === 'sys-line' &&
+      (f.type === 'sys-line' || f.type == 'sys-line2') &&
       (globalStore.selected_items_id.includes(f.props.bind_anchors.val.start?.id) ||
         globalStore.selected_items_id.includes(f.props.bind_anchors.val.end?.id)) &&
       !globalStore.selected_items_id.includes(f.id)
@@ -508,7 +510,7 @@ const onItemMove = ({ move_item_bounding_info, move_binfo }: onItemMoveParams) =
   // 如果多选的组件里有连线，并且连线的锚点绑定对应的组件不在多选里 那么清除掉连线的绑定关系
   const clear_bind_sys_line = globalStore.done_json.filter(
     (f) =>
-      f.type == 'sys-line' &&
+      (f.type == 'sys-line' || f.type == 'sys-line2') &&
       globalStore.selected_items_id.includes(f.id) &&
       (f.props.bind_anchors.val.start || f.props.bind_anchors.val.end)
   );
@@ -528,7 +530,7 @@ const onItemMove = ({ move_item_bounding_info, move_binfo }: onItemMoveParams) =
   //移动的时候要判断一下有没有系统连线绑定到了该组件
   const all_bind_sys_line = globalStore.done_json.filter(
     (f) =>
-      f.type == 'sys-line' &&
+      (f.type == 'sys-line' || f.type == 'sys-line2') &&
       (globalStore.selected_items_id.includes(f.props.bind_anchors.val.start?.id) ||
         globalStore.selected_items_id.includes(f.props.bind_anchors.val.end?.id)) &&
       !globalStore.selected_items_id.includes(f.id)
@@ -611,7 +613,7 @@ const cacheAdsorbPoint = (item: IDoneJson) => {
 };
 const onItemMouseEnter = (e: any, item: IDoneJson) => {
   // 鼠标进入的时候计算可以吸附的四点坐标 去除连线
-  if (item.type == 'sys-line') {
+  if (item.type == 'sys-line' || item.type == 'sys-line2') {
     return;
   }
   cacheAdsorbPoint(item);
@@ -687,7 +689,7 @@ const onItemResizeDone = (item: IDoneJson) => {
   // 缩放完成之后查看是否有连线绑定到了该图形 更新连线信息
   const update_lines = globalStore.done_json.filter(
     (f) =>
-      f.type == 'sys-line' &&
+      (f.type == 'sys-line' || f.type == 'sys-line2') &&
       (f.props.bind_anchors.val.start?.id == item.id || f.props.bind_anchors.val.end?.id == item.id)
   );
   useUpdateSysLine(
@@ -701,7 +703,7 @@ const onItemResizeDone = (item: IDoneJson) => {
 const onItemRotateDone = (item: IDoneJson) => {
   const update_lines = globalStore.done_json.filter(
     (f) =>
-      f.type == 'sys-line' &&
+      (f.type == 'sys-line' || f.type == 'sys-line2') &&
       (f.props.bind_anchors.val.start?.id == item.id || f.props.bind_anchors.val.end?.id == item.id)
   );
   useUpdateSysLine(
@@ -819,7 +821,7 @@ const onContextMenuCopy = () => {
 const handlePasteData = (data: IDoneJson[]) => {
   data.forEach((f) => {
     f.id = f.tag + '-' + randomString();
-    if (f.type == 'sys-line') {
+    if (f.type == 'sys-line' || f.type == 'sys-line2') {
       f.props.bind_anchors.val = {
         start: null,
         end: null
@@ -1109,7 +1111,7 @@ const onKeydown = (e: KeyboardEvent) => {
       if (globalStore.selected_items_id.includes(f.id)) {
         f.binfo.left += left;
         f.binfo.top += top;
-        if (f.type == 'sys-line') {
+        if (f.type == 'sys-line' || f.type == 'sys-line2') {
           f.props.bind_anchors.val = {
             start: null,
             end: null
@@ -1118,7 +1120,7 @@ const onKeydown = (e: KeyboardEvent) => {
           update_lines.push(
             ...globalStore.done_json.filter(
               (df) =>
-                df.type == 'sys-line' &&
+                (df.type == 'sys-line' || df.type == 'sys-line2') &&
                 (df.props.bind_anchors.val.start?.id == f.id ||
                   df.props.bind_anchors.val.end?.id == f.id)
             )

@@ -121,7 +121,11 @@ const selectItemSettingProps = withDefaults(defineProps<SelectItemSettingProps>(
 const emits = defineEmits(['update:itemJson', 'addHistory']);
 const slots = useSlots();
 // 自由连线 直角连线都有自定义宽高以及禁止缩放和旋转
-const is_line = computed(() => selectItemSettingProps.itemJson?.type === 'sys-line');
+const is_line = computed(
+  () =>
+    selectItemSettingProps.itemJson?.type === 'sys-line' ||
+    selectItemSettingProps.itemJson?.type === 'sys-line2'
+);
 const item_title = computed({
   get: () => {
     return selectItemSettingProps.itemJson?.title;
