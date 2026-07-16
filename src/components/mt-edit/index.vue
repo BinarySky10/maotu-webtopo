@@ -13,7 +13,6 @@
           :selected-items-id="globalStore.selected_items_id"
           :group-enabled="header_group_enabled"
           :un-group-enabled="header_un_group_enabled"
-          :align-enabled="header_align_enabled"
           :delete-enabled="header_delete_enabled"
           :undo-enabled="cacheStore.historyIndex > 0"
           :redo-enabled="cacheStore.historyIndex < cacheStore.history.length - 1"
@@ -25,7 +24,6 @@
           @on-export-click="onExportClick"
           @on-tree-click="done_json_tree_visiable = true"
           @on-help-click="onHelpClick"
-          @align-selected="onAlignSelected"
           @on-redo-click="onRedoClick"
           @on-undo-click="onUndoClick"
           @on-import-click="onImportClick"
@@ -160,12 +158,7 @@ const header_un_group_enabled = computed(() => {
   }
   return false;
 });
-const header_align_enabled = computed(() => {
-  const selected_items = globalStore.done_json.filter(
-    (f) => globalStore.selected_items_id.includes(f.id) && f.type !== 'sys-line'
-  );
-  return selected_items.length > 1;
-});
+
 const import_visible = ref(false);
 const export_visible = ref(false);
 const done_json_tree_visiable = ref(false);
@@ -191,19 +184,7 @@ const onDoneTreeUpdateSelectedIdHide = (id: string) => {
     item.hide = !item.hide;
   }
 };
-const onAlignSelected = (
-  type:
-    | 'left'
-    | 'horizontally'
-    | 'right'
-    | 'top'
-    | 'vertically'
-    | 'bottom'
-    | 'horizontal-distribution'
-    | 'vertical-distribution'
-) => {
-  mainPanelRef.value?.onAlignSelected(type);
-};
+
 const onHelpClick = () => {
   window.open('http://mt.yaolm.top');
 };

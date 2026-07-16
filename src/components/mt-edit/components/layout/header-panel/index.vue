@@ -80,64 +80,7 @@
             </el-icon> </el-button
         ></el-button-group>
         <el-divider direction="vertical"></el-divider>
-        <el-popover
-          placement="bottom"
-          :width="240"
-          trigger="hover"
-          :disabled="!headerPanelProps.alignEnabled"
-        >
-          <template #reference>
-            <el-button text circle size="small" :disabled="!headerPanelProps.alignEnabled">
-              <el-icon title="对齐" :size="20">
-                <svg-analysis name="align"></svg-analysis>
-              </el-icon>
-            </el-button>
-          </template>
-          <div class="flex justify-center">
-            <el-button-group>
-              <el-button text circle size="small" @click="alignSelected('left')">
-                <el-icon title="左对齐" :size="20">
-                  <svg-analysis name="align-left"></svg-analysis>
-                </el-icon>
-              </el-button>
-              <el-button text circle size="small" @click="alignSelected('horizontally')">
-                <el-icon title="水平居中" :size="20">
-                  <svg-analysis name="align-horizontally"></svg-analysis>
-                </el-icon>
-              </el-button>
-              <el-button text circle size="small" @click="alignSelected('right')">
-                <el-icon title="右对齐" :size="20">
-                  <svg-analysis name="align-right"></svg-analysis>
-                </el-icon>
-              </el-button>
-              <el-button text circle size="small" @click="alignSelected('top')">
-                <el-icon title="上对齐" :size="20">
-                  <svg-analysis name="align-top"></svg-analysis>
-                </el-icon>
-              </el-button>
-              <el-button text circle size="small" @click="alignSelected('vertically')">
-                <el-icon title="垂直居中" :size="20">
-                  <svg-analysis name="align-vertical"></svg-analysis>
-                </el-icon>
-              </el-button>
-              <el-button text circle size="small" @click="alignSelected('bottom')">
-                <el-icon title="下对齐" :size="20">
-                  <svg-analysis name="align-bottom"></svg-analysis>
-                </el-icon>
-              </el-button>
-              <el-button text circle size="small" @click="alignSelected('horizontal-distribution')">
-                <el-icon title="水平分布" :size="20">
-                  <svg-analysis name="horizontal-distribution"></svg-analysis>
-                </el-icon>
-              </el-button>
-              <el-button text circle size="small" @click="alignSelected('vertical-distribution')">
-                <el-icon title="垂直分布" :size="20">
-                  <svg-analysis name="vertical-distribution"></svg-analysis>
-                </el-icon>
-              </el-button>
-            </el-button-group>
-          </div>
-        </el-popover>
+
         <el-divider direction="vertical"></el-divider>
         <el-button-group>
           <el-button
@@ -275,7 +218,6 @@ type HeaderPanelProps = {
   selectedItemsId: string[]; //已选中组件的id
   groupEnabled: boolean;
   unGroupEnabled: boolean;
-  alignEnabled: boolean;
   deleteEnabled: boolean;
   lockState: boolean;
   undoEnabled: boolean;
@@ -297,7 +239,7 @@ const emits = defineEmits([
   'onDeleteClick',
   'onExportClick',
   'onTreeClick',
-  'alignSelected',
+
   'update:lockState',
   'onHelpClick',
   'onRedoClick',
@@ -331,19 +273,7 @@ const onExportClick = () => {
 const onTreeClick = () => {
   emits('onTreeClick');
 };
-const alignSelected = (
-  type:
-    | 'left'
-    | 'horizontally'
-    | 'right'
-    | 'top'
-    | 'vertically'
-    | 'bottom'
-    | 'horizontal-distribution'
-    | 'vertical-distribution'
-) => {
-  emits('alignSelected', type);
-};
+
 const changeLockState = () => {
   emits('update:lockState', !headerPanelProps.lockState);
 };

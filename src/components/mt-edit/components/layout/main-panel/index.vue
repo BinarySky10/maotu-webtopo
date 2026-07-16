@@ -97,8 +97,7 @@ import {
   calculateGuideX,
   rotatePoint,
   getRectCoordinate,
-  getRectCenterCoordinate,
-  handleAlign
+  getRectCenterCoordinate
 } from '@/components/mt-edit/utils';
 import type {
   AdsorbPointType,
@@ -713,30 +712,7 @@ const onItemRotateDone = (item: IDoneJson) => {
   );
   cacheStore.addHistory(globalStore.done_json);
 };
-const onAlignSelected = (
-  type:
-    | 'left'
-    | 'horizontally'
-    | 'right'
-    | 'top'
-    | 'vertically'
-    | 'bottom'
-    | 'horizontal-distribution'
-    | 'vertical-distribution'
-) => {
-  // 取出当前选中的所有元素
-  const selected_items = globalStore.done_json.filter((f) =>
-    globalStore.selected_items_id.includes(f.id)
-  );
-  handleAlign(
-    type,
-    selected_items,
-    canvasAreaRef.value,
-    globalStore.canvasCfg.scale,
-    globalStore.done_json
-  );
-  cacheStore.addHistory(globalStore.done_json);
-};
+
 const dragCanvasMouseDown = () => {
   init_drag_offset.x = globalStore.canvasCfg.drag_offset.x;
   init_drag_offset.y = globalStore.canvasCfg.drag_offset.y;
@@ -1226,7 +1202,7 @@ onUnmounted(() => {
 defineExpose({
   createGroupItem,
   onUngroup,
-  onAlignSelected,
+
   onRedo,
   onUndo,
   beginListenerKeyDown,
