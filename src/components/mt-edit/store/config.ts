@@ -187,16 +187,6 @@ const sysComponentItems: ILeftAsideConfigItem[] = [
         type: 'number',
         val: 2
       },
-      'marker-start': {
-        title: '起点箭头',
-        type: 'switch',
-        val: false
-      },
-      'marker-end': {
-        title: '终点箭头',
-        type: 'switch',
-        val: true
-      },
       point_position: {
         title: '点坐标',
         type: 'jsonEdit',

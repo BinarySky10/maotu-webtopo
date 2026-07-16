@@ -1,6 +1,5 @@
 <template>
   <svg
-    class="mt-line-render"
     :style="{
       position: 'absolute',
       left: `${-lineRenderProps.itemJson.binfo.left - offset}px`,
@@ -13,31 +12,6 @@
     pointer-events="none"
   >
     <g>
-      <defs>
-        <marker
-          :id="'markerArrowStart' + lineRenderProps.itemJson.id"
-          viewBox="0 0 10 10"
-          refX="8"
-          refY="5"
-          markerWidth="6"
-          markerHeight="6"
-          orient="auto-start-reverse"
-        >
-          <path d="M 0 0 L 10 5 L 0 10 z" :fill="lineRenderProps.itemJson.props.stroke.val" />
-        </marker>
-        <marker
-          :id="'markerArrowEnd' + lineRenderProps.itemJson.id"
-          viewBox="0 0 10 10"
-          refX="8"
-          refY="5"
-          markerWidth="6"
-          markerHeight="6"
-          orient="auto"
-        >
-          <path d="M 0 0 L 10 5 L 0 10 z" :fill="lineRenderProps.itemJson.props.stroke.val" />
-        </marker>
-      </defs>
-
       <path
         :d="
           positionArrarToPath(
@@ -60,16 +34,6 @@
           lineRenderProps.itemJson.props.ani_type.val === 'electricity'
             ? lineRenderProps.itemJson.props['stroke-width'].val * 3
             : 0
-        "
-        :marker-start="
-          lineRenderProps.itemJson.props?.['marker-start']?.val
-            ? `url(#markerArrowStart${lineRenderProps.itemJson.id})`
-            : ''
-        "
-        :marker-end="
-          lineRenderProps.itemJson.props?.['marker-end']?.val
-            ? `url(#markerArrowEnd${lineRenderProps.itemJson.id})`
-            : ''
         "
         class="real"
       >
@@ -109,16 +73,6 @@
         :stroke-width="lineRenderProps.itemJson.props['stroke-width'].val"
         style="cursor: move"
         stroke-dashoffset="0"
-        :marker-start="
-          lineRenderProps.itemJson.props?.['marker-start']?.val
-            ? `url(#markerArrowStart${lineRenderProps.itemJson.id})`
-            : ''
-        "
-        :marker-end="
-          lineRenderProps.itemJson.props?.['marker-end']?.val
-            ? `url(#markerArrowEnd${lineRenderProps.itemJson.id})`
-            : ''
-        "
       ></path>
       <!-- 水珠 -->
       <path
