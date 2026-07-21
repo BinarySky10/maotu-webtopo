@@ -17,14 +17,10 @@ const onEventCallBack = (type: string, item_id: string) => {
     ElMessage.success(`获取到了id:${item_id}`);
   }
 };
-async function getPublicJson() {
-  const res = await fetch('data/WaterQushuibengzhan.json');
-  const data = await res.json();
-  return data;
-}
+import { getPublicJson, savePublicJson } from '@/api/mock';
 onMounted(async () => {
-  const xx = await getPublicJson();
-
+  const xx = await getPublicJson('WaterQushuibengzhan.json');
+  // await savePublicJson('test.json', { a: 2 });
   MtPreviewRef.value?.setImportJson(xx);
 });
 </script>
