@@ -1,5 +1,9 @@
 <template>
-  <mt-preview ref="MtPreviewRef" @onEventCallBack="onEventCallBack"></mt-preview>
+  <mt-preview
+    ref="MtPreviewRef"
+    :showPopover="false"
+    @onEventCallBack="onEventCallBack"
+  ></mt-preview>
 </template>
 <script setup lang="ts">
 import MtPreview from '@/components/mt-preview/index.vue';
