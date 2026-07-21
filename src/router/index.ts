@@ -25,6 +25,11 @@ export const constantRoutes = [
     component: () => import('../views/MyPreview.vue')
   },
   {
+    name: 'WaterQushuibengzhan',
+    path: '/WaterQushuibengzhan',
+    component: () => import('../views/WaterQushuibengzhan.vue')
+  },
+  {
     name: 'edit-load',
     path: '/edit-load',
     component: () => import('../views/demo/edit-load.vue')

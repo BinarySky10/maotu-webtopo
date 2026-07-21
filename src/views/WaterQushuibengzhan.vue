@@ -13,7 +13,14 @@ const onEventCallBack = (type: string, item_id: string) => {
     ElMessage.success(`获取到了id:${item_id}`);
   }
 };
-onMounted(() => {
-  MtPreviewRef.value?.setImportJson(JSON.parse(sessionStorage.getItem('exportJson') as any));
+async function getPublicJson() {
+  const res = await fetch('data/WaterQushuibengzhan.json');
+  const data = await res.json();
+  return data;
+}
+onMounted(async () => {
+  const xx = await getPublicJson();
+
+  MtPreviewRef.value?.setImportJson(xx);
 });
 </script>
