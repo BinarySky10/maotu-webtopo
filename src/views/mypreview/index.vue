@@ -466,8 +466,8 @@ onMounted(() => {
               y: 20.5
             },
             {
-              x: 458,
-              y: 62
+              x: 468,
+              y: 21
             }
           ],
           ani_type: 'none',
@@ -640,38 +640,12 @@ onMounted(() => {
         events: []
       },
       {
-        id: 'relief-valve-construction-svgrepo-com(1)-GbO1rLE6k4',
-        title: 'relief-valve-construction-svgrepo-com(1)',
-        type: 'svg',
-        binfo: {
-          left: 1110,
-          top: 540,
-          width: 110,
-          height: 110,
-          angle: 0
-        },
-        resize: true,
-        rotate: true,
-        lock: false,
-        active: false,
-        hide: false,
-        tag: 'relief-valve-construction-svgrepo-com(1)',
-        common_animations: {
-          val: '',
-          delay: 'delay-0s',
-          speed: 'slow',
-          repeat: 'infinite'
-        },
-        events: [],
-        props: {}
-      },
-      {
         id: 'sys-line2-hgW7qZ94Hi',
         title: '自由连线2',
         type: 'sys-line2',
         binfo: {
-          left: 1230,
-          top: 610,
+          left: 1260,
+          top: 500,
           width: 100,
           height: 0,
           angle: 0
@@ -687,11 +661,11 @@ onMounted(() => {
           point_position: [
             {
               x: -11,
-              y: 12
+              y: 14
             },
             {
-              x: 103,
-              y: 13
+              x: 113,
+              y: 11
             }
           ],
           ani_type: 'none',
@@ -718,8 +692,8 @@ onMounted(() => {
         title: '文字',
         type: 'vue',
         binfo: {
-          left: 1120,
-          top: 630,
+          left: 1140,
+          top: 530,
           width: 100,
           height: 50,
           angle: 0
@@ -750,8 +724,8 @@ onMounted(() => {
         title: '自由连线',
         type: 'sys-line',
         binfo: {
-          left: 1270,
-          top: 600,
+          left: 1300,
+          top: 490,
           width: 54,
           height: 0,
           angle: 0
@@ -1288,7 +1262,7 @@ onMounted(() => {
         title: '集水池',
         type: 'svg',
         binfo: {
-          left: 50,
+          left: 52,
           top: 280,
           width: 260,
           height: 170,
@@ -1572,6 +1546,431 @@ onMounted(() => {
         ],
         events: [],
         tag: 'group'
+      },
+      {
+        id: 'card-vue-kWBprc9jPA',
+        title: '卡片',
+        type: 'vue',
+        binfo: {
+          left: 830,
+          top: 10,
+          width: 600,
+          height: 220,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        props: {
+          shadow: 'always',
+          backGroundColor: '#ffffff',
+          boxShadow: '#080808'
+        },
+        tag: 'card-vue',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: []
+      },
+      {
+        id: '分档旋钮-l2kApzgdwJ',
+        title: '分档旋钮',
+        type: 'svg',
+        binfo: {
+          width: 90,
+          height: 90,
+          left: 1080,
+          top: 120,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        tag: '分档旋钮',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: [],
+        use_proportional_scaling: true,
+        props: {}
+      },
+      {
+        id: 'text-vue-oxaEHcU94f',
+        title: '文字',
+        type: 'vue',
+        binfo: {
+          width: 100,
+          height: 50,
+          left: 1080,
+          top: 30,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        props: {
+          text: '2#取水泵',
+          fontFamily: '黑体',
+          fontSize: 18,
+          fill: '#080808',
+          vertical: false
+        },
+        tag: 'text-vue',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: []
+      },
+      {
+        id: 'text-vue-Hx1qd5iqN9',
+        title: '文字',
+        type: 'vue',
+        binfo: {
+          width: 50,
+          height: 50,
+          left: 1050,
+          top: 69.984375,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        props: {
+          text: '自动',
+          fontFamily: '黑体',
+          fontSize: 18,
+          fill: '#06e719',
+          vertical: false
+        },
+        tag: 'text-vue',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: []
+      },
+      {
+        id: 'text-vue-YA0fjuisVx',
+        title: '文字',
+        type: 'vue',
+        binfo: {
+          width: 50,
+          height: 50,
+          left: 1150,
+          top: 69.984375,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        props: {
+          text: '手动',
+          fontFamily: '黑体',
+          fontSize: 18,
+          fill: '#ff001a',
+          vertical: false
+        },
+        tag: 'text-vue',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: []
+      },
+      {
+        id: '分档旋钮-fs1EyiIXzn',
+        title: '分档旋钮',
+        type: 'svg',
+        binfo: {
+          width: 90,
+          height: 90,
+          left: 1280,
+          top: 120,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        tag: '分档旋钮',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: [],
+        use_proportional_scaling: true,
+        props: {}
+      },
+      {
+        id: 'text-vue-sgLSWVGIgV',
+        title: '文字',
+        type: 'vue',
+        binfo: {
+          width: 100,
+          height: 50,
+          left: 1280,
+          top: 30,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        props: {
+          text: '3#取水泵',
+          fontFamily: '黑体',
+          fontSize: 18,
+          fill: '#080808',
+          vertical: false
+        },
+        tag: 'text-vue',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: []
+      },
+      {
+        id: 'text-vue-1TmoHJRDfT',
+        title: '文字',
+        type: 'vue',
+        binfo: {
+          width: 50,
+          height: 50,
+          left: 1250,
+          top: 69.984375,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        props: {
+          text: '自动',
+          fontFamily: '黑体',
+          fontSize: 18,
+          fill: '#06e719',
+          vertical: false
+        },
+        tag: 'text-vue',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: []
+      },
+      {
+        id: 'text-vue-SGHv8gmMqG',
+        title: '文字',
+        type: 'vue',
+        binfo: {
+          width: 50,
+          height: 50,
+          left: 1350,
+          top: 69.984375,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        props: {
+          text: '手动',
+          fontFamily: '黑体',
+          fontSize: 18,
+          fill: '#ff001a',
+          vertical: false
+        },
+        tag: 'text-vue',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: []
+      },
+      {
+        id: '分档旋钮-1WFCIQNaMw',
+        title: '分档旋钮',
+        type: 'svg',
+        binfo: {
+          width: 90,
+          height: 90,
+          left: 890,
+          top: 120,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        tag: '分档旋钮',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: [],
+        use_proportional_scaling: true,
+        props: {}
+      },
+      {
+        id: 'text-vue-EiFgK3tJ6G',
+        title: '文字',
+        type: 'vue',
+        binfo: {
+          width: 100,
+          height: 50,
+          left: 890,
+          top: 30,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        props: {
+          text: '1#取水泵',
+          fontFamily: '黑体',
+          fontSize: 18,
+          fill: '#080808',
+          vertical: false
+        },
+        tag: 'text-vue',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: []
+      },
+      {
+        id: 'text-vue-HsjRguPhUO',
+        title: '文字',
+        type: 'vue',
+        binfo: {
+          width: 50,
+          height: 50,
+          left: 860,
+          top: 69.984375,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        props: {
+          text: '自动',
+          fontFamily: '黑体',
+          fontSize: 18,
+          fill: '#06e719',
+          vertical: false
+        },
+        tag: 'text-vue',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: []
+      },
+      {
+        id: 'text-vue-1NnIdU3w48',
+        title: '文字',
+        type: 'vue',
+        binfo: {
+          width: 50,
+          height: 50,
+          left: 960,
+          top: 69.984375,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        props: {
+          text: '手动',
+          fontFamily: '黑体',
+          fontSize: 18,
+          fill: '#ff001a',
+          vertical: false
+        },
+        tag: 'text-vue',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: []
+      },
+      {
+        id: '压力表-qiPHmGK4ax',
+        title: '压力表',
+        type: 'svg',
+        binfo: {
+          left: 1110,
+          top: 398,
+          width: 150,
+          height: 150,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        tag: '压力表',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: [],
+        props: {}
       }
     ]
   };
