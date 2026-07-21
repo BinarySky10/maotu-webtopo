@@ -32,6 +32,7 @@
           @on-preview-click="onPreviewClick"
           @on-thumbnail-click="onThumbnailClick"
           @on-draw-line-click="onDrawLineClick"
+          @onExportFileClick="onExportFileClick"
         ></header-panel>
       </el-header>
       <el-container class="h-[calc(100%-45px-40px)]">
@@ -175,6 +176,15 @@ import { savePublicJson } from '@/api/mock';
 const onExportClick = () => {
   export_visible.value = true;
   mainPanelRef.value?.stopListenerKeyDown();
+  // //保存到json
+  // const { exportJson } = genExportJson(
+  //   globalStore.canvasCfg,
+  //   globalStore.gridCfg,
+  //   objectDeepClone(globalStore.done_json)
+  // );
+  // savePublicJson('test.json', exportJson);
+};
+const onExportFileClick = async (fileName: string) => {
   //保存到json
   const { exportJson } = genExportJson(
     globalStore.canvasCfg,
@@ -182,7 +192,16 @@ const onExportClick = () => {
     objectDeepClone(globalStore.done_json)
   );
   //todo: 修改json文件名
-  savePublicJson('test.json', exportJson);
+  if (!fileName) {
+    return ElMessage.error('请输入文件名');
+  }
+  const fileFullName = `${fileName}.json`;
+  const { code, msg } = await savePublicJson(fileFullName, exportJson);
+  if (code == 0) {
+    ElMessage.success(msg);
+  } else {
+    ElMessage.error(msg);
+  }
 };
 const onTreeUpdateSelectedItemsId = (id: string) => {
   globalStore.setSingleSelect(id);

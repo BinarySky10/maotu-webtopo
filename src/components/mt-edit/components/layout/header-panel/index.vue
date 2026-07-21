@@ -80,6 +80,19 @@
             </el-icon> </el-button
         ></el-button-group>
         <el-divider direction="vertical"></el-divider>
+        <el-button-group>
+          <ElInput v-model="fileName" style="width: 100px" placeholder="fileName" />
+          <el-button text circle size="small" @click="onImportClick">
+            <el-icon title="从文件导入" :size="20">
+              <Upload />
+            </el-icon>
+          </el-button>
+          <el-button text circle size="small" @click="onExportFileClick">
+            <el-icon title="保存到文件" :size="20">
+              <Download />
+            </el-icon> </el-button
+        ></el-button-group>
+        <el-divider direction="vertical"></el-divider>
 
         <el-divider direction="vertical"></el-divider>
         <el-button-group>
@@ -207,11 +220,14 @@ import {
   ElButtonGroup,
   ElImage,
   ElText,
-  ElTag
+  ElTag,
+  ElInput
 } from 'element-plus';
 import SvgAnalysis from '@/components/mt-edit/components/svg-analysis/index.vue';
 import type { IRealTimeData } from '@/components/mt-edit/store/types';
+import { Upload, Download } from '@element-plus/icons-vue';
 import { ref } from 'vue';
+const fileName = ref('');
 type HeaderPanelProps = {
   leftAside: boolean;
   rightAside: boolean;
@@ -249,7 +265,8 @@ const emits = defineEmits([
   'onReturnClick',
   'onSaveClick',
   'onDrawLineClick',
-  'onThumbnailClick'
+  'onThumbnailClick',
+  'onExportFileClick'
 ]);
 const isDark = useDark({
   selector: '#mt-edit'
@@ -269,6 +286,9 @@ const onDeleteClick = () => {
 };
 const onExportClick = () => {
   emits('onExportClick');
+};
+const onExportFileClick = () => {
+  emits('onExportFileClick', fileName.value);
 };
 const onTreeClick = () => {
   emits('onTreeClick');
