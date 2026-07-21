@@ -82,7 +82,7 @@
         <el-divider direction="vertical"></el-divider>
         <el-button-group>
           <ElInput v-model="fileName" style="width: 100px" placeholder="fileName" />
-          <el-button text circle size="small" @click="onImportClick">
+          <el-button text circle size="small" @click="onImportFileClick">
             <el-icon title="从文件导入" :size="20">
               <Upload />
             </el-icon>
@@ -266,7 +266,8 @@ const emits = defineEmits([
   'onSaveClick',
   'onDrawLineClick',
   'onThumbnailClick',
-  'onExportFileClick'
+  'onExportFileClick',
+  'onImportFileClick'
 ]);
 const isDark = useDark({
   selector: '#mt-edit'
@@ -290,6 +291,10 @@ const onExportClick = () => {
 const onExportFileClick = () => {
   emits('onExportFileClick', fileName.value);
 };
+const onImportFileClick = () => {
+  emits('onImportFileClick', fileName.value);
+};
+
 const onTreeClick = () => {
   emits('onTreeClick');
 };

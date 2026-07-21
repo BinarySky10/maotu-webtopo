@@ -33,6 +33,7 @@
           @on-thumbnail-click="onThumbnailClick"
           @on-draw-line-click="onDrawLineClick"
           @onExportFileClick="onExportFileClick"
+          @onImportFileClick="onImportFileClick"
         ></header-panel>
       </el-header>
       <el-container class="h-[calc(100%-45px-40px)]">
@@ -231,6 +232,19 @@ const onImportYes = async () => {
   } else {
     ElMessage.error('导入失败,请检查数据格式');
   }
+};
+
+import JSON5 from 'json5';
+import { getPublicJson } from '@/api/mock';
+const onImportFileClick = async (fileName: string) => {
+  // fileName
+  const fullfileName = `${fileName}.json`;
+  const json = await getPublicJson(fullfileName);
+
+  const { canvasCfg, gridCfg, importDoneJson } = useExportJsonToDoneJson(json);
+  globalStore.canvasCfg = canvasCfg;
+  globalStore.gridCfg = gridCfg;
+  globalStore.setGlobalStoreDoneJson(importDoneJson);
 };
 const onPreviewClick = () => {
   // 获取导出json
