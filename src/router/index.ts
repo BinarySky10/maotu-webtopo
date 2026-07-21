@@ -2,12 +2,12 @@ import { createRouter, createWebHistory } from 'vue-router';
 export const constantRoutes = [
   {
     path: '/',
-    component: () => import('../views/edit/index.vue')
+    component: () => import('../views/Edit.vue')
   },
   {
     name: 'edit',
     path: '/edit',
-    component: () => import('../views/edit/index.vue')
+    component: () => import('../views/Edit.vue')
   },
   {
     name: 'demo',
@@ -17,12 +17,12 @@ export const constantRoutes = [
   {
     name: 'preview',
     path: '/preview',
-    component: () => import('../views/preview/index.vue')
+    component: () => import('../views/Preview.vue')
   },
   {
     name: 'mypreview',
     path: '/mypreview',
-    component: () => import('../views/mypreview/index.vue')
+    component: () => import('../views/MyPreview.vue')
   },
   {
     name: 'edit-load',
