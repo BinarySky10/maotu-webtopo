@@ -315,10 +315,10 @@ const onBgImgChange = (e: UploadFile) => {
     bg_img_list.value = [];
     return false;
   } else if (e.raw!.size / 1024 / 1024 > 1) {
-    ElMessage.error('不能上传超过1MB的图像!');
-    canvasBgImgUploadRef.value.clearFiles();
-    bg_img_list.value = [];
-    return false;
+    // ElMessage.error('不能上传超过1MB的图像!');
+    // canvasBgImgUploadRef.value.clearFiles();
+    // bg_img_list.value = [];
+    // return false;
   }
   blobToBase64(e.raw!).then((base64) => {
     emits('update:canvasCfg', {

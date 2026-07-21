@@ -1,6 +1,66 @@
 <script setup lang="ts">
 import { leftAsideStore } from '@/export';
 import demo from '/svgs/demo.svg?raw';
+
+const getRegisterConfig = (records: any) => {
+  const register_config: any = [];
+  for (const key in records) {
+    //根据路径获取svg文件名
+    const name = key.split('/').pop()!.split('.')[0];
+    register_config.push({
+      id: name,
+      title: name,
+      type: 'svg',
+      thumbnail: 'data:image/svg+xml;utf8,' + encodeURIComponent(records[key]),
+      svg: records[key]
+    });
+  }
+  return register_config;
+};
+const registers = (key, value) => {
+  const conf = getRegisterConfig(value);
+  leftAsideStore.registerConfig(key, conf);
+};
+
+const tests = {
+  aa: import.meta.glob(`./assets/svgs/test/aa/**.svg`, {
+    eager: true,
+    as: 'raw'
+  }),
+  chemical: import.meta.glob(`./assets/svgs/test/chemical/**.svg`, {
+    eager: true,
+    as: 'raw'
+  }),
+  test2: import.meta.glob(`./assets/svgs/test/test2/**.svg`, {
+    eager: true,
+    as: 'raw'
+  }),
+  'material-handler': import.meta.glob(`./assets/svgs/test/material-handler/**.svg`, {
+    eager: true,
+    as: 'raw'
+  }),
+  pumps: import.meta.glob(`./assets/svgs/test/pumps/**.svg`, {
+    eager: true,
+    as: 'raw'
+  }),
+
+  tanks: import.meta.glob(`./assets/svgs/test/tanks/**.svg`, {
+    eager: true,
+    as: 'raw'
+  }),
+  valves: import.meta.glob(`./assets/svgs/test/valves/**.svg`, {
+    eager: true,
+    as: 'raw'
+  }),
+  water: import.meta.glob(`./assets/svgs/test/water/**.svg`, {
+    eager: true,
+    as: 'raw'
+  })
+};
+Object.entries(tests).forEach(([key, value]) => {
+  registers(key, value);
+});
+
 const electrical_modules_files = import.meta.glob('./assets/svgs/electrical/**.svg', {
   eager: true,
   as: 'raw'
@@ -188,61 +248,6 @@ leftAsideStore.registerConfig('开发测试用', [
     }
   }
 ]);
-
-const getRegisterConfig = (records: any) => {
-  const register_config: any = [];
-  for (const key in records) {
-    //根据路径获取svg文件名
-    const name = key.split('/').pop()!.split('.')[0];
-    register_config.push({
-      id: name,
-      title: name,
-      type: 'svg',
-      thumbnail: 'data:image/svg+xml;utf8,' + encodeURIComponent(records[key]),
-      svg: records[key]
-    });
-  }
-  return register_config;
-};
-const registers = (key, value) => {
-  const conf = getRegisterConfig(value);
-  leftAsideStore.registerConfig(key, conf);
-};
-
-const tests = {
-  chemical: import.meta.glob(`./assets/svgs/test/chemical/**.svg`, {
-    eager: true,
-    as: 'raw'
-  }),
-  test2: import.meta.glob(`./assets/svgs/test/test2/**.svg`, {
-    eager: true,
-    as: 'raw'
-  }),
-  'material-handler': import.meta.glob(`./assets/svgs/test/material-handler/**.svg`, {
-    eager: true,
-    as: 'raw'
-  }),
-  pumps: import.meta.glob(`./assets/svgs/test/pumps/**.svg`, {
-    eager: true,
-    as: 'raw'
-  }),
-
-  tanks: import.meta.glob(`./assets/svgs/test/tanks/**.svg`, {
-    eager: true,
-    as: 'raw'
-  }),
-  valves: import.meta.glob(`./assets/svgs/test/valves/**.svg`, {
-    eager: true,
-    as: 'raw'
-  }),
-  water: import.meta.glob(`./assets/svgs/test/water/**.svg`, {
-    eager: true,
-    as: 'raw'
-  })
-};
-Object.entries(tests).forEach(([key, value]) => {
-  registers(key, value);
-});
 </script>
 
 <template>

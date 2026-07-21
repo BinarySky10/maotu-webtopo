@@ -7,7 +7,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { MtPreview } from '@/export';
+import MtPreview from '@/components/mt-preview/index.vue';
 import { ElButton } from 'element-plus';
 import { ref } from 'vue';
 const svgPreviewRef = ref<InstanceType<typeof MtPreview>>();

@@ -35,7 +35,7 @@
       <slot></slot>
     </render-item>
     <div v-if="MtDzrProps.resize && !MtDzrProps.lock && MtDzrProps.active && !MtDzrProps.disabled">
-      <resize-handle
+      <ResizeHandle
         v-model:item-info="mt_dzr_vmodel"
         :target-dom="dzrRef"
         :scale-ratio="MtDzrProps.scaleRatio"
@@ -44,16 +44,16 @@
         :use-proportional-scaling="MtDzrProps.useProportionalScaling"
         @on-resize-done="onResizeDone"
         @on-resize-move="(val) => onResizeMove(val)"
-      ></resize-handle>
+      ></ResizeHandle>
     </div>
-    <rotate-handle
+    <RotateHandle
       v-if="MtDzrProps.rotate && !MtDzrProps.lock && MtDzrProps.active && !MtDzrProps.disabled"
       v-model:item-info="mt_dzr_vmodel"
       :target-dom="dzrRef"
       :gen-id="gen_id"
       @on-rotate-done="onRotateDone"
       @on-rotate-move="(val) => onRotateMove(val)"
-    ></rotate-handle>
+    ></RotateHandle>
   </div>
 </template>
 <script setup lang="ts">

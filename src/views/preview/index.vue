@@ -2,7 +2,7 @@
   <mt-preview ref="MtPreviewRef" @on-event-call-back="onEventCallBack"></mt-preview>
 </template>
 <script setup lang="ts">
-import { MtPreview } from '@/export';
+import MtPreview from '@/components/mt-preview/index.vue';
 import { onMounted, ref } from 'vue';
 import { ElMessage } from 'element-plus';
 const MtPreviewRef = ref<InstanceType<typeof MtPreview>>();
