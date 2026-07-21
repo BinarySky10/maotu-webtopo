@@ -1,3 +1,79 @@
 {
-  "a": 2
+  "canvasCfg": {
+    "width": 1920,
+    "height": 1080,
+    "scale": 1,
+    "color": "",
+    "img": "",
+    "guide": true,
+    "adsorp": true,
+    "adsorp_diff": 5,
+    "transform_origin": {
+      "x": 0,
+      "y": 0
+    },
+    "drag_offset": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "gridCfg": {
+    "enabled": true,
+    "align": true,
+    "size": 10
+  },
+  "json": [
+    {
+      "id": "pump1-F0G5hU7xG5",
+      "title": "pump1",
+      "type": "svg",
+      "binfo": {
+        "left": 260,
+        "top": 360,
+        "width": 440,
+        "height": 270,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "pump1",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "水泵-gpMScTixV3",
+      "title": "水泵",
+      "type": "svg",
+      "binfo": {
+        "left": 250,
+        "top": 0,
+        "width": 430,
+        "height": 300,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "水泵",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    }
+  ]
 }

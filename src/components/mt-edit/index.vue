@@ -171,9 +171,18 @@ const onImportClick = () => {
   import_visible.value = true;
   mainPanelRef.value?.stopListenerKeyDown();
 };
+import { savePublicJson } from '@/api/mock';
 const onExportClick = () => {
   export_visible.value = true;
   mainPanelRef.value?.stopListenerKeyDown();
+  //保存到json
+  const { exportJson } = genExportJson(
+    globalStore.canvasCfg,
+    globalStore.gridCfg,
+    objectDeepClone(globalStore.done_json)
+  );
+  //todo: 修改json文件名
+  savePublicJson('test.json', exportJson);
 };
 const onTreeUpdateSelectedItemsId = (id: string) => {
   globalStore.setSingleSelect(id);
