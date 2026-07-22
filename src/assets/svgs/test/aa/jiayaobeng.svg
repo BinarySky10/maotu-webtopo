@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="400"
+   height="550"
+   viewBox="0 0 400 550"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="exported_image.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.4818182"
+     inkscape:cx="200.09202"
+     inkscape:cy="275"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <!-- 底座 -->
+  <path
+     d="M 171.59509,487.97546 227.05521,487.30061 340,530 H 60 Z"
+     fill="#f7c43e"
+     stroke="#111111"
+     stroke-width="3"
+     id="path1"
+     sodipodi:nodetypes="ccccc" />
+  <!-- 泵体蜗壳 -->
+  <circle
+     cx="201.34969"
+     cy="389.69324"
+     r="100"
+     fill="#f7c43e"
+     stroke="#111111"
+     stroke-width="3"
+     id="circle1" />
+  <circle
+     cx="201.34969"
+     cy="396.44171"
+     r="45"
+     fill="#111111"
+     id="circle2" />
+  <circle
+     cx="200"
+     cy="397.11658"
+     r="30"
+     fill="#888888"
+     id="circle3" />
+  <!-- 泵体上部连接段 -->
+  <path
+     d="M110 250 L290 250 L265 310 L135 310 Z"
+     fill="#f7c43e"
+     stroke="#111111"
+     stroke-width="3"
+     id="path3" />
+  <!-- 黑色电机箱体 -->
+  <rect
+     x="102.54118"
+     y="34.013577"
+     width="200.31641"
+     height="183.75198"
+     rx="6.0094924"
+     fill="#111111"
+     stroke="#000000"
+     stroke-width="2.68359"
+     id="rect3" />
+  <!-- 电机底部法兰 -->
+  <rect
+     x="107.42849"
+     y="244.88248"
+     width="184.46819"
+     height="18.235048"
+     rx="1.6769834"
+     fill="#111111"
+     stroke="#000000"
+     stroke-width="2.76495"
+     id="rect4" />
+  <!-- 左侧黄色连接法兰 -->
+  <rect
+     x="83.760384"
+     y="319.68063"
+     width="24.53446"
+     height="135.97617"
+     fill="#f7c43e"
+     stroke="#111111"
+     stroke-width="3.46554"
+     id="rect5" />
+  <!-- 蓝色泵头主体 -->
+  <!-- 蓝色上下法兰 -->
+  <!-- 蓝色泵头侧面加强块 -->
+  <rect
+     x="57.818684"
+     y="287.05179"
+     width="10.963861"
+     height="201.78595"
+     fill="#1e3aa8"
+     stroke="#111111"
+     stroke-width="3.03614"
+     id="rect9" />
+  <rect
+     x="46.168922"
+     y="331.44501"
+     width="35.606934"
+     height="109.62534"
+     rx="3.1650608"
+     fill="#2646c4"
+     stroke="#111111"
+     stroke-width="2.94521"
+     id="rect6" />
+  <rect
+     x="47.71386"
+     y="301.02057"
+     width="30.842228"
+     height="12.46186"
+     rx="1.5421113"
+     fill="#2646c4"
+     stroke="#111111"
+     stroke-width="1.78967"
+     id="rect7" />
+  <rect
+     x="46.412827"
+     y="455.70731"
+     width="32.76944"
+     height="13.039378"
+     rx="1.638472"
+     fill="#2646c4"
+     stroke="#111111"
+     stroke-width="1.887"
+     id="rect8" />
+  <rect
+     x="143.84856"
+     y="218.29028"
+     width="111.81821"
+     height="25.216972"
+     rx="1.0165291"
+     fill="#111111"
+     stroke="#000000"
+     stroke-width="2.53149"
+     id="rect4-9" />
+</svg>
