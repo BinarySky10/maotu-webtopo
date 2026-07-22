@@ -1222,6 +1222,7 @@ defineExpose({
   height: v-bind('globalStore.canvasCfg.height + "px"');
   background-color: v-bind('globalStore.canvasCfg.color');
   background-image: v-bind('"url("+globalStore.canvasCfg.img+")"');
+  background-size: cover;
   left: v-bind('globalStore.canvasCfg.drag_offset.x + "px"');
   top: v-bind('globalStore.canvasCfg.drag_offset.y + "px"');
 }
