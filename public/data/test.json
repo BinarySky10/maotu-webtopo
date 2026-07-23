@@ -24,45 +24,29 @@
   },
   "json": [
     {
-      "id": "sys-line2-doyTc4fzGE",
-      "title": "自由连线2",
-      "type": "sys-line2",
+      "id": "text-vue-8VMVUONUqe",
+      "title": "文字",
+      "type": "vue",
       "binfo": {
-        "left": 400,
-        "top": 260,
-        "width": 825,
-        "height": 198,
+        "left": 460,
+        "top": 180,
+        "width": 200,
+        "height": 180,
         "angle": 0
       },
-      "resize": false,
-      "rotate": false,
+      "resize": true,
+      "rotate": true,
       "lock": false,
       "active": false,
       "hide": false,
       "props": {
-        "stroke": "#ff0000",
-        "stroke-width": 2,
-        "point_position": [
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 825,
-            "y": 198
-          }
-        ],
-        "ani_type": "none",
-        "ani_dur": 20,
-        "ani_color": "#0a7ae2",
-        "ani_reverse": false,
-        "ani_play": true,
-        "bind_anchors": {
-          "start": null,
-          "end": null
-        }
+        "text": "文字",
+        "fontFamily": "黑体",
+        "fontSize": 18,
+        "fill": "#FFF700",
+        "vertical": false
       },
-      "tag": "sys-line2",
+      "tag": "text-vue",
       "common_animations": {
         "val": "",
         "delay": "delay-0s",
