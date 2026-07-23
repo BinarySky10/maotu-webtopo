@@ -56,6 +56,7 @@
         stroke-width="16"
         stroke-linecap="round"
         stroke-linejoin="round"
+        class="real"
       />
 
       <!-- 多段流光层 1 -->
@@ -451,6 +452,12 @@ watch(
   () => lineRenderProps.itemJson.props.point_position.val,
   (new_val: { x: number; y: number }[]) => {
     addPointPosition.value = getCenterPositions(new_val);
+    const xx = positionArrarToPath(
+      lineRenderProps.itemJson.props.point_position.val,
+      lineRenderProps.itemJson.binfo.left + offset,
+      lineRenderProps.itemJson.binfo.top + offset
+    );
+    console.log(xx);
   },
   {
     immediate: true,
