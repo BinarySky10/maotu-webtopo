@@ -89,30 +89,10 @@ import { globalStore } from '../../store/global';
 import type { onItemMoveParams } from './types';
 import { eventToVOn } from '../../utils';
 import { cacheStore } from '../../store/cache';
-import { getCurrentInstance } from 'vue';
-import TextVue from '@/components/custom-components/text-vue/index.vue';
-import CardVue from '@/components/custom-components/card-vue/index.vue';
-import NowTimeVue from '@/components/custom-components/now-time-vue/index.vue';
-import KvVue from '@/components/custom-components/kv-vue/index.vue';
-import SysButtonVue from '@/components/custom-components/sys-button-vue/index.vue';
 import { ElPopover } from 'element-plus';
-const instance = getCurrentInstance();
-const now_include_keys = Object.keys(instance?.appContext?.components as any);
-if (!now_include_keys.includes('text-vue')) {
-  instance?.appContext.app.component('text-vue', TextVue);
-}
-if (!now_include_keys.includes('card-vue')) {
-  instance?.appContext.app.component('card-vue', CardVue);
-}
-if (!now_include_keys.includes('now-time-vue')) {
-  instance?.appContext.app.component('now-time-vue', NowTimeVue);
-}
-if (!now_include_keys.includes('kv-vue')) {
-  instance?.appContext.app.component('kv-vue', KvVue);
-}
-if (!now_include_keys.includes('sys-button-vue')) {
-  instance?.appContext.app.component('sys-button-vue', SysButtonVue);
-}
+import { useGlobalComponent } from './hook';
+useGlobalComponent();
+
 type RenderCoreProps = {
   doneJson: IDoneJson[];
   canvasCfg: IGlobalStoreCanvasCfg;
