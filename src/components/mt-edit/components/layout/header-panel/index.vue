@@ -347,8 +347,29 @@ const onDeleteClick = () => {
 const onExportClick = () => {
   emits('onExportClick');
 };
+import { ElMessage, ElMessageBox } from 'element-plus';
+
 const onExportFileClick = () => {
-  emits('onExportFileClick', fileName.value);
+  const handleDelete = (callback?: () => void) => {
+    ElMessageBox.confirm(`确定要保存到${fileName.value}.json吗？覆盖后无法恢复', '操作确认`, {
+      confirmButtonText: '确认保存',
+      cancelButtonText: '取消',
+      type: 'warning' // success / info / warning / error
+    })
+      .then(() => {
+        // 点击确认执行逻辑
+        ElMessage.success('保存成功');
+        callback?.();
+      })
+      .catch(() => {
+        // 点击取消
+        ElMessage.info('取消操作');
+      });
+  };
+  handleDelete(() => {
+    emits('onExportFileClick', fileName.value);
+  });
+  // emits('onExportFileClick', fileName.value);
 };
 const onImportFileClick = () => {
   emits('onImportFileClick', fileName.value);

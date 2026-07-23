@@ -200,6 +200,10 @@ const canvas_size_options = [
       {
         value: '1280*720',
         label: '1280*720'
+      },
+      {
+        value: '1912*920',
+        label: '1912*920'
       }
     ]
   },

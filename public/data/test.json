@@ -22,5 +22,32 @@
     "align": true,
     "size": 10
   },
-  "json": []
+  "json": [
+    {
+      "id": "分档旋钮-ptRwU53Ttc",
+      "title": "分档旋钮",
+      "type": "svg",
+      "binfo": {
+        "left": 770,
+        "top": 290,
+        "width": 310,
+        "height": 270,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "分档旋钮",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    }
+  ]
 }

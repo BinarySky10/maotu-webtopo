@@ -178,5 +178,6 @@ defineExpose({
   height: v-bind('canvas_cfg.height + "px"');
   background-color: v-bind('canvas_cfg.color');
   background-image: v-bind('"url("+canvas_cfg.img+")"');
+  background-size: cover;
 }
 </style>
