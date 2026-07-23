@@ -2,19 +2,19 @@
   "canvasCfg": {
     "width": 1920,
     "height": 1080,
-    "scale": 1,
-    "color": "",
-    "img": "data:image/webp;base64,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",
+    "scale": 0.8,
+    "color": "#e5e5e5",
+    "img": "",
     "guide": true,
     "adsorp": true,
     "adsorp_diff": 5,
     "transform_origin": {
-      "x": 1285,
-      "y": 685
+      "x": 1125,
+      "y": 1007
     },
     "drag_offset": {
-      "x": -647,
-      "y": -248
+      "x": -145,
+      "y": -179
     }
   },
   "gridCfg": {
@@ -24,14 +24,14 @@
   },
   "json": [
     {
-      "id": "card-vue-ePGfdk1Wrn",
+      "id": "card-vue-NBaLWd131e",
       "title": "卡片",
       "type": "vue",
       "binfo": {
-        "left": 10,
-        "top": 100,
-        "width": 240,
-        "height": 150,
+        "left": 1230,
+        "top": 450,
+        "width": 670,
+        "height": 490,
         "angle": 0
       },
       "resize": true,
@@ -54,6 +54,36 @@
       "events": []
     },
     {
+      "id": "card-vue-ePGfdk1Wrn",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 10,
+        "top": 100,
+        "width": 240,
+        "height": 150,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": null,
+        "boxShadow": null
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
       "id": "card-vue-BlqDoYx7Mw",
       "title": "卡片",
       "type": "vue",
@@ -61,7 +91,7 @@
         "left": 10,
         "top": 260,
         "width": 240,
-        "height": 150,
+        "height": 160,
         "angle": 0
       },
       "resize": true,
@@ -91,7 +121,7 @@
         "left": 10,
         "top": 420,
         "width": 240,
-        "height": 160,
+        "height": 180,
         "angle": 0
       },
       "resize": true,
@@ -287,7 +317,7 @@
       "type": "svg",
       "binfo": {
         "left": 30,
-        "top": 312.20001220703125,
+        "top": 330.45001220703125,
         "width": 60,
         "height": 80,
         "angle": 0
@@ -313,7 +343,7 @@
       "type": "svg",
       "binfo": {
         "left": 90,
-        "top": 311.75,
+        "top": 329.4312744140625,
         "width": 60,
         "height": 80,
         "angle": 0
@@ -339,7 +369,7 @@
       "type": "svg",
       "binfo": {
         "left": 150,
-        "top": 312.20001220703125,
+        "top": 330.45001220703125,
         "width": 60,
         "height": 80,
         "angle": 0
@@ -365,7 +395,7 @@
       "type": "vue",
       "binfo": {
         "left": 50,
-        "top": 318.20001220703125,
+        "top": 336.45001220703125,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -395,7 +425,7 @@
       "type": "vue",
       "binfo": {
         "left": 110,
-        "top": 319.20001220703125,
+        "top": 337.45001220703125,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -425,7 +455,7 @@
       "type": "vue",
       "binfo": {
         "left": 170,
-        "top": 319.20001220703125,
+        "top": 337.45001220703125,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -441,58 +471,6 @@
         "round": true
       },
       "tag": "sys-button-vue",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "sys-line2-RjlhMOO7n5",
-      "title": "自由连线2",
-      "type": "sys-line2",
-      "binfo": {
-        "left": 160,
-        "top": 540,
-        "width": 100,
-        "height": 0,
-        "angle": 0
-      },
-      "resize": false,
-      "rotate": false,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "stroke": "#ff0000",
-        "stroke-width": 2,
-        "point_position": [
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 112,
-            "y": -0.5
-          },
-          {
-            "x": 113,
-            "y": -472
-          }
-        ],
-        "ani_type": "none",
-        "ani_dur": 20,
-        "ani_color": "#0a7ae2",
-        "ani_reverse": false,
-        "ani_play": true,
-        "bind_anchors": {
-          "start": null,
-          "end": null
-        }
-      },
-      "tag": "sys-line2",
       "common_animations": {
         "val": "",
         "delay": "delay-0s",
@@ -525,33 +503,6 @@
         "repeat": "infinite"
       },
       "events": [],
-      "props": {}
-    },
-    {
-      "id": "valve1-NlK4yawUPZ",
-      "title": "valve1",
-      "type": "svg",
-      "binfo": {
-        "left": 170,
-        "top": 490,
-        "width": 60,
-        "height": 60,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": false,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "valve1",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "use_proportional_scaling": true,
       "props": {}
     },
     {
@@ -795,84 +746,6 @@
       "events": []
     },
     {
-      "id": "valve1-MQqmS43nWi",
-      "title": "valve1",
-      "type": "svg",
-      "binfo": {
-        "left": 470,
-        "top": 113,
-        "width": 60,
-        "height": 60,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "valve1",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "valve1-rJ3GcbqnJa",
-      "title": "valve1",
-      "type": "svg",
-      "binfo": {
-        "left": 470,
-        "top": 309.375,
-        "width": 60,
-        "height": 60,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "valve1",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "valve1-6NvelsaNT5",
-      "title": "valve1",
-      "type": "svg",
-      "binfo": {
-        "left": 470,
-        "top": 400,
-        "width": 60,
-        "height": 60,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "valve1",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
       "id": "流量计-WAxegTWobV",
       "title": "流量计",
       "type": "svg",
@@ -889,58 +762,6 @@
       "active": false,
       "hide": false,
       "tag": "流量计",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "valve1-Gl9AkXGhZ3",
-      "title": "valve1",
-      "type": "svg",
-      "binfo": {
-        "left": 470,
-        "top": 211.8125,
-        "width": 60,
-        "height": 60,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "valve1",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "valve1-mUlAw8GGY0",
-      "title": "valve1",
-      "type": "svg",
-      "binfo": {
-        "left": 470,
-        "top": 493,
-        "width": 60,
-        "height": 60,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "valve1",
       "common_animations": {
         "val": "",
         "delay": "delay-0s",
@@ -1059,10 +880,10 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 990,
-        "top": 160,
-        "width": 100,
-        "height": 0,
+        "left": 1051.0000610351562,
+        "top": 100,
+        "width": 2.9998779296875,
+        "height": 479.00001525878906,
         "angle": 0
       },
       "resize": false,
@@ -1075,12 +896,12 @@
         "stroke-width": 2,
         "point_position": [
           {
-            "x": 61,
-            "y": -60
+            "x": -0.00006103515625,
+            "y": 0
           },
           {
-            "x": 64,
-            "y": 382
+            "x": 2.99993896484375,
+            "y": 479
           }
         ],
         "ani_type": "none",
@@ -1101,166 +922,6 @@
         "repeat": "infinite"
       },
       "events": []
-    },
-    {
-      "id": "card-vue-OvgBF1Xtdt",
-      "title": "卡片",
-      "type": "vue",
-      "binfo": {
-        "left": 560,
-        "top": 110,
-        "width": 370,
-        "height": 470,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "shadow": "always",
-        "backGroundColor": "#ffffff",
-        "boxShadow": "#ffffff"
-      },
-      "tag": "card-vue",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "valve1-Vad7ybGCsk",
-      "title": "valve1",
-      "type": "svg",
-      "binfo": {
-        "left": 940,
-        "top": 116,
-        "width": 60,
-        "height": 60,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "valve1",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "valve1-eN4rUlSkFf",
-      "title": "valve1",
-      "type": "svg",
-      "binfo": {
-        "left": 940,
-        "top": 211.8125,
-        "width": 60,
-        "height": 60,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "valve1",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "valve1-8BckCiC31X",
-      "title": "valve1",
-      "type": "svg",
-      "binfo": {
-        "left": 940,
-        "top": 312.1875,
-        "width": 60,
-        "height": 60,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "valve1",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "valve1-mJSL13UAf4",
-      "title": "valve1",
-      "type": "svg",
-      "binfo": {
-        "left": 940,
-        "top": 400,
-        "width": 60,
-        "height": 60,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "valve1",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "valve1-9qx9lXLPqo",
-      "title": "valve1",
-      "type": "svg",
-      "binfo": {
-        "left": 940,
-        "top": 490,
-        "width": 60,
-        "height": 60,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "valve1",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
     },
     {
       "id": "card-vue-a6qz17pC2W",
@@ -1330,7 +991,7 @@
         "left": 1620,
         "top": 290,
         "width": 280,
-        "height": 150,
+        "height": 130,
         "angle": 0
       },
       "resize": true,
@@ -1360,7 +1021,7 @@
         "left": 1340,
         "top": 290,
         "width": 280,
-        "height": 150,
+        "height": 130,
         "angle": 0
       },
       "resize": true,
@@ -1381,166 +1042,6 @@
         "repeat": "infinite"
       },
       "events": []
-    },
-    {
-      "id": "card-vue-mDFsVo1Vn5",
-      "title": "卡片",
-      "type": "vue",
-      "binfo": {
-        "left": 1340,
-        "top": 450,
-        "width": 560,
-        "height": 410,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "shadow": "always",
-        "backGroundColor": "#ffffff",
-        "boxShadow": "#ffffff"
-      },
-      "tag": "card-vue",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "水泵-SDRpKzUy5y",
-      "title": "水泵",
-      "type": "svg",
-      "binfo": {
-        "left": 1430,
-        "top": 455,
-        "width": 110,
-        "height": 100,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "水泵",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "水泵-dzxaloTvyI",
-      "title": "水泵",
-      "type": "svg",
-      "binfo": {
-        "left": 1430,
-        "top": 526,
-        "width": 110,
-        "height": 100,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "水泵",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "水泵-Oh2slJAE0p",
-      "title": "水泵",
-      "type": "svg",
-      "binfo": {
-        "left": 1430,
-        "top": 600,
-        "width": 110,
-        "height": 100,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "水泵",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "水泵-ECa403sGbD",
-      "title": "水泵",
-      "type": "svg",
-      "binfo": {
-        "left": 1430,
-        "top": 670,
-        "width": 110,
-        "height": 100,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "水泵",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "水泵-Vegl26Do90",
-      "title": "水泵",
-      "type": "svg",
-      "binfo": {
-        "left": 1430,
-        "top": 750,
-        "width": 110,
-        "height": 100,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "水泵",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
     },
     {
       "id": "jiayaobeng-qwXwf5tGMx",
@@ -1867,7 +1368,7 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 780,
+        "left": 770,
         "top": 760,
         "width": 100,
         "height": 0,
@@ -2011,54 +1512,6 @@
       "props": {}
     },
     {
-      "id": "sys-line2-54oSRcly4w",
-      "title": "自由连线2",
-      "type": "sys-line2",
-      "binfo": {
-        "left": 1230,
-        "top": 790,
-        "width": 100,
-        "height": 0,
-        "angle": 0
-      },
-      "resize": false,
-      "rotate": false,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "stroke": "#ff0000",
-        "stroke-width": 2,
-        "point_position": [
-          {
-            "x": -7,
-            "y": 4
-          },
-          {
-            "x": -12,
-            "y": -688
-          }
-        ],
-        "ani_type": "none",
-        "ani_dur": 20,
-        "ani_color": "#0a7ae2",
-        "ani_reverse": false,
-        "ani_play": true,
-        "bind_anchors": {
-          "start": null,
-          "end": null
-        }
-      },
-      "tag": "sys-line2",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
       "id": "sys-line2-UuPHHtRnUM",
       "title": "自由连线2",
       "type": "sys-line2",
@@ -2158,54 +1611,6 @@
           },
           {
             "x": 205,
-            "y": 0
-          }
-        ],
-        "ani_type": "none",
-        "ani_dur": 20,
-        "ani_color": "#0a7ae2",
-        "ani_reverse": false,
-        "ani_play": true,
-        "bind_anchors": {
-          "start": null,
-          "end": null
-        }
-      },
-      "tag": "sys-line2",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "sys-line2-q3gOerknHe",
-      "title": "自由连线2",
-      "type": "sys-line2",
-      "binfo": {
-        "left": 1250,
-        "top": 250,
-        "width": 100,
-        "height": 0,
-        "angle": 0
-      },
-      "resize": false,
-      "rotate": false,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "stroke": "#ff0000",
-        "stroke-width": 2,
-        "point_position": [
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 100,
             "y": 0
           }
         ],
@@ -2334,7 +1739,7 @@
       "type": "sys-line2",
       "binfo": {
         "left": 1240,
-        "top": 500,
+        "top": 545,
         "width": 100,
         "height": 0,
         "angle": 0
@@ -2382,7 +1787,7 @@
       "type": "sys-line2",
       "binfo": {
         "left": 1240,
-        "top": 570,
+        "top": 624,
         "width": 100,
         "height": 0,
         "angle": 0
@@ -2430,7 +1835,7 @@
       "type": "sys-line2",
       "binfo": {
         "left": 1240,
-        "top": 650,
+        "top": 707,
         "width": 100,
         "height": 0,
         "angle": 0
@@ -2478,7 +1883,7 @@
       "type": "sys-line2",
       "binfo": {
         "left": 1250,
-        "top": 710,
+        "top": 783,
         "width": 100,
         "height": 0,
         "angle": 0
@@ -2525,8 +1930,116 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 1250,
-        "top": 790,
+        "left": 1223.999972873264,
+        "top": 851.999986436632,
+        "width": 212.00005425347223,
+        "height": 29.499986436631943,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": 0.00002712673608584737,
+            "y": 0.000013563368042923685
+          },
+          {
+            "x": 0.5000271267360858,
+            "y": 29.500013563368043
+          },
+          {
+            "x": 67.75002712673609,
+            "y": 29.250013563368043
+          },
+          {
+            "x": 212.0000271267361,
+            "y": 29.000013563368043
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "blower-Jzt5CspSvU",
+      "title": "blower",
+      "type": "svg",
+      "binfo": {
+        "left": 1690,
+        "top": 141.45001220703125,
+        "width": 140,
+        "height": 70,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "blower",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "blower-2CnreUvMf8",
+      "title": "blower",
+      "type": "svg",
+      "binfo": {
+        "left": 1690,
+        "top": 211.45001220703125,
+        "width": 140,
+        "height": 70,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "blower",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-54oSRcly4w",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 1230,
+        "top": 850,
         "width": 100,
         "height": 0,
         "angle": 0
@@ -2541,20 +2054,12 @@
         "stroke-width": 2,
         "point_position": [
           {
-            "x": -23,
-            "y": 1
+            "x": -7,
+            "y": 4
           },
           {
-            "x": 41.5,
-            "y": 0.5
-          },
-          {
-            "x": 40.75,
-            "y": 10.25
-          },
-          {
-            "x": 182,
-            "y": 10
+            "x": -12,
+            "y": -688
           }
         ],
         "ani_type": "none",
@@ -2568,6 +2073,1398 @@
         }
       },
       "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "sys-line2-3cCg0oXe1c",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 1456.5000915527344,
+        "top": 509.50000762939453,
+        "width": 273.4999084472656,
+        "height": 13.499984741210938,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": 0.499908447265625,
+            "y": 13.499992370605469
+          },
+          {
+            "x": -0.000091552734375,
+            "y": -0.00000762939453125
+          },
+          {
+            "x": 273.4999084472656,
+            "y": 0.49999237060546875
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "水泵-SDRpKzUy5y",
+      "title": "水泵",
+      "type": "svg",
+      "binfo": {
+        "left": 1430,
+        "top": 500,
+        "width": 110,
+        "height": 100,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "水泵",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-oxK4HinS6L",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 950,
+        "top": 219.08126831054688,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-9QoTw91qRk",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 950,
+        "top": 313.71875,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-z1sSE1zGH2",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 950,
+        "top": 406,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-cDvYdQltSg",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 950,
+        "top": 495,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-dBLbd5pHtq",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 950,
+        "top": 120.80001831054688,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-fnW7CWSgiG",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 480,
+        "top": 218.89376831054688,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-oWmrBww8aT",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 480,
+        "top": 316.3811950683594,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-3VrVsSzTLz",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 480,
+        "top": 406.9187316894531,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-0vbOJ7OJh2",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 480,
+        "top": 497.0875244140625,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-oPDq7H7HuN",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 480,
+        "top": 121.71875,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-GWNzGqy0EO",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 180,
+        "top": 499.4937744140625,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-tya8dhauqH",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 1600,
+        "top": 478,
+        "width": 40,
+        "height": 40,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-OBsLlNBsbL",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 1456.5000915527344,
+        "top": 591.5000076293945,
+        "width": 273.4999084472656,
+        "height": 13.499984741210938,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": 0.499908447265625,
+            "y": 13.499992370605469
+          },
+          {
+            "x": -0.000091552734375,
+            "y": -0.00000762939453125
+          },
+          {
+            "x": 273.4999084472656,
+            "y": 0.49999237060546875
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "valveorigin-nuuj6xli5m",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 1600,
+        "top": 563.1640930175781,
+        "width": 40,
+        "height": 40,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-1YjKNsYMU1",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 1456.5000915527344,
+        "top": 668.3359146118164,
+        "width": 273.4999084472656,
+        "height": 13.499984741210938,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": 0.499908447265625,
+            "y": 13.499992370605469
+          },
+          {
+            "x": -0.000091552734375,
+            "y": -0.00000762939453125
+          },
+          {
+            "x": 273.4999084472656,
+            "y": 0.49999237060546875
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "valveorigin-7DwFf4neHg",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 1600,
+        "top": 636.737548828125,
+        "width": 40,
+        "height": 40,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-TgLz75pYXt",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 1456.5000915527344,
+        "top": 751.5983657836914,
+        "width": 273.4999084472656,
+        "height": 13.499984741210938,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": 0.499908447265625,
+            "y": 13.499992370605469
+          },
+          {
+            "x": -0.000091552734375,
+            "y": -0.00000762939453125
+          },
+          {
+            "x": 273.4999084472656,
+            "y": 0.49999237060546875
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "valveorigin-GrZTzvcJ3d",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 1600,
+        "top": 719.9953002929688,
+        "width": 40,
+        "height": 40,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-T0chvU8DS5",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 1456.5000915527344,
+        "top": 838.6030654907227,
+        "width": 273.4999084472656,
+        "height": 13.499984741210938,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": 0.499908447265625,
+            "y": 13.499992370605469
+          },
+          {
+            "x": -0.000091552734375,
+            "y": -0.00000762939453125
+          },
+          {
+            "x": 273.4999084472656,
+            "y": 0.49999237060546875
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "valveorigin-TpTKlx4mtS",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 1600,
+        "top": 806.859375,
+        "width": 40,
+        "height": 40,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "水泵-Vegl26Do90",
+      "title": "水泵",
+      "type": "svg",
+      "binfo": {
+        "left": 1430,
+        "top": 830,
+        "width": 110,
+        "height": 100,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "水泵",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "水泵-ECa403sGbD",
+      "title": "水泵",
+      "type": "svg",
+      "binfo": {
+        "left": 1430,
+        "top": 740.5671997070312,
+        "width": 110,
+        "height": 100,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "水泵",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "水泵-Oh2slJAE0p",
+      "title": "水泵",
+      "type": "svg",
+      "binfo": {
+        "left": 1430,
+        "top": 656,
+        "width": 110,
+        "height": 100,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "水泵",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "水泵-dzxaloTvyI",
+      "title": "水泵",
+      "type": "svg",
+      "binfo": {
+        "left": 1430,
+        "top": 580,
+        "width": 110,
+        "height": 100,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "水泵",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "card-vue-knXo81jTIn",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 580,
+        "top": 110,
+        "width": 320,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": "#666666",
+        "boxShadow": "#ffffff"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "card-vue-jvor98UPBg",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 580,
+        "top": 204,
+        "width": 320,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": "#666666",
+        "boxShadow": "#ffffff"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "card-vue-GEEwAYnco1",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 580,
+        "top": 297.75,
+        "width": 320,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": "#666666",
+        "boxShadow": "#ffffff"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "card-vue-7kkglfGUWN",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 580,
+        "top": 394,
+        "width": 320,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": "#666666",
+        "boxShadow": "#ffffff"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "card-vue-QacaDHYANR",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 580,
+        "top": 490,
+        "width": 320,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": "#666666",
+        "boxShadow": "#ffffff"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-zTscWTCCZu",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 20,
+        "top": 90,
+        "width": 150,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "一期PAC加药系统",
+        "fontFamily": "黑体",
+        "fontSize": 18,
+        "fill": "#480862",
+        "vertical": false
+      },
+      "tag": "text-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-u8yVlLfrMY",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 20,
+        "top": 250,
+        "width": 170,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "二三期PAC加药系统",
+        "fontFamily": "黑体",
+        "fontSize": 18,
+        "fill": "#480862",
+        "vertical": false
+      },
+      "tag": "text-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-Hd62LpAInz",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 20,
+        "top": 412.97808837890625,
+        "width": 170,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "取水系统",
+        "fontFamily": "黑体",
+        "fontSize": 18,
+        "fill": "#480862",
+        "vertical": false
+      },
+      "tag": "text-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-a12dULJhQy",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 80,
+        "top": 570,
+        "width": 50,
+        "height": 30,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "集水池",
+        "fontFamily": "黑体",
+        "fontSize": 12,
+        "fill": "#060606",
+        "vertical": false
+      },
+      "tag": "text-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "sys-line2-RjlhMOO7n5",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 160,
+        "top": 540,
+        "width": 100,
+        "height": 0,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 112,
+            "y": -0.5
+          },
+          {
+            "x": 113,
+            "y": -472
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-9Kd6Oizsyx",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 170,
+        "top": 820,
+        "width": 80,
+        "height": 30,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "一期清水池",
+        "fontFamily": "黑体",
+        "fontSize": 12,
+        "fill": "#060606",
+        "vertical": false
+      },
+      "tag": "text-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-KdbRqpF8d5",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 550,
+        "top": 810,
+        "width": 70,
+        "height": 30,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "二期清水池",
+        "fontFamily": "黑体",
+        "fontSize": 12,
+        "fill": "#060606",
+        "vertical": false
+      },
+      "tag": "text-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-HGwFADA4hc",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 1000,
+        "top": 810,
+        "width": 50,
+        "height": 30,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "吸水池",
+        "fontFamily": "黑体",
+        "fontSize": 12,
+        "fill": "#060606",
+        "vertical": false
+      },
+      "tag": "text-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-iNlGTMfPsc",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 1346.800048828125,
+        "top": 90,
+        "width": 150,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "反洗水系统",
+        "fontFamily": "黑体",
+        "fontSize": 18,
+        "fill": "#480862",
+        "vertical": false
+      },
+      "tag": "text-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-bZGyyLx8yT",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 1640,
+        "top": 90,
+        "width": 150,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "反洗气系统",
+        "fontFamily": "黑体",
+        "fontSize": 18,
+        "fill": "#480862",
+        "vertical": false
+      },
+      "tag": "text-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-jt0wovGad5",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 1356,
+        "top": 280.3500061035156,
+        "width": 150,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "一期消毒投加",
+        "fontFamily": "黑体",
+        "fontSize": 18,
+        "fill": "#480862",
+        "vertical": false
+      },
+      "tag": "text-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-sbJjG3vlDn",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 1626,
+        "top": 280.2750244140625,
+        "width": 150,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "二三期消毒投加",
+        "fontFamily": "黑体",
+        "fontSize": 18,
+        "fill": "#480862",
+        "vertical": false
+      },
+      "tag": "text-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-GpMyfkzlEd",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 960,
+        "top": 550,
+        "width": 90,
+        "height": 40,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "出水总管",
+        "fontFamily": "黑体",
+        "fontSize": 18,
+        "fill": "#060606",
+        "vertical": false
+      },
+      "tag": "text-vue",
       "common_animations": {
         "val": "",
         "delay": "delay-0s",
