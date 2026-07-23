@@ -5,7 +5,7 @@ import type {
   IDoneJsonBinfo,
   ILeftAsideConfigItemPublicProps
 } from '../store/types';
-
+import { useUpdateSysLine } from '@/components/mt-edit/composables/sys-line';
 export const createGroupInfo = (
   selected_items: IDoneJson[],
   canvas_dom: HTMLElement,
@@ -618,7 +618,160 @@ export const getRectCenterCoordinate = (
     rightCenter
   };
 };
+export const handleAlign = (
+  type:
+    | 'left'
+    | 'horizontally'
+    | 'right'
+    | 'top'
+    | 'vertically'
+    | 'bottom'
+    | 'horizontal-distribution'
+    | 'vertical-distribution',
+  selected_done_json: IDoneJson[],
+  canvasDom: HTMLElement,
+  scale: number,
+  global_done_json: IDoneJson[]
+) => {
+  switch (type) {
+    case 'left': {
+      // 取出最左边的元素 记录最左边的坐标
+      const left_x = Math.min(
+        ...selected_done_json.filter((f) => f.type !== 'sys-line').map((m) => m.binfo.left)
+      );
+      // 将所有元素的坐标都设置成最左边
+      selected_done_json
+        .filter((f) => f.type !== 'sys-line')
+        .forEach((m) => {
+          m.binfo.left = left_x;
+        });
+      break;
+    }
+    case 'horizontally': {
+      // 取出第一个元素的中点坐标 将其余元素的中点坐标都设置成这个
+      const center_x =
+        selected_done_json.filter((f) => f.type !== 'sys-line')[0].binfo.left +
+        selected_done_json[0].binfo.width / 2;
+      selected_done_json
+        .filter((f) => f.type !== 'sys-line')
+        .forEach((m) => {
+          m.binfo.left = center_x - m.binfo.width / 2;
+        });
+      break;
+    }
 
+    case 'right': {
+      // 取出最右边的元素 记录最右边的坐标
+      const right_x = Math.max(
+        ...selected_done_json
+          .filter((f) => f.type !== 'sys-line')
+          .map((m) => m.binfo.left + m.binfo.width)
+      );
+      // 将所有元素的坐标都设置成最右边
+      selected_done_json
+        .filter((f) => f.type !== 'sys-line')
+        .forEach((m) => {
+          m.binfo.left = right_x - m.binfo.width;
+        });
+      break;
+    }
+
+    case 'top': {
+      // 取出最上边的元素 记录最上边的坐标
+      const top_y = Math.min(
+        ...selected_done_json.filter((f) => f.type !== 'sys-line').map((m) => m.binfo.top)
+      );
+      // 将所有元素的坐标都设置成最上边
+      selected_done_json
+        .filter((f) => f.type !== 'sys-line')
+        .forEach((m) => {
+          m.binfo.top = top_y;
+        });
+      break;
+    }
+
+    case 'vertically': {
+      // 取出第一个元素的中点坐标 将其余元素的中点坐标都设置成这个
+      const center_y =
+        selected_done_json.filter((f) => f.type !== 'sys-line')[0].binfo.top +
+        selected_done_json[0].binfo.height / 2;
+      selected_done_json
+        .filter((f) => f.type !== 'sys-line')
+        .forEach((m) => {
+          m.binfo.top = center_y - m.binfo.height / 2;
+        });
+      break;
+    }
+
+    case 'bottom': {
+      // 取出最下边的元素 记录最下边的坐标
+      const bottom_y = Math.max(
+        ...selected_done_json
+          .filter((f) => f.type !== 'sys-line')
+          .map((m) => m.binfo.top + m.binfo.height)
+      );
+      // 将所有元素的坐标都设置成最下边
+      selected_done_json
+        .filter((f) => f.type !== 'sys-line')
+        .forEach((m) => {
+          m.binfo.top = bottom_y - m.binfo.height;
+        });
+      break;
+    }
+    case 'horizontal-distribution': {
+      // 将选中的元素按照水平方向中点坐标从小到大排序
+      selected_done_json.sort(
+        (a, b) => a.binfo.left + a.binfo.width / 2 - b.binfo.left + b.binfo.width / 2
+      );
+      const max_info = selected_done_json[selected_done_json.length - 1];
+      const min_info = selected_done_json[0];
+      const point_interval_x =
+        (max_info.binfo.left +
+          max_info.binfo.width / 2 -
+          (min_info.binfo.left + min_info.binfo.width / 2)) /
+        (selected_done_json.length - 1);
+      selected_done_json.forEach((f, index) => {
+        if (index == 0 || index == selected_done_json.length - 1) {
+          return;
+        }
+        const new_x = min_info.binfo.left + min_info.binfo.width / 2 + point_interval_x * index;
+        f.binfo = {
+          ...f.binfo,
+          left: new_x - f.binfo.width / 2
+        };
+      });
+      break;
+    }
+    case 'vertical-distribution': {
+      // 将选中的元素按照垂直方向中点坐标从小到大排序
+      selected_done_json.sort(
+        (a, b) => a.binfo.top + a.binfo.height / 2 - b.binfo.top + b.binfo.height / 2
+      );
+      const max_info = selected_done_json[selected_done_json.length - 1];
+      const min_info = selected_done_json[0];
+      const point_interval_y =
+        (max_info.binfo.top +
+          max_info.binfo.height / 2 -
+          (min_info.binfo.top + min_info.binfo.height / 2)) /
+        (selected_done_json.length - 1);
+      selected_done_json.forEach((f, index) => {
+        if (index == 0 || index == selected_done_json.length - 1) {
+          return;
+        }
+        const new_y = min_info.binfo.top + min_info.binfo.height / 2 + point_interval_y * index;
+        f.binfo = {
+          ...f.binfo,
+          top: new_y - f.binfo.height / 2
+        };
+      });
+      break;
+    }
+  }
+  // 更新绑定连线
+  const sys_lines = global_done_json.filter((f) => f.type === 'sys-line');
+  useUpdateSysLine(sys_lines, selected_done_json, canvasDom, scale);
+  return selected_done_json;
+};
 /**
  * 设置图形属性
  * @param id

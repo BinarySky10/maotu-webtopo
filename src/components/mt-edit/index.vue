@@ -13,6 +13,7 @@
           :selected-items-id="globalStore.selected_items_id"
           :group-enabled="header_group_enabled"
           :un-group-enabled="header_un_group_enabled"
+          :align-enabled="header_align_enabled"
           :delete-enabled="header_delete_enabled"
           :undo-enabled="cacheStore.historyIndex > 0"
           :redo-enabled="cacheStore.historyIndex < cacheStore.history.length - 1"
@@ -34,6 +35,7 @@
           @on-draw-line-click="onDrawLineClick"
           @onExportFileClick="onExportFileClick"
           @onImportFileClick="onImportFileClick"
+          @align-selected="onAlignSelected"
         ></header-panel>
       </el-header>
       <el-container class="h-[calc(100%-45px-40px)]">
@@ -160,7 +162,12 @@ const header_un_group_enabled = computed(() => {
   }
   return false;
 });
-
+const header_align_enabled = computed(() => {
+  const selected_items = globalStore.done_json.filter(
+    (f) => globalStore.selected_items_id.includes(f.id) && f.type !== 'sys-line'
+  );
+  return selected_items.length > 1;
+});
 const import_visible = ref(false);
 const export_visible = ref(false);
 const done_json_tree_visiable = ref(false);
@@ -216,6 +223,19 @@ const onDoneTreeUpdateSelectedIdHide = (id: string) => {
 
 const onHelpClick = () => {
   window.open('http://mt.yaolm.top');
+};
+const onAlignSelected = (
+  type:
+    | 'left'
+    | 'horizontally'
+    | 'right'
+    | 'top'
+    | 'vertically'
+    | 'bottom'
+    | 'horizontal-distribution'
+    | 'vertical-distribution'
+) => {
+  mainPanelRef.value?.onAlignSelected(type);
 };
 const onRedoClick = () => {
   mainPanelRef.value?.onRedo();
