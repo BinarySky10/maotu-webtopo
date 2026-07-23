@@ -81,7 +81,15 @@
         ></el-button-group>
         <el-divider direction="vertical"></el-divider>
         <el-button-group>
-          <ElInput v-model="fileName" style="width: 100px" placeholder="fileName" />
+          <!-- <ElInput v-model="fileName" style="width: 100px" placeholder="fileName" /> -->
+          <el-select v-model="fileName" style="width: 100px" placeholder="fileName">
+            <el-option
+              v-for="item in fileNames"
+              :key="item.value"
+              :label="item.label"
+              :value="item.value"
+            />
+          </el-select>
           <el-button text circle size="small" @click="onImportFileClick">
             <el-icon title="从文件导入" :size="20">
               <Upload />
@@ -278,13 +286,30 @@ import {
   ElImage,
   ElText,
   ElTag,
-  ElInput
+  ElInput,
+  ElOption,
+  ElOptionGroup,
+  ElSelect
 } from 'element-plus';
 import SvgAnalysis from '@/components/mt-edit/components/svg-analysis/index.vue';
 import type { IRealTimeData } from '@/components/mt-edit/store/types';
 import { Upload, Download } from '@element-plus/icons-vue';
-import { ref } from 'vue';
+import { ref, onMounted, computed } from 'vue';
+import { getFilelist } from '@/api/mock';
 const fileName = ref('');
+
+const fileNames = ref([]);
+
+onMounted(async () => {
+  const files = await getFilelist();
+  // files.value = files;
+  fileNames.value = files.map((fileFullName: string) => {
+    return {
+      value: fileFullName.slice(0, -5),
+      label: fileFullName.slice(0, -5)
+    };
+  });
+});
 type HeaderPanelProps = {
   leftAside: boolean;
   rightAside: boolean;

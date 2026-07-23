@@ -24,14 +24,14 @@
   },
   "json": [
     {
-      "id": "sys-line2-HD64povFVF",
+      "id": "sys-line2-doyTc4fzGE",
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 350,
-        "top": 290,
-        "width": 563,
-        "height": 0,
+        "left": 400,
+        "top": 260,
+        "width": 825,
+        "height": 198,
         "angle": 0
       },
       "resize": false,
@@ -48,8 +48,8 @@
             "y": 0
           },
           {
-            "x": 563,
-            "y": 0
+            "x": 825,
+            "y": 198
           }
         ],
         "ani_type": "none",

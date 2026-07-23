@@ -14,3 +14,9 @@ export async function savePublicJson(
   });
   return res.json();
 }
+export async function getFilelist() {
+  const res = await fetch(`data/fileList/fileList.json`);
+  const data = await res.json();
+  console.log('getFilelist', data);
+  return data;
+}

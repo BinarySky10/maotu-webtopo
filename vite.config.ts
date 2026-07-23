@@ -8,6 +8,37 @@ import UnoCSS from 'unocss/vite';
 import { createSvgIconsPlugin } from 'vite-plugin-svg-icons';
 import { viteMockServe } from 'vite-plugin-mock';
 import fs from 'fs/promises';
+import type { Plugin } from 'vite';
+import fsSync from 'fs';
+import path from 'path';
+
+function publicFileListWatcher(): Plugin {
+  const targetDir = path.resolve('./public/data');
+  const outputJson = path.resolve('./public/data/fileList/fileList.json');
+
+  // 生成清单函数
+  function refreshList() {
+    const files = fsSync
+      .readdirSync(targetDir, { withFileTypes: true })
+      .filter((e) => e.isFile())
+      .map((e) => e.name);
+    fsSync.writeFileSync(outputJson, JSON.stringify(files));
+  }
+
+  return {
+    name: 'public-file-list',
+    // 服务启动首次生成
+    configureServer() {
+      refreshList();
+      // 监听public目录文件变化，自动刷新清单
+      fs.watch(targetDir, () => refreshList());
+    },
+    // build打包前生成一次
+    configResolved() {
+      refreshList();
+    }
+  };
+}
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   let config: UserConfigExport = {
@@ -33,7 +64,8 @@ export default defineConfig(({ mode }) => {
       viteMockServe({
         mockPath: 'mock',
         enable: true
-      })
+      }),
+      publicFileListWatcher()
     ],
 
     resolve: {

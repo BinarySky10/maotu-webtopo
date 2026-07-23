@@ -18,7 +18,6 @@ export default [
                 // 同步创建目录，执行完才往下走
                 // 1. 先确保目录存在
                 fsSync.mkdirSync(targetDir, { recursive: true });
-                console.log('fullPath', fullPath);
 
                 fsSync.mkdirSync(targetDir, { recursive: true });
                 console.log('fullPath', fullPath);
