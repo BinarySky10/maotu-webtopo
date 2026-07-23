@@ -1,22 +1,12 @@
 import { getCurrentInstance } from 'vue';
-import TextVue from '@/components/custom-components/text-vue/index.vue';
-import CardVue from '@/components/custom-components/card-vue/index.vue';
-import NowTimeVue from '@/components/custom-components/now-time-vue/index.vue';
-import KvVue from '@/components/custom-components/kv-vue/index.vue';
-import SysButtonVue from '@/components/custom-components/sys-button-vue/index.vue';
 
+import { getGlobalComponent } from '@/components/custom-components/customComList';
 export function useGlobalComponent() {
   const instance = getCurrentInstance();
   if (!instance) return;
 
   const keys = Object.keys(instance.appContext.components as any);
-  const map = [
-    ['text-vue', TextVue],
-    ['card-vue', CardVue],
-    ['now-time-vue', NowTimeVue],
-    ['kv-vue', KvVue],
-    ['sys-button-vue', SysButtonVue]
-  ];
+  const map = getGlobalComponent();
 
   map.forEach(([tag, comp]) => {
     if (!keys.includes(tag as string)) {
