@@ -1,10 +1,25 @@
 <template>
-  <div class="box"></div>
+  <div class="box" :data-instance-id="instanceId">
+    <p>我是占位符</p>
+  </div>
 </template>
 <script setup lang="ts">
 import { ElDescriptions, ElDescriptionsItem } from 'element-plus';
 import type { PropType } from 'vue';
-const props = defineProps({});
+import { watch } from 'vue';
+const props = defineProps({ instanceId: String });
+watch(
+  () => props.instanceId,
+  (val) => {
+    if (val) {
+      console.log('val', val);
+      debugger;
+    }
+  },
+  {
+    immediate: true
+  }
+);
 </script>
 <style scoped>
 .box {

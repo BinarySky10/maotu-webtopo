@@ -581,6 +581,19 @@ const sysComponentItems: ILeftAsideConfigItem[] = [
       speed: 'slow',
       repeat: 'infinite'
     }
+  },
+  {
+    id: 'VueContainer',
+    title: 'vue容器',
+    type: 'vue',
+    thumbnail: `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjAgMjAiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTMgNmEzIDMgMCAwIDEgMy0zaDhhMyAzIDAgMCAxIDMgM3Y4YTMgMyAwIDAgMS0zIDNINmEzIDMgMCAwIDEtMy0zem0zLTJhMiAyIDAgMCAwLTIgMnYzLjVoNS41VjR6bTMuNSA2LjVINFYxNGEyIDIgMCAwIDAgMiAyaDMuNXptMSAwVjE2SDE0YTIgMiAwIDAgMCAyLTJ2LTMuNXptNS41LTFWNmEyIDIgMCAwIDAtMi0yaC0zLjV2NS41eiIvPjwvc3ZnPg==`,
+    props: {},
+    common_animations: {
+      val: '',
+      delay: 'delay-0s',
+      speed: 'slow',
+      repeat: 'infinite'
+    }
   }
 ];
 export const configStore: IConfig = reactive({
