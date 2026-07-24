@@ -1,7 +1,10 @@
 import type { Plugin } from 'vite';
+import fsSync from 'fs';
+import path from 'path';
+import fs from 'fs/promises';
 export function publicFileListWatcher(): Plugin {
-  const targetDir = path.resolve('../public/data');
-  const outputJson = path.resolve('../public/data/fileList/fileList.json');
+  const targetDir = path.resolve('./public/data');
+  const outputJson = path.resolve('./public/data/fileList/fileList.json');
 
   // 生成清单函数
   function refreshList() {
@@ -18,7 +21,7 @@ export function publicFileListWatcher(): Plugin {
     configureServer() {
       refreshList();
       // 监听public目录文件变化，自动刷新清单
-      fs.watch(targetDir, () => refreshList());
+      fsSync.watch(targetDir, () => refreshList());
     },
     // build打包前生成一次
     configResolved() {
