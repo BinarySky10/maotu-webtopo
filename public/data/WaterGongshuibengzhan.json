@@ -9,12 +9,12 @@
     "adsorp": true,
     "adsorp_diff": 5,
     "transform_origin": {
-      "x": 642,
-      "y": 846
+      "x": 789,
+      "y": 401
     },
     "drag_offset": {
-      "x": -199,
-      "y": -377
+      "x": -333,
+      "y": -105
     }
   },
   "gridCfg": {
@@ -23,6 +23,54 @@
     "size": 10
   },
   "json": [
+    {
+      "id": "sys-line2-SWCTzTkZPf",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 679.0000406901042,
+        "top": 500,
+        "width": 141.00001017252606,
+        "height": 1.0000101725260417,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": -0.00004069010424245789,
+            "y": 0
+          },
+          {
+            "x": 140.99995930989576,
+            "y": 1
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
     {
       "id": "sys-line2-1NJjKzWyv4",
       "title": "自由连线2",
@@ -150,106 +198,6 @@
       "events": []
     },
     {
-      "id": "sys-line2-u370hEQB71",
-      "title": "自由连线2",
-      "type": "sys-line2",
-      "binfo": {
-        "left": 681,
-        "top": 919,
-        "width": 136,
-        "height": 104.5,
-        "angle": 0
-      },
-      "resize": false,
-      "rotate": false,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "stroke": "#ff0000",
-        "stroke-width": 2,
-        "point_position": [
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 1,
-            "y": 104.5
-          },
-          {
-            "x": 136,
-            "y": 100
-          }
-        ],
-        "ani_type": "none",
-        "ani_dur": 20,
-        "ani_color": "#0a7ae2",
-        "ani_reverse": false,
-        "ani_play": true,
-        "bind_anchors": {
-          "start": null,
-          "end": null
-        }
-      },
-      "tag": "sys-line2",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "sys-line2-SWCTzTkZPf",
-      "title": "自由连线2",
-      "type": "sys-line2",
-      "binfo": {
-        "left": 679,
-        "top": 500,
-        "width": 144,
-        "height": 3,
-        "angle": 0
-      },
-      "resize": false,
-      "rotate": false,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "stroke": "#ff0000",
-        "stroke-width": 2,
-        "point_position": [
-          {
-            "x": 0,
-            "y": 0
-          },
-          {
-            "x": 144,
-            "y": 3
-          }
-        ],
-        "ani_type": "none",
-        "ani_dur": 20,
-        "ani_color": "#0a7ae2",
-        "ani_reverse": false,
-        "ani_play": true,
-        "bind_anchors": {
-          "start": null,
-          "end": null
-        }
-      },
-      "tag": "sys-line2",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
       "id": "valveorigin-zFfiSlAHvP",
       "title": "valveorigin",
       "type": "svg",
@@ -305,7 +253,7 @@
           },
           {
             "x": 519.5,
-            "y": 8.5
+            "y": 2.5
           }
         ],
         "ani_type": "none",
@@ -326,6 +274,32 @@
         "repeat": "infinite"
       },
       "events": []
+    },
+    {
+      "id": "压力表-xsLbbrCRjY",
+      "title": "压力表",
+      "type": "svg",
+      "binfo": {
+        "left": 1230,
+        "top": 395.47503662109375,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "压力表",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
     },
     {
       "id": "水泵-PFDyj3hI0B",
@@ -354,12 +328,138 @@
       "props": {}
     },
     {
-      "id": "压力表-xsLbbrCRjY",
+      "id": "sys-line2-E3Hz0rbycB",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 682.0000406901042,
+        "top": 630,
+        "width": 141.00001017252606,
+        "height": 1.0000101725260417,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": -0.00004069010424245789,
+            "y": 0
+          },
+          {
+            "x": 140.99995930989576,
+            "y": 1
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "valveorigin-JLQF1JSROl",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 727,
+        "top": 590,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-rHAIgOKvY9",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 882.5,
+        "top": 561.5,
+        "width": 519.5,
+        "height": 20.5,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": 0.5,
+            "y": 20.5
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 519.5,
+            "y": 2.5
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "压力表-5YNdgJ0j70",
       "title": "压力表",
       "type": "svg",
       "binfo": {
-        "left": 1220,
-        "top": 400,
+        "left": 1233,
+        "top": 525.4750366210938,
         "width": 50,
         "height": 50,
         "angle": 0
@@ -370,6 +470,1196 @@
       "active": false,
       "hide": false,
       "tag": "压力表",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "水泵-mhpS7AZxYb",
+      "title": "水泵",
+      "type": "svg",
+      "binfo": {
+        "left": 815.7999877929688,
+        "top": 580,
+        "width": 260,
+        "height": 100,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "水泵",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-rdKRFLnU5g",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 686.2000528971355,
+        "top": 760,
+        "width": 141.00001017252606,
+        "height": 1.0000101725260417,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": -0.00004069010424245789,
+            "y": 0
+          },
+          {
+            "x": 140.99995930989576,
+            "y": 1
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "valveorigin-utJpcdpNOW",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 731.2000122070312,
+        "top": 720,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-SZ2CoF5uK9",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 886.7000122070312,
+        "top": 691.5,
+        "width": 519.5,
+        "height": 20.5,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": 0.5,
+            "y": 20.5
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 519.5,
+            "y": 2.5
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "压力表-hZ97PHbUX6",
+      "title": "压力表",
+      "type": "svg",
+      "binfo": {
+        "left": 1237.2000122070312,
+        "top": 655.4750366210938,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "压力表",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "水泵-ARqSItOcOA",
+      "title": "水泵",
+      "type": "svg",
+      "binfo": {
+        "left": 816.9156494140625,
+        "top": 707.1999816894531,
+        "width": 260,
+        "height": 100,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "水泵",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-O1UZFQj3RZ",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 679.284403483073,
+        "top": 892.8000183105469,
+        "width": 141.00001017252606,
+        "height": 1.0000101725260417,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": -0.00004069010424245789,
+            "y": 0
+          },
+          {
+            "x": 140.99995930989576,
+            "y": 1
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "valveorigin-5nYeUEPs4w",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 724.2843627929688,
+        "top": 852.8000183105469,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-relS7Zxuyy",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 879.7843627929688,
+        "top": 824.3000183105469,
+        "width": 519.5,
+        "height": 20.5,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": 0.5,
+            "y": 20.5
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 519.5,
+            "y": 2.5
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "压力表-4tdLDuNMbv",
+      "title": "压力表",
+      "type": "svg",
+      "binfo": {
+        "left": 1230.2843627929688,
+        "top": 788.2750549316406,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "压力表",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "水泵-31S7g262NQ",
+      "title": "水泵",
+      "type": "svg",
+      "binfo": {
+        "left": 809.6062622070312,
+        "top": 840,
+        "width": 260,
+        "height": 100,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "水泵",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-tHIxxu4NyC",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 679.6781412760417,
+        "top": 1022.8000183105469,
+        "width": 141.00001017252606,
+        "height": 1.0000101725260417,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": -0.00004069010424245789,
+            "y": 0
+          },
+          {
+            "x": 140.99995930989576,
+            "y": 1
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "valveorigin-wxVBNtMIqz",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 724.6781005859375,
+        "top": 982.8000183105469,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-Im2vcbd09L",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 880.1781005859375,
+        "top": 954.3000183105469,
+        "width": 519.5,
+        "height": 20.5,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": 0.5,
+            "y": 20.5
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 519.5,
+            "y": 2.5
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "压力表-yIYd9YUjQG",
+      "title": "压力表",
+      "type": "svg",
+      "binfo": {
+        "left": 1230.6781005859375,
+        "top": 918.2750549316406,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "压力表",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "水泵-CqSJk0Y05n",
+      "title": "水泵",
+      "type": "svg",
+      "binfo": {
+        "left": 809.0593872070312,
+        "top": 970.984375,
+        "width": 260,
+        "height": 100,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "水泵",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "sys-line2-u370hEQB71",
+      "title": "自由连线2",
+      "type": "sys-line2",
+      "binfo": {
+        "left": 678.5999755859375,
+        "top": 917.1781005859375,
+        "width": 1.0000174386160714,
+        "height": 104.50003487723215,
+        "angle": 0
+      },
+      "resize": false,
+      "rotate": false,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "stroke": "#ff0000",
+        "stroke-width": 2,
+        "point_position": [
+          {
+            "x": 0.000026157924025937973,
+            "y": 0.000017438616055187595
+          },
+          {
+            "x": 1.000026157924026,
+            "y": 104.50001743861606
+          },
+          {
+            "x": 1.000026157924026,
+            "y": 104.00001743861606
+          }
+        ],
+        "ani_type": "none",
+        "ani_dur": 20,
+        "ani_color": "#0a7ae2",
+        "ani_reverse": false,
+        "ani_play": true,
+        "bind_anchors": {
+          "start": null,
+          "end": null
+        }
+      },
+      "tag": "sys-line2",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "valveorigin-19ErXs6gOv",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 1117.0499267578125,
+        "top": 392.5499267578125,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-IYBe8IdsoU",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 1115.8656005859375,
+        "top": 522.4499816894531,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-obgKRd5QWI",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 1110,
+        "top": 652.7250366210938,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-8bcEpN1OIN",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 1110,
+        "top": 785.83740234375,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "valveorigin-PvqpCrE08c",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 1110,
+        "top": 915.16259765625,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "card-vue-mb9KER3XMM",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 240,
+        "top": 340.703125,
+        "width": 125,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": null,
+        "boxShadow": "#0d0c0c"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "分档旋钮-hK65nfFsZD",
+      "title": "分档旋钮",
+      "type": "svg",
+      "binfo": {
+        "left": 276.25,
+        "top": 370,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "分档旋钮",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "card-vue-LA5MTSjSMC",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 390,
+        "top": 341.0546875,
+        "width": 125,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": null,
+        "boxShadow": "#0d0c0c"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "分档旋钮-35j3lis9fn",
+      "title": "分档旋钮",
+      "type": "svg",
+      "binfo": {
+        "left": 426.25,
+        "top": 368.2421875,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "分档旋钮",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "card-vue-HNTsFcg6BI",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 539.80078125,
+        "top": 341.0546875,
+        "width": 125,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": null,
+        "boxShadow": "#0d0c0c"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "分档旋钮-c7gOzHBRnn",
+      "title": "分档旋钮",
+      "type": "svg",
+      "binfo": {
+        "left": 572.125,
+        "top": 368.2421875,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "分档旋钮",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "card-vue-gLB8TuDZ2E",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 240,
+        "top": 199.6484375,
+        "width": 125,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": null,
+        "boxShadow": "#0d0c0c"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "分档旋钮-HdSeNAeGpC",
+      "title": "分档旋钮",
+      "type": "svg",
+      "binfo": {
+        "left": 276.25,
+        "top": 228.9453125,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "分档旋钮",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "card-vue-G3pgQSeVZ9",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 390,
+        "top": 200,
+        "width": 125,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": null,
+        "boxShadow": "#0d0c0c"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "分档旋钮-Q4nslGjbpz",
+      "title": "分档旋钮",
+      "type": "svg",
+      "binfo": {
+        "left": 426.25,
+        "top": 227.1875,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "分档旋钮",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "card-vue-kkeoHEHdbm",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 539.80078125,
+        "top": 200,
+        "width": 125,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": null,
+        "boxShadow": "#0d0c0c"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "分档旋钮-KQAgCTAA93",
+      "title": "分档旋钮",
+      "type": "svg",
+      "binfo": {
+        "left": 572.125,
+        "top": 227.1875,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "分档旋钮",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "card-vue-KA78C4pliQ",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 690,
+        "top": 199.6484375,
+        "width": 125,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": null,
+        "boxShadow": "#0d0c0c"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "分档旋钮-5xxH9TMDCL",
+      "title": "分档旋钮",
+      "type": "svg",
+      "binfo": {
+        "left": 726.25,
+        "top": 228.9453125,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "分档旋钮",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "card-vue-HNKU7Pp88L",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 843,
+        "top": 200,
+        "width": 125,
+        "height": 90,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": null,
+        "boxShadow": "#0d0c0c"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "分档旋钮-NaLQmSnJnU",
+      "title": "分档旋钮",
+      "type": "svg",
+      "binfo": {
+        "left": 876.25,
+        "top": 227.1875,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "分档旋钮",
       "common_animations": {
         "val": "",
         "delay": "delay-0s",
