@@ -2,19 +2,19 @@
   "canvasCfg": {
     "width": 1920,
     "height": 1080,
-    "scale": 0.8,
+    "scale": 0.5,
     "color": "#e5e5e5",
     "img": "",
     "guide": true,
     "adsorp": true,
     "adsorp_diff": 5,
     "transform_origin": {
-      "x": 1125,
-      "y": 1007
+      "x": 1107,
+      "y": 1019
     },
     "drag_offset": {
-      "x": -230,
-      "y": -228
+      "x": -407,
+      "y": -414
     }
   },
   "gridCfg": {
@@ -1595,9 +1595,9 @@
       "type": "svg",
       "binfo": {
         "left": 1430,
-        "top": 116,
+        "top": 131.10000610351562,
         "width": 110,
-        "height": 100,
+        "height": 70,
         "angle": 0
       },
       "resize": true,
@@ -1669,9 +1669,9 @@
       "type": "svg",
       "binfo": {
         "left": 1430,
-        "top": 190,
+        "top": 204.40000915527344,
         "width": 110,
-        "height": 100,
+        "height": 70,
         "angle": 0
       },
       "resize": true,
@@ -2095,9 +2095,9 @@
       "type": "svg",
       "binfo": {
         "left": 1430,
-        "top": 500,
+        "top": 520.0000152587891,
         "width": 110,
-        "height": 100,
+        "height": 60,
         "angle": 0
       },
       "resize": true,
@@ -2745,9 +2745,9 @@
       "type": "svg",
       "binfo": {
         "left": 1430,
-        "top": 830,
+        "top": 850.285888671875,
         "width": 110,
-        "height": 100,
+        "height": 60,
         "angle": 0
       },
       "resize": true,
@@ -2771,9 +2771,9 @@
       "type": "svg",
       "binfo": {
         "left": 1430,
-        "top": 740.5671997070312,
+        "top": 762,
         "width": 110,
-        "height": 100,
+        "height": 60,
         "angle": 0
       },
       "resize": true,
@@ -2797,9 +2797,9 @@
       "type": "svg",
       "binfo": {
         "left": 1430,
-        "top": 656,
+        "top": 679.7000122070312,
         "width": 110,
-        "height": 100,
+        "height": 60,
         "angle": 0
       },
       "resize": true,
@@ -2823,9 +2823,9 @@
       "type": "svg",
       "binfo": {
         "left": 1430,
-        "top": 580,
+        "top": 595.6000366210938,
         "width": 110,
-        "height": 100,
+        "height": 60,
         "angle": 0
       },
       "resize": true,
@@ -3274,10 +3274,10 @@
       "title": "文字",
       "type": "vue",
       "binfo": {
-        "left": 1346.800048828125,
+        "left": 1340,
         "top": 90,
         "width": 150,
-        "height": 50,
+        "height": 80,
         "angle": 0
       },
       "resize": true,
