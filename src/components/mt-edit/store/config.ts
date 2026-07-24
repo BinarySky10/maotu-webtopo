@@ -532,6 +532,55 @@ const sysComponentItems: ILeftAsideConfigItem[] = [
       speed: 'slow',
       repeat: 'infinite'
     }
+  },
+  {
+    id: 'CustomKv',
+    title: '定制键值对',
+    type: 'vue',
+    thumbnail: `data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxZW0iIGhlaWdodD0iMWVtIiB2aWV3Qm94PSIwIDAgMjAgMjAiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTMgNmEzIDMgMCAwIDEgMy0zaDhhMyAzIDAgMCAxIDMgM3Y4YTMgMyAwIDAgMS0zIDNINmEzIDMgMCAwIDEtMy0zem0zLTJhMiAyIDAgMCAwLTIgMnYzLjVoNS41VjR6bTMuNSA2LjVINFYxNGEyIDIgMCAwIDAgMiAyaDMuNXptMSAwVjE2SDE0YTIgMiAwIDAgMCAyLTJ2LTMuNXptNS41LTFWNmEyIDIgMCAwIDAtMi0yaC0zLjV2NS41eiIvPjwvc3ZnPg==`,
+    props: {
+      fontSize: {
+        title: '文字大小',
+        type: 'number',
+        val: 18
+      },
+      label: {
+        title: '键名',
+        type: 'input',
+        val: '键名'
+      },
+      labelWidth: {
+        title: '键名宽度',
+        type: 'number',
+        val: 50
+      },
+      value: {
+        title: '键值',
+        type: 'input',
+        val: '键值'
+      },
+      valueWidth: {
+        title: '键值宽度',
+        type: 'number',
+        val: 50
+      },
+      unit: {
+        title: '单位',
+        type: 'input',
+        val: 'M'
+      },
+      unitWidth: {
+        title: '单位宽度',
+        type: 'number',
+        val: 25
+      }
+    },
+    common_animations: {
+      val: '',
+      delay: 'delay-0s',
+      speed: 'slow',
+      repeat: 'infinite'
+    }
   }
 ];
 export const configStore: IConfig = reactive({

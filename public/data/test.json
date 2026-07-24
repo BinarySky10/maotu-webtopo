@@ -24,14 +24,14 @@
   },
   "json": [
     {
-      "id": "text-vue-8VMVUONUqe",
-      "title": "文字",
+      "id": "kv-vue-6yZUblIfH2",
+      "title": "键值对",
       "type": "vue",
       "binfo": {
-        "left": 460,
-        "top": 180,
-        "width": 200,
-        "height": 180,
+        "left": 660,
+        "top": 340,
+        "width": 50,
+        "height": 50,
         "angle": 0
       },
       "resize": true,
@@ -40,13 +40,18 @@
       "active": false,
       "hide": false,
       "props": {
-        "text": "文字",
+        "border": true,
         "fontFamily": "黑体",
         "fontSize": 18,
-        "fill": "#FFF700",
-        "vertical": false
+        "label": "键名",
+        "labelWidth": 50,
+        "value": "键值",
+        "valueWidth": 50,
+        "unit": "M",
+        "color": "#FFF700",
+        "borderColor": "#000000"
       },
-      "tag": "text-vue",
+      "tag": "kv-vue",
       "common_animations": {
         "val": "",
         "delay": "delay-0s",

@@ -50,7 +50,7 @@ const props = defineProps({
   }
 });
 </script>
-<style scroped>
+<style scoped>
 .kvTable {
   border: v-bind('`${props.border?1:0}px solid ${props.borderColor}`');
 }
