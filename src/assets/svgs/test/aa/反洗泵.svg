@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   t="1784605503823"
+   class="icon"
+   viewBox="0 0 998 613.2"
+   version="1.1"
+   p-id="10059"
+   width="194.92188"
+   height="119.76562"
+   id="svg44"
+   sodipodi:docname="水泵.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs44" />
+  <sodipodi:namedview
+     id="namedview44"
+     pagecolor="#ffffff"
+     bordercolor="#074a53"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:clip-to-page="false"
+     inkscape:zoom="4.075"
+     inkscape:cx="97.546012"
+     inkscape:cy="60"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg44" />
+  <path
+     d="m 983,404 a 80.24,80.24 0 0 1 -80,80 H 827 A 80.24,80.24 0 0 1 747,404 V 228.8 a 80.24,80.24 0 0 1 80,-80 h 76 a 80.24,80.24 0 0 1 80,80 z"
+     fill="#83d3d2"
+     p-id="10060"
+     id="path1" />
+  <path
+     d="m 983,404 a 80.24,80.24 0 0 1 -80,80 h -76 a 80.24,80.24 0 0 1 -80,-80 v -37.4 a 80.24,80.24 0 0 1 80,-80 h 76 a 80.24,80.24 0 0 1 80,80 z"
+     fill="#0c737b"
+     p-id="10061"
+     id="path2" />
+  <path
+     d="m 746.8,261.2 h 236 V 382 h -236 z"
+     fill="#24b7b1"
+     p-id="10062"
+     id="path3" />
+  <path
+     d="m 323,0 a 12.32,12.32 0 0 1 12,12 v 0.8 a 12,12 0 0 1 -12,12 H 179 a 12,12 0 0 1 -12,-12 V 12 A 12.32,12.32 0 0 1 179,0 Z"
+     fill="#074a53"
+     p-id="10063"
+     id="path4" />
+  <path
+     d="m 323,0 a 12.32,12.32 0 0 1 12,12 v 0.8 a 12,12 0 0 1 -12,12 H 179 a 12,12 0 0 1 -12,-12 V 12 A 12.32,12.32 0 0 1 179,0 Z"
+     fill="#0e7681"
+     p-id="10064"
+     id="path5" />
+  <path
+     d="m 24.8,391.6 a 12,12 0 0 1 -12,12 H 12 A 12,12 0 0 1 0,391.6 V 247.2 a 12,12 0 0 1 12,-12 h 0.8 a 12,12 0 0 1 12,12 z"
+     fill="#074a53"
+     p-id="10065"
+     id="path6" />
+  <path
+     d="m 24.8,391.6 a 12,12 0 0 1 -12,12 H 12 A 12,12 0 0 1 0,391.6 V 247.2 a 12,12 0 0 1 12,-12 h 0.8 a 12,12 0 0 1 12,12 z"
+     fill="#0e7681"
+     p-id="10066"
+     id="path7" />
+  <path
+     d="M 24.8,261.2 H 131.2 V 276 H 24.8 Z"
+     fill="#24b7b1"
+     p-id="10067"
+     id="path8" />
+  <path
+     d="M 24.8,367.2 H 131.2 V 382 H 24.8 Z"
+     fill="#0c737b"
+     p-id="10068"
+     id="path9" />
+  <path
+     d="m 24.8,276 h 106.4 v 45.6 H 24.8 Z"
+     fill="#83d3d2"
+     p-id="10069"
+     id="path10" />
+  <path
+     d="m 24.8,321.6 h 106.4 v 45.6 H 24.8 Z m 166.76,-297 h 14.8 V 131 h -14.8 z"
+     fill="#24b7b1"
+     p-id="10070"
+     id="path11" />
+  <path
+     d="m 297.52,24.56 h 14.8 v 106.4 h -14.8 z"
+     fill="#0c737b"
+     p-id="10071"
+     id="path12" />
+  <path
+     d="m 206.6,24.84 h 45.6 v 106.4 h -45.6 z"
+     fill="#83d3d2"
+     p-id="10072"
+     id="path13" />
+  <path
+     d="m 252.12,24.72 h 45.6 v 106.4 h -45.6 z M 368,172.8 h 106.4 v 36.4 H 368 Z"
+     fill="#24b7b1"
+     p-id="10073"
+     id="path14" />
+  <path
+     d="m 368,430.4 h 106.4 v 36.4 H 368 Z"
+     fill="#0c737b"
+     p-id="10074"
+     id="path15" />
+  <path
+     d="M 368,209.2 H 474.4 V 320 H 368 Z"
+     fill="#83d3d2"
+     p-id="10075"
+     id="path16" />
+  <path
+     d="M 368,320 H 474.4 V 430.8 H 368 Z"
+     fill="#24b7b1"
+     p-id="10076"
+     id="path17" />
+  <path
+     d="m 494,149.2 h 350 v 23.2 H 494 Z"
+     fill="#83d3d2"
+     p-id="10077"
+     id="path18" />
+  <path
+     d="m 494,172 h 350 v 23.2 H 494 Z"
+     fill="#24b7b1"
+     p-id="10078"
+     id="path19" />
+  <path
+     d="m 494,195.2 h 350 v 23.2 H 494 Z"
+     fill="#83d3d2"
+     p-id="10079"
+     id="path20" />
+  <path
+     d="m 494,218 h 350 v 23.2 H 494 Z"
+     fill="#24b7b1"
+     p-id="10080"
+     id="path21" />
+  <path
+     d="m 494,241.2 h 350 v 23.2 H 494 Z"
+     fill="#83d3d2"
+     p-id="10081"
+     id="path22" />
+  <path
+     d="m 494,264 h 350 v 23.2 H 494 Z"
+     fill="#0c737b"
+     p-id="10082"
+     id="path23" />
+  <path
+     d="m 494,287.2 h 350 v 23.2 H 494 Z"
+     fill="#24b7b1"
+     p-id="10083"
+     id="path24" />
+  <path
+     d="M 494,310.8 H 844 V 334 H 494 Z"
+     fill="#0c737b"
+     p-id="10084"
+     id="path25" />
+  <path
+     d="m 494,334 h 350 v 23.2 H 494 Z"
+     fill="#24b7b1"
+     p-id="10085"
+     id="path26" />
+  <path
+     d="m 494,355.6 h 350 v 23.2 H 494 Z"
+     fill="#0c737b"
+     p-id="10086"
+     id="path27" />
+  <path
+     d="m 494,377.2 h 350 v 26.4 H 494 Z"
+     fill="#074a53"
+     p-id="10087"
+     id="path28" />
+  <path
+     d="m 494,403.6 h 350 v 23.2 H 494 Z"
+     fill="#0c737b"
+     p-id="10088"
+     id="path29" />
+  <path
+     d="M 494,426.8 H 844 V 450 H 494 Z"
+     fill="#074a53"
+     p-id="10089"
+     id="path30" />
+  <path
+     d="m 494,449.6 h 350 v 23.2 H 494 Z"
+     fill="#0c737b"
+     p-id="10090"
+     id="path31" />
+  <path
+     d="M 494,472.8 H 844 V 496 H 494 Z"
+     fill="#074a53"
+     p-id="10091"
+     id="path32" />
+  <path
+     d="m 494,519.2 a 12,12 0 0 1 -12,12 h -15 a 12,12 0 0 1 -12,-12 V 120 a 12.32,12.32 0 0 1 12,-12 h 15.2 a 12,12 0 0 1 12,12 z"
+     fill="#074a53"
+     p-id="10092"
+     id="path33" />
+  <path
+     d="m 494,519.2 a 12,12 0 0 1 -12,12 h -15 a 12,12 0 0 1 -12,-12 V 120 a 12.32,12.32 0 0 1 12,-12 h 15.2 a 12,12 0 0 1 12,12 z"
+     fill="#0e7681"
+     p-id="10093"
+     id="path34" />
+  <path
+     d="m 864,492 a 12,12 0 0 1 -12,12 h -3.2 a 12,12 0 0 1 -12,-12 V 143.2 a 12,12 0 0 1 12,-12 h 3.2 a 12,12 0 0 1 12,12 z"
+     fill="#074a53"
+     p-id="10094"
+     id="path35" />
+  <path
+     d="m 864,492 a 12,12 0 0 1 -12,12 h -3.2 a 12,12 0 0 1 -12,-12 V 143.2 a 12,12 0 0 1 12,-12 h 3.2 a 12,12 0 0 1 12,12 z"
+     fill="#0e7681"
+     p-id="10095"
+     id="path36" />
+  <path
+     d="M 732.8,490 H 826 v 74 H 732.8 Z M 46,586 h 952 v 27.2 H 46 Z"
+     fill="#074a53"
+     p-id="10096"
+     id="path37" />
+  <path
+     d="m 702.8,564 h 154.4 v 22 H 702.8 Z"
+     fill="#0e7681"
+     p-id="10097"
+     id="path38" />
+  <path
+     d="M 204.8,490 H 298 v 74 h -93.2 z"
+     fill="#074a53"
+     p-id="10098"
+     id="path39" />
+  <path
+     d="m 174.8,564 h 154.4 v 22 H 174.8 Z"
+     fill="#0e7681"
+     p-id="10099"
+     id="path40" />
+  <path
+     d="m 332.8,521.2 h -164 a 40,40 0 0 1 -40,-40 v -324 a 40,40 0 0 1 40,-40 h 164 a 40,40 0 0 1 40,40 v 324 a 40,40 0 0 1 -40,40 z"
+     fill="#0c737b"
+     p-id="10100"
+     id="path41" />
+  <path
+     d="M 983,219.2 A 33.68,33.68 0 0 0 963,250 v 131.6 a 34.56,34.56 0 0 0 20,30.8 z"
+     fill="#074a53"
+     p-id="10101"
+     id="path42" />
+  <path
+     d="m 128.8,172.8 h 244 v 56.8 h -244 z"
+     fill="#24b7b1"
+     p-id="10102"
+     id="path43" />
+  <path
+     d="m 128.8,228.8 h 244 v 56.8 h -244 z"
+     fill="#0e7681"
+     p-id="10103"
+     id="path44" />
+</svg>
