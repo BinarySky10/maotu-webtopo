@@ -5,7 +5,7 @@
       height: 100%;
       border-radius: 50%;
       background: #f5f5f7;
-      border: 3px solid #222;
+      border: 1px solid #222;
       display: flex;
       align-items: center;
       justify-content: center;
