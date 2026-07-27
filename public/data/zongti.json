@@ -13,8 +13,8 @@
       "y": 613
     },
     "drag_offset": {
-      "x": -759,
-      "y": 98
+      "x": -375,
+      "y": -188
     }
   },
   "gridCfg": {
@@ -2865,7 +2865,7 @@
       "type": "vue",
       "binfo": {
         "left": 610,
-        "top": 520,
+        "top": 476.1937255859375,
         "width": 320,
         "height": 90,
         "angle": 0
@@ -2895,9 +2895,9 @@
       "type": "vue",
       "binfo": {
         "left": 610,
-        "top": 616,
+        "top": 572.2312622070312,
         "width": 320,
-        "height": 90,
+        "height": 130,
         "angle": 0
       },
       "resize": true,
@@ -3488,8 +3488,8 @@
       "title": "文字",
       "type": "vue",
       "binfo": {
-        "left": 690,
-        "top": 531.7999877929688,
+        "left": 691.1156005859375,
+        "top": 478.90625,
         "width": 110,
         "height": 70,
         "angle": 0
@@ -3520,8 +3520,8 @@
       "title": "文字",
       "type": "vue",
       "binfo": {
-        "left": 690,
-        "top": 621.7999877929688,
+        "left": 691.1156005859375,
+        "top": 594.6156005859375,
         "width": 110,
         "height": 70,
         "angle": 0
@@ -3841,7 +3841,7 @@
       "type": "vue",
       "binfo": {
         "left": 640,
-        "top": 551.5,
+        "top": 511.5,
         "width": 25,
         "height": 25,
         "angle": 0
@@ -3873,7 +3873,7 @@
       "type": "vue",
       "binfo": {
         "left": 640,
-        "top": 652.25,
+        "top": 621.3999633789062,
         "width": 25,
         "height": 25,
         "angle": 0
@@ -4119,7 +4119,7 @@
       "type": "vue",
       "binfo": {
         "left": 810,
-        "top": 571.6000366210938,
+        "top": 531.6000366210938,
         "width": 110,
         "height": 30,
         "angle": 0
@@ -4444,7 +4444,7 @@
       "type": "vue",
       "binfo": {
         "left": 810,
-        "top": 533.2000122070312,
+        "top": 493.20001220703125,
         "width": 60,
         "height": 40,
         "angle": 0
@@ -4476,7 +4476,7 @@
       "type": "vue",
       "binfo": {
         "left": 880,
-        "top": 540.5,
+        "top": 500.5,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -4631,7 +4631,7 @@
       "title": "按钮",
       "type": "vue",
       "binfo": {
-        "left": 1770,
+        "left": 1810,
         "top": 310,
         "width": 20,
         "height": 20,
@@ -4662,8 +4662,8 @@
       "title": "按钮",
       "type": "vue",
       "binfo": {
-        "left": 1770,
-        "top": 375.7578125,
+        "left": 1810,
+        "top": 375.140625,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -6243,7 +6243,7 @@
       "type": "vue",
       "binfo": {
         "left": 1538.140625,
-        "top": 594.6156005859375,
+        "top": 590.6156005859375,
         "width": 60,
         "height": 20,
         "angle": 0
