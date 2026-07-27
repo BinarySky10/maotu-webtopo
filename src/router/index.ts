@@ -25,6 +25,36 @@ export const constantRoutes = [
     component: () => import('../views/MyPreview.vue')
   },
   {
+    name: 'fanxixitong',
+    path: '/fanxixitong',
+    component: () => import('../views/fanxixitong.vue')
+  },
+  {
+    name: 'test',
+    path: '/test',
+    component: () => import('../views/test.vue')
+  },
+  {
+    name: 'WaterGongshuibengzhan',
+    path: '/WaterGongshuibengzhan',
+    component: () => import('../views/WaterGongshuibengzhan.vue')
+  },
+  {
+    name: 'WaterQushuibengzhan',
+    path: '/WaterQushuibengzhan',
+    component: () => import('../views/WaterQushuibengzhan.vue')
+  },
+  {
+    name: 'yiqixiaodu',
+    path: '/yiqixiaodu',
+    component: () => import('../views/yiqixiaodu.vue')
+  },
+  {
+    name: 'zongti',
+    path: '/zongti',
+    component: () => import('../views/zongti.vue')
+  },
+  {
     name: 'WaterQushuibengzhan',
     path: '/WaterQushuibengzhan',
     component: () => import('../views/WaterQushuibengzhan.vue')
