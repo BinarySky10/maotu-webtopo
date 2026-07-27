@@ -48,6 +48,32 @@
         "repeat": "infinite"
       },
       "events": []
+    },
+    {
+      "id": "VueContainer-PKWbd7d7lg",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 880,
+        "top": 340,
+        "width": 340,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
     }
   ]
 }

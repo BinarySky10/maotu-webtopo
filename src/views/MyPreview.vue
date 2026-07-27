@@ -4,14 +4,21 @@
     @onEventCallBack="onEventCallBack"
     :showPopover="false"
   ></mt-preview>
-  <Teleport defer :to="teleportTarget" v-if="targetAId">
-    <p>我是外部组件111</p>
-  </Teleport>
+
+  <TeleportContainer :targetAId="'VueContainer-GdW4Bb9oB4'">
+    <!--  -->
+    <p>我是外部组件 111</p>
+  </TeleportContainer>
+  <TeleportContainer :targetAId="'VueContainer-PKWbd7d7lg'">
+    <!--  -->
+    <p>我是外部组件 222</p>
+  </TeleportContainer>
 </template>
 <script setup lang="ts">
 import MtPreview from '@/components/mt-preview/index.vue';
 import { onMounted, ref, computed, nextTick } from 'vue';
 import { ElMessage } from 'element-plus';
+import TeleportContainer from '@/components/mt-preview/TeleportContainer.vue';
 const MtPreviewRef = ref<InstanceType<typeof MtPreview>>();
 const onEventCallBack = (type: string, item_id: string) => {
   console.log(type, item_id);
@@ -21,17 +28,6 @@ const onEventCallBack = (type: string, item_id: string) => {
   }
 };
 
-//teleport
-const targetAId = ref('');
-// targetAId.value = 'VueContainer-GdW4Bb9oB4';
-const teleportTarget = computed(() => {
-  return `[instanceid="${targetAId.value}"]`;
-});
-async function mountTest(aId) {
-  //Teleport defer 不兼容vue3.4
-  await nextTick();
-  targetAId.value = aId;
-}
 onMounted(() => {
   const json = {
     canvasCfg: {
@@ -2043,10 +2039,35 @@ onMounted(() => {
           repeat: 'infinite'
         },
         events: []
+      },
+      {
+        id: 'VueContainer-PKWbd7d7lg',
+        title: 'vue容器',
+        type: 'vue',
+        binfo: {
+          left: 880,
+          top: 340,
+          width: 340,
+          height: 50,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        props: {},
+        tag: 'VueContainer',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: []
       }
     ]
   };
   MtPreviewRef.value?.setImportJson(jsontmp);
-  mountTest('VueContainer-GdW4Bb9oB4');
 });
 </script>
