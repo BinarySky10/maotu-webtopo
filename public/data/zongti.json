@@ -13,8 +13,8 @@
       "y": 616
     },
     "drag_offset": {
-      "x": -30,
-      "y": -64
+      "x": -649,
+      "y": -358
     }
   },
   "gridCfg": {
@@ -1581,7 +1581,7 @@
       "type": "sys-line2",
       "binfo": {
         "left": 1170,
-        "top": 846,
+        "top": 850.296875,
         "width": 100,
         "height": 0,
         "angle": 0
@@ -1802,10 +1802,10 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 1270,
-        "top": 671,
-        "width": 100,
-        "height": 0,
+        "left": 1251,
+        "top": 680.2999877929688,
+        "width": 149,
+        "height": 1,
         "angle": 0
       },
       "resize": false,
@@ -1818,12 +1818,12 @@
         "stroke-width": 2,
         "point_position": [
           {
-            "x": -10,
-            "y": 7
+            "x": 0,
+            "y": 0
           },
           {
-            "x": 190,
-            "y": 6
+            "x": 149,
+            "y": 1
           }
         ],
         "ani_type": "none",
@@ -1850,10 +1850,10 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 1270,
-        "top": 750,
-        "width": 100,
-        "height": 0,
+        "left": 1254.375,
+        "top": 758.296875,
+        "width": 151,
+        "height": 3,
         "angle": 0
       },
       "resize": false,
@@ -1866,12 +1866,12 @@
         "stroke-width": 2,
         "point_position": [
           {
-            "x": -10,
-            "y": 8
+            "x": 0,
+            "y": 3
           },
           {
-            "x": 191,
-            "y": 7
+            "x": 151,
+            "y": 0
           }
         ],
         "ani_type": "none",
@@ -1898,10 +1898,10 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 1270,
-        "top": 833,
-        "width": 100,
-        "height": 0,
+        "left": 1254,
+        "top": 840.2999877929688,
+        "width": 145,
+        "height": 2,
         "angle": 0
       },
       "resize": false,
@@ -1914,12 +1914,12 @@
         "stroke-width": 2,
         "point_position": [
           {
-            "x": -14,
-            "y": 3
+            "x": 0,
+            "y": 0
           },
           {
-            "x": 189,
-            "y": 5
+            "x": 145,
+            "y": 2
           }
         ],
         "ani_type": "none",
@@ -1946,10 +1946,10 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 1280,
-        "top": 909,
-        "width": 100,
-        "height": 0,
+        "left": 1251,
+        "top": 921.296875,
+        "width": 148,
+        "height": 2,
         "angle": 0
       },
       "resize": false,
@@ -1962,12 +1962,12 @@
         "stroke-width": 2,
         "point_position": [
           {
-            "x": -26,
-            "y": 8
+            "x": 0,
+            "y": 0
           },
           {
-            "x": 179,
-            "y": 10
+            "x": 148,
+            "y": 2
           }
         ],
         "ani_type": "none",
@@ -1994,8 +1994,8 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 1253.9999389648438,
-        "top": 919.0000305175781,
+        "left": 1254.375,
+        "top": 923.296875,
         "width": 212.0001220703125,
         "height": 88.49998474121094,
         "angle": 0
@@ -2150,10 +2150,10 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 1486.5000915527344,
-        "top": 635.5000076293945,
-        "width": 273.4999084472656,
-        "height": 13.499984741210938,
+        "left": 1426.5,
+        "top": 639.7999877929688,
+        "width": 229.5,
+        "height": 13.5,
         "angle": 0
       },
       "resize": false,
@@ -2166,16 +2166,16 @@
         "stroke-width": 2,
         "point_position": [
           {
-            "x": 0.499908447265625,
-            "y": 13.499992370605469
+            "x": 0.5,
+            "y": 13.5
           },
           {
-            "x": -0.000091552734375,
-            "y": -0.00000762939453125
+            "x": 0,
+            "y": 0
           },
           {
-            "x": 273.4999084472656,
-            "y": 0.49999237060546875
+            "x": 229.5,
+            "y": 1.5
           }
         ],
         "ani_type": "none",
@@ -2202,8 +2202,8 @@
       "title": "水泵",
       "type": "svg",
       "binfo": {
-        "left": 1460,
-        "top": 646.0000152587891,
+        "left": 1400,
+        "top": 650.3000030517578,
         "width": 110,
         "height": 60,
         "angle": 0
@@ -2514,8 +2514,8 @@
       "title": "valveorigin",
       "type": "svg",
       "binfo": {
-        "left": 1630,
-        "top": 604,
+        "left": 1570,
+        "top": 608.2999877929688,
         "width": 40,
         "height": 40,
         "angle": 0
@@ -2540,10 +2540,10 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 1486.5000915527344,
-        "top": 717.5000076293945,
-        "width": 273.4999084472656,
-        "height": 13.499984741210938,
+        "left": 1426.5,
+        "top": 721.7999877929688,
+        "width": 224.5,
+        "height": 13.5,
         "angle": 0
       },
       "resize": false,
@@ -2556,16 +2556,16 @@
         "stroke-width": 2,
         "point_position": [
           {
-            "x": 0.499908447265625,
-            "y": 13.499992370605469
+            "x": 0.5,
+            "y": 13.5
           },
           {
-            "x": -0.000091552734375,
-            "y": -0.00000762939453125
+            "x": 0,
+            "y": 0
           },
           {
-            "x": 273.4999084472656,
-            "y": 0.49999237060546875
+            "x": 224.5,
+            "y": 2.5
           }
         ],
         "ani_type": "none",
@@ -2592,8 +2592,8 @@
       "title": "valveorigin",
       "type": "svg",
       "binfo": {
-        "left": 1630,
-        "top": 689.1640930175781,
+        "left": 1570,
+        "top": 693.4640808105469,
         "width": 40,
         "height": 40,
         "angle": 0
@@ -2618,10 +2618,10 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 1486.5000915527344,
-        "top": 794.3359146118164,
-        "width": 273.4999084472656,
-        "height": 13.499984741210938,
+        "left": 1426.5,
+        "top": 798.1359252929688,
+        "width": 224.5,
+        "height": 14,
         "angle": 0
       },
       "resize": false,
@@ -2634,16 +2634,16 @@
         "stroke-width": 2,
         "point_position": [
           {
-            "x": 0.499908447265625,
-            "y": 13.499992370605469
+            "x": 0.5,
+            "y": 13.999969482421875
           },
           {
-            "x": -0.000091552734375,
-            "y": -0.00000762939453125
+            "x": 0,
+            "y": 0.499969482421875
           },
           {
-            "x": 273.4999084472656,
-            "y": 0.49999237060546875
+            "x": 224.5,
+            "y": -0.000030517578125
           }
         ],
         "ani_type": "none",
@@ -2670,8 +2670,8 @@
       "title": "valveorigin",
       "type": "svg",
       "binfo": {
-        "left": 1630,
-        "top": 762.737548828125,
+        "left": 1570,
+        "top": 767.0375366210938,
         "width": 40,
         "height": 40,
         "angle": 0
@@ -2696,10 +2696,10 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 1486.5000915527344,
-        "top": 877.5983657836914,
-        "width": 273.4999084472656,
-        "height": 13.499984741210938,
+        "left": 1426.5,
+        "top": 880.3983764648438,
+        "width": 218.5,
+        "height": 15,
         "angle": 0
       },
       "resize": false,
@@ -2712,16 +2712,16 @@
         "stroke-width": 2,
         "point_position": [
           {
-            "x": 0.499908447265625,
-            "y": 13.499992370605469
+            "x": 0.5,
+            "y": 14.999969482421875
           },
           {
-            "x": -0.000091552734375,
-            "y": -0.00000762939453125
+            "x": 0,
+            "y": 1.499969482421875
           },
           {
-            "x": 273.4999084472656,
-            "y": 0.49999237060546875
+            "x": 218.5,
+            "y": -0.000030517578125
           }
         ],
         "ani_type": "none",
@@ -2748,8 +2748,8 @@
       "title": "valveorigin",
       "type": "svg",
       "binfo": {
-        "left": 1630,
-        "top": 845.9953002929688,
+        "left": 1570,
+        "top": 850.2952880859375,
         "width": 40,
         "height": 40,
         "angle": 0
@@ -2774,10 +2774,10 @@
       "title": "自由连线2",
       "type": "sys-line2",
       "binfo": {
-        "left": 1486.5000915527344,
-        "top": 964.6030654907227,
-        "width": 273.4999084472656,
-        "height": 13.499984741210938,
+        "left": 1426.5,
+        "top": 967.4030151367188,
+        "width": 217.5,
+        "height": 15,
         "angle": 0
       },
       "resize": false,
@@ -2790,16 +2790,16 @@
         "stroke-width": 2,
         "point_position": [
           {
-            "x": 0.499908447265625,
-            "y": 13.499992370605469
+            "x": 0.5,
+            "y": 15.000030517578125
           },
           {
-            "x": -0.000091552734375,
-            "y": -0.00000762939453125
+            "x": 0,
+            "y": 1.500030517578125
           },
           {
-            "x": 273.4999084472656,
-            "y": 0.49999237060546875
+            "x": 217.5,
+            "y": 0.000030517578125
           }
         ],
         "ani_type": "none",
@@ -2826,8 +2826,8 @@
       "title": "valveorigin",
       "type": "svg",
       "binfo": {
-        "left": 1630,
-        "top": 932.859375,
+        "left": 1570,
+        "top": 937.1593627929688,
         "width": 40,
         "height": 40,
         "angle": 0
@@ -2852,8 +2852,8 @@
       "title": "水泵",
       "type": "svg",
       "binfo": {
-        "left": 1460,
-        "top": 976.285888671875,
+        "left": 1400,
+        "top": 980.5858764648438,
         "width": 110,
         "height": 60,
         "angle": 0
@@ -2878,8 +2878,8 @@
       "title": "水泵",
       "type": "svg",
       "binfo": {
-        "left": 1460,
-        "top": 888,
+        "left": 1400,
+        "top": 892.2999877929688,
         "width": 110,
         "height": 60,
         "angle": 0
@@ -2904,8 +2904,8 @@
       "title": "水泵",
       "type": "svg",
       "binfo": {
-        "left": 1460,
-        "top": 805.7000122070312,
+        "left": 1400,
+        "top": 810.703125,
         "width": 110,
         "height": 60,
         "angle": 0
@@ -2930,8 +2930,8 @@
       "title": "水泵",
       "type": "svg",
       "binfo": {
-        "left": 1460,
-        "top": 721.6000366210938,
+        "left": 1400,
+        "top": 725.9000244140625,
         "width": 110,
         "height": 60,
         "angle": 0
@@ -3542,7 +3542,7 @@
       "title": "文字",
       "type": "vue",
       "binfo": {
-        "left": 1294,
+        "left": 1280,
         "top": 586,
         "width": 150,
         "height": 50,
@@ -4201,138 +4201,6 @@
         "vertical": false
       },
       "tag": "custom-text",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "card-vue-mnaN8UL3lo",
-      "title": "卡片",
-      "type": "vue",
-      "binfo": {
-        "left": 50,
-        "top": 90,
-        "width": 230,
-        "height": 130,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "shadow": "always",
-        "backGroundColor": "#ffffff",
-        "boxShadow": "#ffffff"
-      },
-      "tag": "card-vue",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "CustomKv-QVFxiOysep",
-      "title": "定制键值对",
-      "type": "vue",
-      "binfo": {
-        "left": 60,
-        "top": 100,
-        "width": 210,
-        "height": 36,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "fontSize": 12,
-        "label": "总进水流量累计",
-        "labelWidth": 113,
-        "value": "12417067",
-        "valueWidth": 50,
-        "unit": "M3",
-        "unitWidth": 14
-      },
-      "tag": "CustomKv",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "CustomKv-jcrKh9IWue",
-      "title": "定制键值对",
-      "type": "vue",
-      "binfo": {
-        "left": 60,
-        "top": 135.9781494140625,
-        "width": 210,
-        "height": 36,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "fontSize": 12,
-        "label": "总进水流量顺时",
-        "labelWidth": 118,
-        "value": "0",
-        "valueWidth": 41,
-        "unit": "M3/h",
-        "unitWidth": 14
-      },
-      "tag": "CustomKv",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "CustomKv-CnOaPiKCRZ",
-      "title": "定制键值对",
-      "type": "vue",
-      "binfo": {
-        "left": 60,
-        "top": 172.1656494140625,
-        "width": 210,
-        "height": 36,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "fontSize": 12,
-        "label": "总进水流量顺时",
-        "labelWidth": 113,
-        "value": "0.00",
-        "valueWidth": 50,
-        "unit": "NTU",
-        "unitWidth": 14
-      },
-      "tag": "CustomKv",
       "common_animations": {
         "val": "",
         "delay": "delay-0s",
@@ -5563,8 +5431,8 @@
       "title": "按钮",
       "type": "vue",
       "binfo": {
-        "left": 1477.800048828125,
-        "top": 665.6000366210938,
+        "left": 1417.800048828125,
+        "top": 669.9000244140625,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -5594,8 +5462,8 @@
       "title": "按钮",
       "type": "vue",
       "binfo": {
-        "left": 1477.800048828125,
-        "top": 743.6000366210938,
+        "left": 1417.800048828125,
+        "top": 747.9000244140625,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -5625,8 +5493,8 @@
       "title": "按钮",
       "type": "vue",
       "binfo": {
-        "left": 1477.800048828125,
-        "top": 828.300048828125,
+        "left": 1417.800048828125,
+        "top": 832.6000366210938,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -5656,8 +5524,8 @@
       "title": "按钮",
       "type": "vue",
       "binfo": {
-        "left": 1477.800048828125,
-        "top": 908.9000244140625,
+        "left": 1417.800048828125,
+        "top": 913.2000122070312,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -5687,8 +5555,8 @@
       "title": "按钮",
       "type": "vue",
       "binfo": {
-        "left": 1477.800048828125,
-        "top": 995.909423828125,
+        "left": 1417.800048828125,
+        "top": 1000.2094116210938,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -5750,8 +5618,8 @@
       "title": "文字",
       "type": "vue",
       "binfo": {
-        "left": 1630,
-        "top": 661.390625,
+        "left": 1570,
+        "top": 665.6906127929688,
         "width": 50,
         "height": 30,
         "angle": 0
@@ -5782,8 +5650,8 @@
       "title": "文字",
       "type": "vue",
       "binfo": {
-        "left": 1630,
-        "top": 734.140625,
+        "left": 1570,
+        "top": 738.4406127929688,
         "width": 50,
         "height": 30,
         "angle": 0
@@ -5814,8 +5682,8 @@
       "title": "文字",
       "type": "vue",
       "binfo": {
-        "left": 1630,
-        "top": 816,
+        "left": 1570,
+        "top": 820.2999877929688,
         "width": 50,
         "height": 30,
         "angle": 0
@@ -5846,8 +5714,8 @@
       "title": "文字",
       "type": "vue",
       "binfo": {
-        "left": 1630,
-        "top": 901,
+        "left": 1570,
+        "top": 905.2999877929688,
         "width": 50,
         "height": 30,
         "angle": 0
@@ -6008,10 +5876,36 @@
       "title": "vue容器",
       "type": "vue",
       "binfo": {
-        "left": 290,
+        "left": 50,
         "top": 90,
         "width": 220,
         "height": 130,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-B8llECJ6Mm",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 1670,
+        "top": 860,
+        "width": 220,
+        "height": 170,
         "angle": 0
       },
       "resize": true,
