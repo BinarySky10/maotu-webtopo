@@ -4,6 +4,13 @@
       <el-collapse v-model="activeNames" accordion>
         <el-collapse-item title="边界和属性" name="1">
           <el-form label-width="60px" label-position="left">
+            <el-form-item label="组件id" size="small">
+              <el-input
+                size="small"
+                :value="selectItemSettingProps.itemJson?.id"
+                readonly
+              ></el-input>
+            </el-form-item>
             <el-form-item label="标题" size="small">
               <el-input size="small" v-model="item_title"></el-input>
             </el-form-item>

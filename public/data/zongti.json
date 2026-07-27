@@ -13,8 +13,8 @@
       "y": 616
     },
     "drag_offset": {
-      "x": -124,
-      "y": -157
+      "x": -30,
+      "y": -64
     }
   },
   "gridCfg": {
@@ -6002,6 +6002,32 @@
       },
       "events": [],
       "props": {}
+    },
+    {
+      "id": "VueContainer-sbpfhEcLGt",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 290,
+        "top": 90,
+        "width": 220,
+        "height": 130,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
     }
   ]
 }
