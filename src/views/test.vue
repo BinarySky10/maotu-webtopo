@@ -9,10 +9,6 @@
     <!--  -->
     <p>我是外部组件 111</p>
   </TeleportContainer>
-  <TeleportContainer :targetAId="'VueContainer-PKWbd7d7lg'" v-if="loadJson">
-    <!--  -->
-    <p>我是外部组件 222</p>
-  </TeleportContainer>
 </template>
 <script setup lang="ts">
 import MtPreview from '@/components/mt-preview/index.vue';

@@ -5,13 +5,9 @@
     :showPopover="false"
   ></mt-preview>
 
-  <TeleportContainer :targetAId="'VueContainer-GdW4Bb9oB4'">
+  <TeleportContainer :targetAId="'VueContainer-GdW4Bb9oB4'" v-if="loadJson">
     <!--  -->
     <p>我是外部组件 111</p>
-  </TeleportContainer>
-  <TeleportContainer :targetAId="'VueContainer-PKWbd7d7lg'">
-    <!--  -->
-    <p>我是外部组件 222</p>
   </TeleportContainer>
 </template>
 <script setup lang="ts">
@@ -27,7 +23,7 @@ const onEventCallBack = (type: string, item_id: string) => {
     ElMessage.success(`获取到了id:${item_id}`);
   }
 };
-
+const loadJson = ref(false);
 onMounted(() => {
   const json = {
     canvasCfg: {
