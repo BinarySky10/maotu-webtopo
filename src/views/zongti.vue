@@ -32,8 +32,24 @@
   >
     <KvOne :data="item.data"></KvOne>
   </TeleportContainer>
-
-  <!-- <KvOne :data="data"></KvOne> -->
+  <!-- 开关 -->
+  <TeleportContainer
+    :targetAId="item.targetId"
+    v-if="loadJson"
+    v-for="(item, index) in kaigguans"
+    :key="index"
+  >
+    <KvOne :data="item.data"></KvOne>
+  </TeleportContainer>
+  <!-- 压力计 -->
+  <TeleportContainer
+    :targetAId="item.targetId"
+    v-if="loadJson"
+    v-for="(item, index) in yalis"
+    :key="index"
+  >
+    <KvOne :data="item.data"></KvOne>
+  </TeleportContainer>
 </template>
 <script setup lang="ts">
 import MtPreview from '@/components/mt-preview/index.vue';
@@ -233,9 +249,10 @@ const liuliangs = [
     }
   }
 ];
+
 const kaigguans = [
   {
-    targetId: '',
+    targetId: 'VueContainer-zmeATxmPZC',
     data: {
       // label: '开关',
       label: '',
@@ -244,7 +261,7 @@ const kaigguans = [
     }
   },
   {
-    targetId: '',
+    targetId: 'VueContainer-W6IouPWnsa',
     data: {
       // label: '开关',
       label: '',
@@ -252,7 +269,134 @@ const kaigguans = [
       unit: '%'
     }
   },
-  {}
+  {
+    targetId: 'VueContainer-PJhBPXESpT',
+    data: {
+      // label: '开关',
+      label: '',
+      value: '65511',
+      unit: '%'
+    }
+  },
+  {
+    targetId: 'VueContainer-ENASR8Bu2c',
+    data: {
+      // label: '开关',
+      label: '',
+      value: '65511',
+      unit: '%'
+    }
+  },
+  {
+    targetId: 'VueContainer-ZK0dlu56Pu',
+    data: {
+      // label: '开关',
+      label: '',
+      value: '65511',
+      unit: '%'
+    }
+  },
+  {
+    targetId: 'VueContainer-7zq9VoDZhy',
+    data: {
+      // label: '开关',
+      label: '',
+      value: '65511',
+      unit: '%'
+    }
+  },
+  {
+    targetId: 'VueContainer-uyfopKbs9T',
+    data: {
+      // label: '开关',
+      label: '',
+      value: '65511',
+      unit: '%'
+    }
+  },
+  {
+    targetId: 'VueContainer-XPuSmTw5S9',
+    data: {
+      // label: '开关',
+      label: '',
+      value: '65511',
+      unit: '%'
+    }
+  },
+  {
+    targetId: 'VueContainer-9bAN6lMVX3',
+    data: {
+      // label: '开关',
+      label: '',
+      value: '65511',
+      unit: '%'
+    }
+  },
+  {
+    targetId: 'VueContainer-aof5Z6nZKD',
+    data: {
+      // label: '开关',
+      label: '',
+      value: '65511',
+      unit: '%'
+    }
+  }
+];
+const yalis = [
+  {
+    targetId: 'VueContainer-sNbHNa93vH',
+    data: {
+      // label: '压力',
+      label: '',
+      value: '0.17',
+      unit: 'Mpa'
+    }
+  },
+  {
+    targetId: 'VueContainer-iK9N9t0xFm',
+    data: {
+      // label: '压力',
+      label: '',
+      value: '0.17',
+      unit: 'Mpa'
+    }
+  },
+  {
+    targetId: 'VueContainer-L8UkwPJleG',
+    data: {
+      // label: '压力',
+      label: '',
+      value: '0.17',
+      unit: 'Mpa'
+    }
+  },
+  {
+    targetId: 'VueContainer-gS4kgoGGar',
+    data: {
+      // label: '压力',
+      label: '',
+      value: '0.17',
+      unit: 'Mpa'
+    }
+  },
+  {
+    targetId: 'VueContainer-M58hvv3fKg',
+    data: {
+      // label: '压力',
+      label: '',
+      value: '0.17',
+      unit: 'Mpa'
+    }
+  },
+  {
+    targetId: 'VueContainer-MUsABu4IAd',
+    data: {
+      // label: '压力',
+      label: '',
+      value: '0.17',
+      unit: 'Mpa'
+    }
+  }
 ];
 const loadJson = ref(false);
 import { getDatalist } from '@/api/api';
