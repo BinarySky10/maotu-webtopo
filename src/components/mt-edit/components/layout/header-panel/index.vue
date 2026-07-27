@@ -225,7 +225,7 @@
           </el-icon>
         </el-button>
         <el-divider direction="vertical"></el-divider>
-        <el-button text circle size="small" @click="emits('onPreviewClick')">
+        <el-button text circle size="small" @click="emits('onPreviewClick', fileName)">
           <el-icon title="预览" :size="20">
             <svg-analysis name="preview"></svg-analysis>
           </el-icon>

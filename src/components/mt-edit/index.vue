@@ -266,14 +266,14 @@ const onImportFileClick = async (fileName: string) => {
   globalStore.gridCfg = gridCfg;
   globalStore.setGlobalStoreDoneJson(importDoneJson);
 };
-const onPreviewClick = () => {
+const onPreviewClick = (fileName: string) => {
   // 获取导出json
   const { exportJson } = genExportJson(
     globalStore.canvasCfg,
     globalStore.gridCfg,
     globalStore.done_json
   );
-  emits('onPreviewClick', exportJson);
+  emits('onPreviewClick', exportJson, fileName);
 };
 const onSaveClick = () => {
   // 获取导出json

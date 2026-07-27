@@ -28,10 +28,10 @@ const onEventCallBack = (type: string, item_id: string) => {
   }
 };
 const loadJson = ref(false);
-import { getFilelist } from '@/api/api';
+import { getDatalist } from '@/api/api';
 
 onMounted(async () => {
-  const json = await getFilelist();
+  const json = await getDatalist('test');
 
   MtPreviewRef.value?.setImportJson(json);
   loadJson.value = true;

@@ -4,10 +4,15 @@ import { useGenThumbnail } from '@/components/mt-edit/composables/thumbnail';
 import { MtEdit } from '@/export';
 import { useRouter } from 'vue-router';
 const router = useRouter();
-const onPreviewClick = (exportJson: IExportJson) => {
+const onPreviewClick = (exportJson: IExportJson, fileName: string) => {
+  console.log(fileName);
+  debugger;
   sessionStorage.setItem('exportJson', JSON.stringify(exportJson));
+  // const routeUrl = router.resolve({
+  //   name: 'preview'
+  // });
   const routeUrl = router.resolve({
-    name: 'preview'
+    name: fileName
   });
   window.open(routeUrl.href, '_blank');
 };
