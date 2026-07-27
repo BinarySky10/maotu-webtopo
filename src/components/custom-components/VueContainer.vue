@@ -1,6 +1,6 @@
 <template>
-  <div class="box" :data-instance-id="instanceId">
-    <p>我是占位符</p>
+  <div class="box" :instanceid="instanceId">
+    <!-- <p>我是{{ instanceId }}</p> -->
   </div>
 </template>
 <script setup lang="ts">
@@ -13,7 +13,7 @@ watch(
   (val) => {
     if (val) {
       console.log('val', val);
-      debugger;
+      // debugger;
     }
   },
   {

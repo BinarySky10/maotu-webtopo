@@ -4,10 +4,13 @@
     @onEventCallBack="onEventCallBack"
     :showPopover="false"
   ></mt-preview>
+  <Teleport :to="teleportTarget" v-if="targetAId">
+    <p>我是外部组件111</p>
+  </Teleport>
 </template>
 <script setup lang="ts">
 import MtPreview from '@/components/mt-preview/index.vue';
-import { onMounted, ref } from 'vue';
+import { onMounted, ref, computed, nextTick } from 'vue';
 import { ElMessage } from 'element-plus';
 const MtPreviewRef = ref<InstanceType<typeof MtPreview>>();
 const onEventCallBack = (type: string, item_id: string) => {
@@ -17,6 +20,17 @@ const onEventCallBack = (type: string, item_id: string) => {
     ElMessage.success(`获取到了id:${item_id}`);
   }
 };
+
+//teleport
+const targetAId = ref('');
+// targetAId.value = 'VueContainer-GdW4Bb9oB4';
+const teleportTarget = computed(() => {
+  return `[instanceid="${targetAId.value}"]`;
+});
+async function mountTest(aId) {
+  await nextTick();
+  targetAId.value = 'VueContainer-GdW4Bb9oB4';
+}
 onMounted(() => {
   const json = {
     canvasCfg: {
@@ -1978,6 +1992,60 @@ onMounted(() => {
       }
     ]
   };
-  MtPreviewRef.value?.setImportJson(json);
+  const jsontmp = {
+    canvasCfg: {
+      width: 1920,
+      height: 1080,
+      scale: 1,
+      color: '',
+      img: '',
+      guide: true,
+      adsorp: true,
+      adsorp_diff: 5,
+      transform_origin: {
+        x: 0,
+        y: 0
+      },
+      drag_offset: {
+        x: 0,
+        y: 0
+      }
+    },
+    gridCfg: {
+      enabled: true,
+      align: true,
+      size: 10
+    },
+    json: [
+      {
+        id: 'VueContainer-GdW4Bb9oB4',
+        title: 'vue容器',
+        type: 'vue',
+        binfo: {
+          left: 880,
+          top: 210,
+          width: 310,
+          height: 50,
+          angle: 0
+        },
+        resize: true,
+        rotate: true,
+        lock: false,
+        active: false,
+        hide: false,
+        props: {},
+        tag: 'VueContainer',
+        common_animations: {
+          val: '',
+          delay: 'delay-0s',
+          speed: 'slow',
+          repeat: 'infinite'
+        },
+        events: []
+      }
+    ]
+  };
+  MtPreviewRef.value?.setImportJson(jsontmp);
+  mountTest();
 });
 </script>

@@ -24,13 +24,13 @@
   },
   "json": [
     {
-      "id": "kv-vue-6yZUblIfH2",
-      "title": "键值对",
+      "id": "VueContainer-GdW4Bb9oB4",
+      "title": "vue容器",
       "type": "vue",
       "binfo": {
-        "left": 660,
-        "top": 340,
-        "width": 50,
+        "left": 880,
+        "top": 210,
+        "width": 310,
         "height": 50,
         "angle": 0
       },
@@ -39,19 +39,8 @@
       "lock": false,
       "active": false,
       "hide": false,
-      "props": {
-        "border": true,
-        "fontFamily": "黑体",
-        "fontSize": 18,
-        "label": "键名",
-        "labelWidth": 50,
-        "value": "键值",
-        "valueWidth": 50,
-        "unit": "M",
-        "color": "#FFF700",
-        "borderColor": "#000000"
-      },
-      "tag": "kv-vue",
+      "props": {},
+      "tag": "VueContainer",
       "common_animations": {
         "val": "",
         "delay": "delay-0s",

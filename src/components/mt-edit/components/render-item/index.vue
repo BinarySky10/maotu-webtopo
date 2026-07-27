@@ -20,6 +20,7 @@
       v-else-if="item_json.type === 'vue'"
       draggable="false"
       :is="item_json.tag"
+      :instanceId="item_json.id"
       v-bind="prosToVBind(item_json.props)"
       @update:modelValue="(val: any) => onUpdateModelValue(item_json.props, val)"
     ></component>
