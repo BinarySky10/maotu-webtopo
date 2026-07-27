@@ -4,7 +4,7 @@
     @onEventCallBack="onEventCallBack"
     :showPopover="false"
   ></mt-preview>
-  <Teleport :to="teleportTarget" v-if="targetAId">
+  <Teleport defer :to="teleportTarget" v-if="targetAId">
     <p>我是外部组件111</p>
   </Teleport>
 </template>
@@ -28,8 +28,9 @@ const teleportTarget = computed(() => {
   return `[instanceid="${targetAId.value}"]`;
 });
 async function mountTest(aId) {
+  //Teleport defer 不兼容vue3.4
   await nextTick();
-  targetAId.value = 'VueContainer-GdW4Bb9oB4';
+  targetAId.value = aId;
 }
 onMounted(() => {
   const json = {
@@ -2046,6 +2047,6 @@ onMounted(() => {
     ]
   };
   MtPreviewRef.value?.setImportJson(jsontmp);
-  mountTest();
+  mountTest('VueContainer-GdW4Bb9oB4');
 });
 </script>
