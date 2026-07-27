@@ -1,16 +1,21 @@
 <template>
   <div class="text-box">
-    <div class="text-box-item" v-for="(item, index) in datalist" :key="item.label">
-      <div class="param-label left">{{ item.label }}:</div>
+    <div class="text-box-item">
+      <div class="param-label left">{{ props.data.label }}:</div>
       <div class="param-value-box right">
-        <span class="num-text">{{ item.value }}</span>
-        <span class="unit-text">{{ item.unit }}</span>
+        <span class="num-text">{{ props.data.value }}</span>
+        <span class="unit-text">{{ props.data.unit }}</span>
       </div>
     </div>
   </div>
 </template>
 <script lang="ts" setup>
-const props = defineProps({ datalist: Array });
+const props = defineProps({ data: Array });
+// const data = {
+//   label: '总进水流量累计',
+//   value: '12417067',
+//   unit: 'm³'
+// };
 </script>
 <style scoped lang="less">
 .text-box {

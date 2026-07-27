@@ -13,8 +13,8 @@
       "y": 616
     },
     "drag_offset": {
-      "x": -649,
-      "y": -358
+      "x": 35,
+      "y": -207
     }
   },
   "gridCfg": {
@@ -616,32 +616,6 @@
         "repeat": "infinite"
       },
       "events": []
-    },
-    {
-      "id": "集水池-u8enKirF1O",
-      "title": "集水池",
-      "type": "svg",
-      "binfo": {
-        "left": 70,
-        "top": 586,
-        "width": 120,
-        "height": 120,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "集水池",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
     },
     {
       "id": "sys-line2-kGq3NTA4Wo",
@@ -4262,210 +4236,6 @@
       "props": {}
     },
     {
-      "id": "CustomKv-ii9SP1F3zC",
-      "title": "定制键值对",
-      "type": "vue",
-      "binfo": {
-        "left": 140,
-        "top": 545.6000366210938,
-        "width": 110,
-        "height": 40,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "fontSize": 12,
-        "label": "液位",
-        "labelWidth": 50,
-        "value": "3.73",
-        "valueWidth": 50,
-        "unit": "M",
-        "unitWidth": 14
-      },
-      "tag": "CustomKv",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "CustomKv-RZHjnhuc4l",
-      "title": "定制键值对",
-      "type": "vue",
-      "binfo": {
-        "left": 50,
-        "top": 725.1531372070312,
-        "width": 110,
-        "height": 40,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "fontSize": 12,
-        "label": "液位",
-        "labelWidth": 50,
-        "value": "3.79",
-        "valueWidth": 50,
-        "unit": "M",
-        "unitWidth": 14
-      },
-      "tag": "CustomKv",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "CustomKv-fB1skGlMtd",
-      "title": "定制键值对",
-      "type": "vue",
-      "binfo": {
-        "left": 230,
-        "top": 725.1531372070312,
-        "width": 110,
-        "height": 40,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "fontSize": 12,
-        "label": "液位",
-        "labelWidth": 50,
-        "value": "3.73",
-        "valueWidth": 50,
-        "unit": "M",
-        "unitWidth": 14
-      },
-      "tag": "CustomKv",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "CustomKv-b3WWpYKtA7",
-      "title": "定制键值对",
-      "type": "vue",
-      "binfo": {
-        "left": 440,
-        "top": 700,
-        "width": 110,
-        "height": 30,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "fontSize": 12,
-        "label": "液位",
-        "labelWidth": 50,
-        "value": "3.79",
-        "valueWidth": 50,
-        "unit": "M",
-        "unitWidth": 14
-      },
-      "tag": "CustomKv",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "CustomKv-3VqINiZL8y",
-      "title": "定制键值对",
-      "type": "vue",
-      "binfo": {
-        "left": 610,
-        "top": 706.2531127929688,
-        "width": 110,
-        "height": 30,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "fontSize": 12,
-        "label": "液位",
-        "labelWidth": 50,
-        "value": "3.73",
-        "valueWidth": 50,
-        "unit": "M",
-        "unitWidth": 14
-      },
-      "tag": "CustomKv",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "CustomKv-EQ4doEKabD",
-      "title": "定制键值对",
-      "type": "vue",
-      "binfo": {
-        "left": 1030,
-        "top": 750,
-        "width": 110,
-        "height": 30,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "fontSize": 12,
-        "label": "液位",
-        "labelWidth": 50,
-        "value": "3.73",
-        "valueWidth": 50,
-        "unit": "M",
-        "unitWidth": 14
-      },
-      "tag": "CustomKv",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
       "id": "CustomKv-CJ1OSGaodF",
       "title": "定制键值对",
       "type": "vue",
@@ -5906,6 +5676,188 @@
         "top": 860,
         "width": 220,
         "height": 170,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-mJBdycdfVr",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 95.5,
+        "top": 593.296875,
+        "width": 90,
+        "height": 23,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "集水池-u8enKirF1O",
+      "title": "集水池",
+      "type": "svg",
+      "binfo": {
+        "left": 70,
+        "top": 610,
+        "width": 120,
+        "height": 100,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "集水池",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "VueContainer-MG5iL1dT4x",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 130,
+        "top": 738.4375,
+        "width": 90,
+        "height": 23,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-U4jB9wLBMy",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 310,
+        "top": 738.4375,
+        "width": 90,
+        "height": 23,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-93p3M5f5sd",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 510,
+        "top": 708,
+        "width": 90,
+        "height": 23,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-oFlKJUosRa",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 690.796875,
+        "top": 709,
+        "width": 90,
+        "height": 23,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-UnugqC4hPK",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 1050,
+        "top": 756.296875,
+        "width": 90,
+        "height": 23,
         "angle": 0
       },
       "resize": true,

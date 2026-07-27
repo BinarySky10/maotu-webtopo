@@ -6,13 +6,25 @@
   ></mt-preview>
 
   <TeleportContainer :targetAId="'VueContainer-sbpfhEcLGt'" v-if="loadJson">
-    <!--  -->
+    <!-- 左上 数据列表 -->
     <KvList :datalist="datalist"></KvList>
   </TeleportContainer>
   <TeleportContainer :targetAId="'VueContainer-B8llECJ6Mm'" v-if="loadJson">
-    <!--  -->
+    <!-- 右下 数据列表 -->
     <KvList :datalist="datalist2"></KvList>
   </TeleportContainer>
+  <!-- 集水池 液位 -->
+  <TeleportContainer
+    :targetAId="item.targetId"
+    v-if="loadJson"
+    v-for="(item, index) in yeweis"
+    :key="index"
+  >
+    <!-- 集水池 液位 -->
+    <KvOne :data="item.data"></KvOne>
+  </TeleportContainer>
+
+  <!-- <KvOne :data="data"></KvOne> -->
 </template>
 <script setup lang="ts">
 import MtPreview from '@/components/mt-preview/index.vue';
@@ -20,6 +32,7 @@ import { onMounted, ref, computed, nextTick } from 'vue';
 import { ElMessage } from 'element-plus';
 import TeleportContainer from '@/components/mt-preview/TeleportContainer.vue';
 import KvList from './components/zongti/KvList.vue';
+import KvOne from './components/zongti/KvOne.vue';
 
 const MtPreviewRef = ref<InstanceType<typeof MtPreview>>();
 const onEventCallBack = (type: string, item_id: string) => {
@@ -66,6 +79,57 @@ const datalist2 = [
     label: '余氟',
     value: '0.00',
     unit: 'mg/h'
+  }
+];
+
+const yeweis = [
+  {
+    targetId: 'VueContainer-mJBdycdfVr',
+    data: {
+      label: '液位',
+      value: '3.73',
+      unit: 'M'
+    }
+  },
+  {
+    targetId: 'VueContainer-MG5iL1dT4x',
+    data: {
+      label: '液位',
+      value: '3.73',
+      unit: 'M'
+    }
+  },
+  {
+    targetId: 'VueContainer-U4jB9wLBMy',
+    data: {
+      label: '液位',
+      value: '3.73',
+      unit: 'M'
+    }
+  },
+  {
+    targetId: 'VueContainer-93p3M5f5sd',
+    data: {
+      label: '液位',
+      value: '3.73',
+      unit: 'M'
+    }
+  },
+  {
+    targetId: 'VueContainer-oFlKJUosRa',
+    data: {
+      label: '液位',
+      value: '3.73',
+      unit: 'M'
+    }
+  },
+  {
+    targetId: 'VueContainer-UnugqC4hPK',
+    data: {
+      label: '液位',
+      value: '3.73',
+      unit: 'M'
+    }
   }
 ];
 const loadJson = ref(false);
