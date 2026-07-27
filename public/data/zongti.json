@@ -13,8 +13,8 @@
       "y": 616
     },
     "drag_offset": {
-      "x": 35,
-      "y": -207
+      "x": 12,
+      "y": -65
     }
   },
   "gridCfg": {
@@ -623,7 +623,7 @@
       "type": "sys-line2",
       "binfo": {
         "left": 370,
-        "top": 292,
+        "top": 244.484375,
         "width": 100,
         "height": 0,
         "angle": 0
@@ -671,7 +671,7 @@
       "type": "sys-line2",
       "binfo": {
         "left": 310,
-        "top": 387.8125,
+        "top": 340.609375,
         "width": 100,
         "height": 0,
         "angle": 0
@@ -719,7 +719,7 @@
       "type": "sys-line2",
       "binfo": {
         "left": 320,
-        "top": 481.8125,
+        "top": 449.4313049316406,
         "width": 100,
         "height": 0,
         "angle": 0
@@ -767,7 +767,7 @@
       "type": "sys-line2",
       "binfo": {
         "left": 320,
-        "top": 576,
+        "top": 558.2218933105469,
         "width": 100,
         "height": 0,
         "angle": 0
@@ -863,7 +863,7 @@
       "type": "svg",
       "binfo": {
         "left": 380,
-        "top": 238,
+        "top": 186,
         "width": 60,
         "height": 60,
         "angle": 0
@@ -889,7 +889,7 @@
       "type": "svg",
       "binfo": {
         "left": 380,
-        "top": 438.1875,
+        "top": 401.8063049316406,
         "width": 60,
         "height": 60,
         "angle": 0
@@ -915,7 +915,7 @@
       "type": "svg",
       "binfo": {
         "left": 380,
-        "top": 337.8125,
+        "top": 290,
         "width": 60,
         "height": 60,
         "angle": 0
@@ -941,7 +941,7 @@
       "type": "svg",
       "binfo": {
         "left": 380,
-        "top": 526,
+        "top": 508.2218933105469,
         "width": 60,
         "height": 60,
         "angle": 0
@@ -2203,7 +2203,7 @@
       "type": "svg",
       "binfo": {
         "left": 980,
-        "top": 345.0812683105469,
+        "top": 310.1875,
         "width": 50,
         "height": 50,
         "angle": 0
@@ -2229,7 +2229,7 @@
       "type": "svg",
       "binfo": {
         "left": 980,
-        "top": 439.71875,
+        "top": 407.3375549316406,
         "width": 50,
         "height": 50,
         "angle": 0
@@ -2255,7 +2255,7 @@
       "type": "svg",
       "binfo": {
         "left": 980,
-        "top": 532,
+        "top": 514.2218933105469,
         "width": 50,
         "height": 50,
         "angle": 0
@@ -2307,7 +2307,7 @@
       "type": "svg",
       "binfo": {
         "left": 980,
-        "top": 246.80001831054688,
+        "top": 194.80001831054688,
         "width": 50,
         "height": 50,
         "angle": 0
@@ -2333,7 +2333,7 @@
       "type": "svg",
       "binfo": {
         "left": 510,
-        "top": 344.8937683105469,
+        "top": 300.6750183105469,
         "width": 50,
         "height": 50,
         "angle": 0
@@ -2359,7 +2359,7 @@
       "type": "svg",
       "binfo": {
         "left": 510,
-        "top": 442.3811950683594,
+        "top": 410.484375,
         "width": 50,
         "height": 50,
         "angle": 0
@@ -2385,7 +2385,7 @@
       "type": "svg",
       "binfo": {
         "left": 510,
-        "top": 532.9187316894531,
+        "top": 522.28125,
         "width": 50,
         "height": 50,
         "angle": 0
@@ -2437,33 +2437,7 @@
       "type": "svg",
       "binfo": {
         "left": 510,
-        "top": 247.71875,
-        "width": 50,
-        "height": 50,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "tag": "valveorigin",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": [],
-      "props": {}
-    },
-    {
-      "id": "valveorigin-GWNzGqy0EO",
-      "title": "valveorigin",
-      "type": "svg",
-      "binfo": {
-        "left": 210,
-        "top": 625.4937744140625,
+        "top": 195.71875,
         "width": 50,
         "height": 50,
         "angle": 0
@@ -2931,7 +2905,7 @@
       "type": "vue",
       "binfo": {
         "left": 610,
-        "top": 236,
+        "top": 181,
         "width": 320,
         "height": 90,
         "angle": 0
@@ -2961,7 +2935,7 @@
       "type": "vue",
       "binfo": {
         "left": 610,
-        "top": 330,
+        "top": 276.390625,
         "width": 320,
         "height": 90,
         "angle": 0
@@ -2991,7 +2965,7 @@
       "type": "vue",
       "binfo": {
         "left": 610,
-        "top": 423.75,
+        "top": 376,
         "width": 320,
         "height": 90,
         "angle": 0
@@ -3549,7 +3523,7 @@
       "type": "vue",
       "binfo": {
         "left": 690.7999877929688,
-        "top": 248.59999084472656,
+        "top": 192.59999084472656,
         "width": 110,
         "height": 70,
         "angle": 0
@@ -3581,7 +3555,7 @@
       "type": "vue",
       "binfo": {
         "left": 690,
-        "top": 343.24998474121094,
+        "top": 293.24998474121094,
         "width": 110,
         "height": 70,
         "angle": 0
@@ -3612,8 +3586,8 @@
       "title": "文字",
       "type": "vue",
       "binfo": {
-        "left": 689.3624877929688,
-        "top": 428.5625,
+        "left": 690.796875,
+        "top": 376,
         "width": 110,
         "height": 70,
         "angle": 0
@@ -3901,7 +3875,7 @@
       "type": "vue",
       "binfo": {
         "left": 640,
-        "top": 272.15625,
+        "top": 216.15625,
         "width": 25,
         "height": 25,
         "angle": 0
@@ -3933,7 +3907,7 @@
       "type": "vue",
       "binfo": {
         "left": 640,
-        "top": 366.71875,
+        "top": 316.71875,
         "width": 25,
         "height": 25,
         "angle": 0
@@ -3965,7 +3939,7 @@
       "type": "vue",
       "binfo": {
         "left": 640,
-        "top": 449.90625,
+        "top": 406.15625,
         "width": 25,
         "height": 25,
         "angle": 0
@@ -4309,7 +4283,7 @@
       "type": "vue",
       "binfo": {
         "left": 810,
-        "top": 471.60003662109375,
+        "top": 427.85003662109375,
         "width": 110,
         "height": 30,
         "angle": 0
@@ -4343,7 +4317,7 @@
       "type": "vue",
       "binfo": {
         "left": 810,
-        "top": 377.17498779296875,
+        "top": 327.17498779296875,
         "width": 110,
         "height": 30,
         "angle": 0
@@ -4377,7 +4351,7 @@
       "type": "vue",
       "binfo": {
         "left": 807,
-        "top": 290.20001220703125,
+        "top": 234.20001220703125,
         "width": 110,
         "height": 30,
         "angle": 0
@@ -4411,7 +4385,7 @@
       "type": "vue",
       "binfo": {
         "left": 808,
-        "top": 249.35000610351562,
+        "top": 193.35000610351562,
         "width": 60,
         "height": 40,
         "angle": 0
@@ -4443,7 +4417,7 @@
       "type": "vue",
       "binfo": {
         "left": 880,
-        "top": 255.640625,
+        "top": 199.640625,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -4474,7 +4448,7 @@
       "type": "vue",
       "binfo": {
         "left": 810,
-        "top": 336.5,
+        "top": 286.5,
         "width": 60,
         "height": 40,
         "angle": 0
@@ -4506,7 +4480,7 @@
       "type": "vue",
       "binfo": {
         "left": 882,
-        "top": 346,
+        "top": 296,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -4537,7 +4511,7 @@
       "type": "vue",
       "binfo": {
         "left": 810,
-        "top": 440.25,
+        "top": 396.5,
         "width": 60,
         "height": 40,
         "angle": 0
@@ -4569,7 +4543,7 @@
       "type": "vue",
       "binfo": {
         "left": 880,
-        "top": 448.75,
+        "top": 405,
         "width": 20,
         "height": 20,
         "angle": 0
@@ -4719,166 +4693,6 @@
       },
       "events": [],
       "use_proportional_scaling": true
-    },
-    {
-      "id": "text-vue-SXwjwDPSsh",
-      "title": "文字",
-      "type": "vue",
-      "binfo": {
-        "left": 980,
-        "top": 578.5,
-        "width": 50,
-        "height": 50,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "text": "000   %",
-        "fontFamily": "黑体",
-        "fontSize": 18,
-        "fill": "#000000",
-        "vertical": false
-      },
-      "tag": "text-vue",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "text-vue-5tYHoOjnSU",
-      "title": "文字",
-      "type": "vue",
-      "binfo": {
-        "left": 980,
-        "top": 482.71875,
-        "width": 50,
-        "height": 50,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "text": "000   %",
-        "fontFamily": "黑体",
-        "fontSize": 18,
-        "fill": "#000000",
-        "vertical": false
-      },
-      "tag": "text-vue",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "text-vue-Hnshd3cA1z",
-      "title": "文字",
-      "type": "vue",
-      "binfo": {
-        "left": 980,
-        "top": 398.125,
-        "width": 50,
-        "height": 50,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "text": "000   %",
-        "fontFamily": "黑体",
-        "fontSize": 18,
-        "fill": "#000000",
-        "vertical": false
-      },
-      "tag": "text-vue",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "text-vue-J1oMd6cbJv",
-      "title": "文字",
-      "type": "vue",
-      "binfo": {
-        "left": 980,
-        "top": 301.5,
-        "width": 50,
-        "height": 50,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "text": "000   %",
-        "fontFamily": "黑体",
-        "fontSize": 18,
-        "fill": "#000000",
-        "vertical": false
-      },
-      "tag": "text-vue",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
-      "id": "text-vue-3cffGO0FOu",
-      "title": "文字",
-      "type": "vue",
-      "binfo": {
-        "left": 980,
-        "top": 201.5,
-        "width": 50,
-        "height": 50,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {
-        "text": "000   %",
-        "fontFamily": "黑体",
-        "fontSize": 18,
-        "fill": "#000000",
-        "vertical": false
-      },
-      "tag": "text-vue",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
     },
     {
       "id": "sys-button-vue-Cjp1weC0EO",
@@ -5517,7 +5331,7 @@
       "type": "svg",
       "binfo": {
         "left": 318,
-        "top": 276.45623779296875,
+        "top": 224.45623779296875,
         "width": 40,
         "height": 20,
         "angle": 0
@@ -5543,7 +5357,7 @@
       "type": "svg",
       "binfo": {
         "left": 320,
-        "top": 377.578125,
+        "top": 329.765625,
         "width": 40,
         "height": 20,
         "angle": 0
@@ -5569,7 +5383,7 @@
       "type": "svg",
       "binfo": {
         "left": 320,
-        "top": 474.9405517578125,
+        "top": 440.25,
         "width": 40,
         "height": 20,
         "angle": 0
@@ -5595,7 +5409,7 @@
       "type": "svg",
       "binfo": {
         "left": 320,
-        "top": 567.9405517578125,
+        "top": 546,
         "width": 40,
         "height": 20,
         "angle": 0
@@ -5874,6 +5688,552 @@
         "repeat": "infinite"
       },
       "events": []
+    },
+    {
+      "id": "VueContainer-gJlB6UKw5i",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 360,
+        "top": 162,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-rgPtID4tRF",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 360,
+        "top": 139.5,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-KgSV5Cxxfz",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 360,
+        "top": 592,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-1le8GJHiUL",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 360,
+        "top": 571.59375,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-T99DHfc29Q",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 360,
+        "top": 489.1875,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-KhTOruXBmj",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 360,
+        "top": 463.4375,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-S0VRyFHc0Z",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 360,
+        "top": 376,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-Iw3Iuu0Kh0",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 360,
+        "top": 356.796875,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-EFga1VBXk4",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 360,
+        "top": 271.4375,
+        "width": 100,
+        "height": 18,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-4sQiy3EHhS",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 360,
+        "top": 248.9375,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-zmeATxmPZC",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 490,
+        "top": 162,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-W6IouPWnsa",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 490,
+        "top": 271.4375,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-PJhBPXESpT",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 490,
+        "top": 376,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-ENASR8Bu2c",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 490,
+        "top": 486,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-ZK0dlu56Pu",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 490,
+        "top": 586,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-7zq9VoDZhy",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 955,
+        "top": 166,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-uyfopKbs9T",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 955,
+        "top": 280.390625,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-XPuSmTw5S9",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 955,
+        "top": 376,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-9bAN6lMVX3",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 955,
+        "top": 487,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-aof5Z6nZKD",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 955,
+        "top": 593,
+        "width": 100,
+        "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "valveorigin-GWNzGqy0EO",
+      "title": "valveorigin",
+      "type": "svg",
+      "binfo": {
+        "left": 210,
+        "top": 625.484375,
+        "width": 50,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "valveorigin",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
     }
   ]
 }

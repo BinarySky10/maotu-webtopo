@@ -23,6 +23,15 @@
     <!-- 集水池 液位 -->
     <KvOne :data="item.data"></KvOne>
   </TeleportContainer>
+  <!-- 流量 -->
+  <TeleportContainer
+    :targetAId="item.targetId"
+    v-if="loadJson"
+    v-for="(item, index) in liuliangs"
+    :key="index"
+  >
+    <KvOne :data="item.data"></KvOne>
+  </TeleportContainer>
 
   <!-- <KvOne :data="data"></KvOne> -->
 </template>
@@ -131,6 +140,119 @@ const yeweis = [
       unit: 'M'
     }
   }
+];
+const liuliangs = [
+  {
+    targetId: 'VueContainer-rgPtID4tRF',
+    data: {
+      // label: '总进水流量累计',
+      label: '',
+      value: '12417067',
+      unit: 'm³'
+    }
+  },
+  {
+    targetId: 'VueContainer-gJlB6UKw5i',
+    data: {
+      // label: '总进水流量瞬时',
+      label: '',
+      value: '0000',
+      unit: 'm³/h'
+    }
+  },
+  {
+    targetId: 'VueContainer-4sQiy3EHhS',
+    data: {
+      // label: '总进水流量累计',
+      label: '',
+      value: '12417067',
+      unit: 'm³'
+    }
+  },
+  {
+    targetId: 'VueContainer-EFga1VBXk4',
+    data: {
+      // label: '总进水流量瞬时',
+      label: '',
+      value: '0000',
+      unit: 'm³/h'
+    }
+  },
+  {
+    targetId: 'VueContainer-Iw3Iuu0Kh0',
+    data: {
+      // label: '总进水流量累计',
+      label: '',
+      value: '12417067',
+      unit: 'm³'
+    }
+  },
+  {
+    targetId: 'VueContainer-S0VRyFHc0Z',
+    data: {
+      // label: '总进水流量瞬时',
+      label: '',
+      value: '0000',
+      unit: 'm³/h'
+    }
+  },
+  {
+    targetId: 'VueContainer-KhTOruXBmj',
+    data: {
+      // label: '总进水流量累计',
+      label: '',
+      value: '12417067',
+      unit: 'm³'
+    }
+  },
+  {
+    targetId: 'VueContainer-T99DHfc29Q',
+    data: {
+      // label: '总进水流量瞬时',
+      label: '',
+      value: '0000',
+      unit: 'm³/h'
+    }
+  },
+  {
+    targetId: 'VueContainer-1le8GJHiUL',
+    data: {
+      // label: '总进水流量累计',
+      label: '',
+      value: '12417067',
+      unit: 'm³'
+    }
+  },
+  {
+    targetId: 'VueContainer-KgSV5Cxxfz',
+    data: {
+      // label: '总进水流量瞬时',
+      label: '',
+      value: '0000',
+      unit: 'm³/h'
+    }
+  }
+];
+const kaigguans = [
+  {
+    targetId: '',
+    data: {
+      // label: '开关',
+      label: '',
+      value: '65511',
+      unit: '%'
+    }
+  },
+  {
+    targetId: '',
+    data: {
+      // label: '开关',
+      label: '',
+      value: '65511',
+      unit: '%'
+    }
+  },
+  {}
 ];
 const loadJson = ref(false);
 import { getDatalist } from '@/api/api';

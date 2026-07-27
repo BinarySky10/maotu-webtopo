@@ -1,7 +1,7 @@
 <template>
   <div class="text-box">
     <div class="text-box-item">
-      <div class="param-label left">{{ props.data.label }}:</div>
+      <div class="param-label left" v-if="props.data.label">{{ props.data.label }}:</div>
       <div class="param-value-box right">
         <span class="num-text">{{ props.data.value }}</span>
         <span class="unit-text">{{ props.data.unit }}</span>
