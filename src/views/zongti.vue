@@ -50,6 +50,26 @@
   >
     <KvOne :data="item.data"></KvOne>
   </TeleportContainer>
+  <!-- 液位2 -->
+  <TeleportContainer
+    :targetAId="item.targetId"
+    v-if="loadJson"
+    v-for="(item, index) in yeweis2"
+    :key="index"
+  >
+    <!-- 液位2 -->
+    <KvOne :data="item.data"></KvOne>
+  </TeleportContainer>
+  <!-- 频率 -->
+  <TeleportContainer
+    :targetAId="item.targetId"
+    v-if="loadJson"
+    v-for="(item, index) in pinlvs"
+    :key="index"
+  >
+    <!-- 液位2 -->
+    <KvOne :data="item.data"></KvOne>
+  </TeleportContainer>
 </template>
 <script setup lang="ts">
 import MtPreview from '@/components/mt-preview/index.vue';
@@ -395,6 +415,110 @@ const yalis = [
       label: '',
       value: '0.17',
       unit: 'Mpa'
+    }
+  }
+];
+
+const yeweis2 = [
+  {
+    targetId: 'VueContainer-DTeUiqMnZ5',
+    data: {
+      // label: '液位',
+      label: '',
+      value: '3.73',
+      unit: 'M'
+    }
+  },
+  {
+    targetId: 'VueContainer-TGV1LTKZal',
+    data: {
+      // label: '液位',
+      label: '',
+      value: '3.73',
+      unit: 'M'
+    }
+  },
+  {
+    targetId: 'VueContainer-SnetFKbUbo',
+    data: {
+      // label: '液位',
+      label: '',
+      value: '3.73',
+      unit: 'M'
+    }
+  },
+  {
+    targetId: 'VueContainer-ZQEsmypq1f',
+    data: {
+      // label: '液位',
+      label: '',
+      value: '3.73',
+      unit: 'M'
+    }
+  },
+  {
+    targetId: 'VueContainer-KOzXhxBL5w',
+    data: {
+      // label: '液位',
+      label: '',
+      value: '3.73',
+      unit: 'M'
+    }
+  },
+  {
+    targetId: 'VueContainer-xXNRnIvxkz',
+    data: {
+      // label: '液位',
+      label: '',
+      value: '3.73',
+      unit: 'M'
+    }
+  }
+];
+const pinlvs = [
+  {
+    targetId: 'VueContainer-EUq7NxviNJ',
+    data: {
+      // label: '频率',
+      label: '',
+      value: '100',
+      unit: 'Hz'
+    }
+  },
+  {
+    targetId: 'VueContainer-2YM7y0ptvh',
+    data: {
+      // label: '频率',
+      label: '',
+      value: '100',
+      unit: 'Hz'
+    }
+  },
+  {
+    targetId: 'VueContainer-G02Ef7uonO',
+    data: {
+      // label: '频率',
+      label: '',
+      value: '100',
+      unit: 'Hz'
+    }
+  },
+  {
+    targetId: 'VueContainer-NYW57dJIGB',
+    data: {
+      // label: '频率',
+      label: '',
+      value: '100',
+      unit: 'Hz'
+    }
+  },
+  {
+    targetId: 'VueContainer-M6r2XSgW2J',
+    data: {
+      // label: '频率',
+      label: '',
+      value: '100',
+      unit: 'Hz'
     }
   }
 ];
