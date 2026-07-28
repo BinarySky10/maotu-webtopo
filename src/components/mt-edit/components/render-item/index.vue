@@ -70,7 +70,9 @@ import type {
   IGlobalStoreGridCfg,
   ILeftAsideConfigItemPublicProps
 } from '../../store/types';
-import SvgRender from '@/components/mt-edit/components/render-item/customRenders/svg-render/index.vue';
+// import SvgRender from '@/components/mt-edit/components/render-item/customRenders/svg-render/index.vue';
+import SvgRender from '@/components/mt-edit/components/render-item/customRenders/SvgRender.vue';
+
 import GroupRender from '@/components/mt-edit/components/render-item/customRenders/group-render/index.vue';
 import { prosToVBind } from '@/components/mt-edit/utils';
 import LineRender from '@/components/mt-edit/components/render-item/customRenders/line-render/index.vue';

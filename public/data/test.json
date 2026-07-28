@@ -24,14 +24,14 @@
   },
   "json": [
     {
-      "id": "VueContainer-GdW4Bb9oB4",
-      "title": "vue容器",
-      "type": "vue",
+      "id": "xxxxxxx-VNoblKj4c2",
+      "title": "xxxxxxx",
+      "type": "svg",
       "binfo": {
-        "left": 880,
-        "top": 210,
-        "width": 310,
-        "height": 50,
+        "left": 510,
+        "top": 80,
+        "width": 815,
+        "height": 600,
         "angle": 0
       },
       "resize": true,
@@ -39,41 +39,15 @@
       "lock": false,
       "active": false,
       "hide": false,
-      "props": {},
-      "tag": "VueContainer",
+      "tag": "xxxxxxx",
       "common_animations": {
         "val": "",
         "delay": "delay-0s",
         "speed": "slow",
         "repeat": "infinite"
       },
-      "events": []
-    },
-    {
-      "id": "VueContainer-PKWbd7d7lg",
-      "title": "vue容器",
-      "type": "vue",
-      "binfo": {
-        "left": 880,
-        "top": 340,
-        "width": 340,
-        "height": 50,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {},
-      "tag": "VueContainer",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
+      "events": [],
+      "props": {}
     }
   ]
 }
