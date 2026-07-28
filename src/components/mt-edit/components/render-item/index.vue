@@ -8,6 +8,7 @@
       :width="item_json.symbol!.width"
       :height="item_json.symbol!.height"
       :props="item_json.props"
+      :renderitemid="item_json.id"
     ></svg-render>
     <group-render
       v-else-if="item_json.type === 'group'"

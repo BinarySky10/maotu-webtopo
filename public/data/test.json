@@ -24,14 +24,14 @@
   },
   "json": [
     {
-      "id": "xxxxxxx-VNoblKj4c2",
-      "title": "xxxxxxx",
+      "id": "集水池 - 副本-F7MkrbZy92",
+      "title": "集水池 - 副本",
       "type": "svg",
       "binfo": {
-        "left": 510,
-        "top": 80,
-        "width": 815,
-        "height": 600,
+        "left": 380,
+        "top": 230,
+        "width": 370,
+        "height": 290,
         "angle": 0
       },
       "resize": true,
@@ -39,7 +39,7 @@
       "lock": false,
       "active": false,
       "hide": false,
-      "tag": "xxxxxxx",
+      "tag": "集水池 - 副本",
       "common_animations": {
         "val": "",
         "delay": "delay-0s",
