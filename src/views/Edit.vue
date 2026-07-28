@@ -3,6 +3,7 @@ import type { IExportJson } from '@/components/mt-edit/components/types';
 import { useGenThumbnail } from '@/components/mt-edit/composables/thumbnail';
 import { MtEdit } from '@/export';
 import { useRouter } from 'vue-router';
+import { provide, ref } from 'vue';
 const router = useRouter();
 const onPreviewClick = (exportJson: IExportJson, fileName: string) => {
   sessionStorage.setItem('exportJson', JSON.stringify(exportJson));
@@ -23,6 +24,13 @@ const onReturnClick = () => {
 const onThumbnailClick = () => {
   useGenThumbnail();
 };
+const preview = ref(false);
+
+// 把ref实例传出去
+provide('previewState', preview);
+const switchPreview = () => {
+  preview.value = !preview.value;
+};
 </script>
 
 <template>
@@ -34,6 +42,9 @@ const onThumbnailClick = () => {
       @on-save-click="onSaveClick"
       @on-thumbnail-click="onThumbnailClick"
     ></mt-edit>
+  </div>
+  <div style="position: fixed; top: 10px; left: 10px">
+    <button @click="switchPreview">切换</button>
   </div>
 </template>
 

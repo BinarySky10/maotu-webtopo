@@ -32,9 +32,12 @@
       ></drag-canvas>
     </el-scrollbar>
   </div>
+  <div style="position: fixed; top: 10px; left: 10px">
+    <button @click="switchPreview">切换</button>
+  </div>
 </template>
 <script setup lang="ts">
-import { ref, reactive, onMounted } from 'vue';
+import { ref, reactive, onMounted, provide } from 'vue';
 import RenderCore from '@/components/mt-edit/components/render-core/index.vue';
 import type { IExportJson } from '../mt-edit/components/types';
 import { useExportJsonToDoneJson } from '../mt-edit/composables';
@@ -42,6 +45,13 @@ import type { IDoneJson } from '../mt-edit/store/types';
 import { getItemAttr, previewCompareVal, setItemAttr } from '../mt-edit/utils';
 import { ElScrollbar, ElMessage, ElMessageBox } from 'element-plus';
 import DragCanvas from '@/components/mt-edit/components/drag-canvas/index.vue';
+const preview = ref(false);
+
+// 把ref实例传出去
+provide('previewState', preview);
+const switchPreview = () => {
+  preview.value = !preview.value;
+};
 type MtPreviewProps = {
   exportJson?: IExportJson;
   canZoom?: boolean;
