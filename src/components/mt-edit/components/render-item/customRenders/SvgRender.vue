@@ -53,7 +53,6 @@ const waterShape = reactive({
   width: 100,
   height: 100
 });
-window.waterShape = waterShape;
 
 let y;
 let height;
