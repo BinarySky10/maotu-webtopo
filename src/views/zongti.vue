@@ -71,9 +71,9 @@
     <KvOne :data="item.data"></KvOne>
   </TeleportContainer>
   <!-- 按钮 -->
-  <TeleportContainer :targetAId="'VueContainer-MSDMcx2UVi'" v-if="loadJson">
+  <TeleportContainer :targetAId="item.targetId" v-if="loadJson" v-for="item in ctrlState">
     <!-- 按钮 -->
-    <ScButton @onClick="onClick('VueContainer-MSDMcx2UVi')"></ScButton>
+    <ScButton :type="item.data.type" @onClick="onClick(item.targetId)"></ScButton>
   </TeleportContainer>
 </template>
 <script setup lang="ts">
@@ -95,7 +95,7 @@ const onEventCallBack = (type: string, item_id: string) => {
 };
 const onClick = (vueContainerId: string) => {
   console.log('click', vueContainerId);
-  debugger;
+  ElMessage.success(`获取到了id:${vueContainerId}`);
 };
 const datalist = [
   {
@@ -532,6 +532,47 @@ const pinlvs = [
     }
   }
 ];
+const controls = [
+  //加药
+  'VueContainer-MSDMcx2UVi',
+  'VueContainer-5x1iflw03D',
+  'VueContainer-P7uNvadUnj',
+  'VueContainer-iBv3wyDl4Q',
+  'VueContainer-kLs4Js8BYE',
+  'VueContainer-n78plNmX4E',
+  //净水设备
+  'VueContainer-tVWB7KQZnC',
+  'VueContainer-ud8llHELeW',
+  'VueContainer-ogwlJe5pvU',
+  'VueContainer-gmxH5QDexx',
+  'VueContainer-Wz43n0bkNK',
+  'VueContainer-5pjx6ovT1Z',
+  //反洗水
+  'VueContainer-3Q1CRL6aji',
+  'VueContainer-hLR7I5BCMx',
+  //反洗气
+  'VueContainer-xtwG3zrjm6',
+  'VueContainer-wBwsNw2cJX',
+  //投加
+  'VueContainer-dpUEtZEm5o',
+  'VueContainer-t434iywGGj',
+  'VueContainer-eTPL1vbiuL',
+  'VueContainer-dyQn3K5hkp',
+  //供水
+  'VueContainer-ksCJQDiRys',
+  'VueContainer-n0keGhMOMv',
+  'VueContainer-VkrHEQIK3d',
+  'VueContainer-Fyw5FuFJtd',
+  'VueContainer-Y4eu8oxNYK'
+];
+const ctrlState = controls.map((item) => {
+  return {
+    targetId: item,
+    data: {
+      type: Math.random() > 0.5 ? 'danger' : 'success'
+    }
+  };
+});
 const loadJson = ref(false);
 import { getDatalist } from '@/api/api';
 onMounted(async () => {

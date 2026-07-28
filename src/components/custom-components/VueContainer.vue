@@ -26,7 +26,7 @@ const preview = inject('previewState');
 .box {
   width: 100%;
   height: 100%;
-
+  border: 1px solid transparent;
   display: flex;
   align-items: center;
   justify-content: center;
