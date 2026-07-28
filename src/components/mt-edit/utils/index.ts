@@ -172,6 +172,32 @@ export const symbolGenSvg = (
 </svg>
 `;
 };
+export const symbolGenSvg2 = (
+  symbol_id: string,
+  symbol_str: string,
+  width: string,
+  height: string,
+  props_str: string
+) => {
+  return `<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+  width="100%"
+  height="100%"
+  viewBox="0 0 ${width} ${height}"
+  preserveAspectRatio="none"
+>
+  ${symbol_str}
+  <use
+  xlink:href="#${symbol_id}"
+  ${props_str}
+  x="0"
+  y="0"
+></use>
+</svg>
+`;
+};
 export const svgToImgSrc = (svgStr: string) => {
   return 'data:image/svg+xml;utf8,' + encodeURIComponent(svgStr);
 };
