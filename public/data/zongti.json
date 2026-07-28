@@ -447,7 +447,18 @@
         "speed": "slow",
         "repeat": "infinite"
       },
-      "events": []
+      "events": [
+        {
+          "id": "TswJOiSEEg",
+          "type": "click",
+          "action": "customCode",
+          "change_attr": [],
+          "custom_code": "$mtEventCallBack('clickbutton',$item_info.id)",
+          "trigger_rule": {
+            "value": null
+          }
+        }
+      ]
     },
     {
       "id": "jiayaobeng-NhrFA9Fn6Q",
@@ -3901,7 +3912,7 @@
     },
     {
       "id": "custom-text-GMDcdi4T19",
-      "title": "定制文字",
+      "title": "定��文字",
       "type": "vue",
       "binfo": {
         "left": 1438,
@@ -6425,6 +6436,32 @@
         "top": 1000.40625,
         "width": 60,
         "height": 20,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-MSDMcx2UVi",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 293,
+        "top": 90,
+        "width": 50,
+        "height": 50,
         "angle": 0
       },
       "resize": true,

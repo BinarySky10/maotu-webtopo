@@ -70,6 +70,11 @@
     <!-- 液位2 -->
     <KvOne :data="item.data"></KvOne>
   </TeleportContainer>
+  <!-- 按钮 -->
+  <TeleportContainer :targetAId="'VueContainer-MSDMcx2UVi'" v-if="loadJson">
+    <!-- 按钮 -->
+    <ScButton @onClick="onClick('VueContainer-MSDMcx2UVi')"></ScButton>
+  </TeleportContainer>
 </template>
 <script setup lang="ts">
 import MtPreview from '@/components/mt-preview/index.vue';
@@ -78,6 +83,7 @@ import { ElMessage } from 'element-plus';
 import TeleportContainer from '@/components/mt-preview/TeleportContainer.vue';
 import KvList from './components/zongti/KvList.vue';
 import KvOne from './components/zongti/KvOne.vue';
+import ScButton from './components/zongti/ScButton.vue';
 
 const MtPreviewRef = ref<InstanceType<typeof MtPreview>>();
 const onEventCallBack = (type: string, item_id: string) => {
@@ -86,6 +92,10 @@ const onEventCallBack = (type: string, item_id: string) => {
   if (type == 'test-dialog') {
     ElMessage.success(`获取到了id:${item_id}`);
   }
+};
+const onClick = (vueContainerId: string) => {
+  console.log('click', vueContainerId);
+  debugger;
 };
 const datalist = [
   {
