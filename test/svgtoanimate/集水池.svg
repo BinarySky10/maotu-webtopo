@@ -23,7 +23,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.42447917"
-     inkscape:cx="897.57056"
+     inkscape:cx="897.57055"
      inkscape:cy="439.36196"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -46,9 +46,10 @@
      x="70"
      y="70"
      width="1634"
-     height="130"
+     height="688.3313"
      fill="#282222"
-     id="rect2" />
+     id="rect2"
+     style="stroke-width:2.30106" />
   <!-- 左侧灰色挡板 -->
   <rect
      x="30"
@@ -109,112 +110,12 @@
   <!-- 水体实心区域 -->
   <rect
      x="70"
-     y="200"
+     y="70.429451"
      width="1634"
-     height="550"
+     height="679.57056"
      fill="#26c2c2"
-     id="rect9" />
+     id="rect9"
+     style="stroke-width:1.11157" />
   <!-- 水面波纹细线 -->
-  <g
-     stroke="#86e0e0"
-     stroke-width="2"
-     id="g24">
-    <line
-       x1="90"
-       y1="230"
-       x2="1674"
-       y2="230"
-       id="line9" />
-    <line
-       x1="120"
-       y1="265"
-       x2="1650"
-       y2="265"
-       id="line10" />
-    <line
-       x1="80"
-       y1="300"
-       x2="1694"
-       y2="300"
-       id="line11" />
-    <line
-       x1="140"
-       y1="335"
-       x2="1630"
-       y2="335"
-       id="line12" />
-    <line
-       x1="100"
-       y1="370"
-       x2="1670"
-       y2="370"
-       id="line13" />
-    <line
-       x1="160"
-       y1="405"
-       x2="1610"
-       y2="405"
-       id="line14" />
-    <line
-       x1="110"
-       y1="440"
-       x2="1660"
-       y2="440"
-       id="line15" />
-    <line
-       x1="130"
-       y1="475"
-       x2="1640"
-       y2="475"
-       id="line16" />
-    <line
-       x1="95"
-       y1="510"
-       x2="1680"
-       y2="510"
-       id="line17" />
-    <line
-       x1="150"
-       y1="545"
-       x2="1620"
-       y2="545"
-       id="line18" />
-    <line
-       x1="105"
-       y1="580"
-       x2="1665"
-       y2="580"
-       id="line19" />
-    <line
-       x1="170"
-       y1="615"
-       x2="1600"
-       y2="615"
-       id="line20" />
-    <line
-       x1="125"
-       y1="650"
-       x2="1645"
-       y2="650"
-       id="line21" />
-    <line
-       x1="145"
-       y1="685"
-       x2="1625"
-       y2="685"
-       id="line22" />
-    <line
-       x1="85"
-       y1="720"
-       x2="1688"
-       y2="720"
-       id="line23" />
-    <line
-       x1="135"
-       y1="755"
-       x2="1635"
-       y2="755"
-       id="line24" />
-  </g>
   <!-- 底部文字 -->
 </svg>
