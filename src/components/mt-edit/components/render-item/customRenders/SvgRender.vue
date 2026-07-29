@@ -110,7 +110,7 @@ onMounted(async () => {
   // if (svgRenderProps.renderitemid == '集水池-u8enKirF1O') {
   //   debugger;
   // }
-  svgroot && waterShapeObj.init(svgroot as SVGSVGElement, 'water');
+  svgroot && waterShapeObj.init(svgroot as SVGSVGElement, 'water1');
   // updateWater(0.7);
   // waterShapeObj.setLevel(0.7);
 });

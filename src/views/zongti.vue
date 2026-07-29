@@ -610,7 +610,6 @@ onMounted(async () => {
   //
 
   nextTick(() => {
-    // 传入目标组件唯一标识
     jishuisState.map(({ targetId, data }) => {
       const ins = getComInstance(targetId);
       const sleep = (ms) => new Promise((res) => setTimeout(res, ms));

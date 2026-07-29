@@ -18,7 +18,7 @@ export class WaterShape {
 
   private readonly DURATION = 300;
 
-  constructor(svgRoot: SVGSVGElement, rectId = 'water') {
+  constructor(svgRoot: SVGSVGElement, rectId = 'water1') {
     if (svgRoot) this.init(svgRoot, rectId);
   }
 
@@ -80,15 +80,6 @@ export class WaterShape {
     this.rect.setAttribute('height', String(v));
   }
 
-  // public setLevel(val: number) {
-  //   !this.updateWater && (this.updateWater = true);
-  //   if (this.waterlevel == val) return;
-  //   const tmp = typeof val === 'number' && !Number.isNaN(val) ? val : 0;
-  //   const num = Math.max(0, Math.min(1, tmp));
-  //   this.height = this.originHeight * num;
-  //   this.y = this.originY + (this.originHeight - this.height);
-  //   this.waterlevel = val;
-  // }
   public setLevel(val: number) {
     // debugger;
     console.log('setLevel', val);
@@ -102,25 +93,23 @@ export class WaterShape {
     // 目标数值完全一致，直接退出
     if (this.waterlevel === val && this.height === targetH) return;
 
+    this.startAnim(targetH, targetY);
+    // 更新基准水位标识
+    this.waterlevel = val;
+  }
+
+  private startAnim(targetH: number, targetY: number) {
     // 中断上一轮未完成动画，防止动画叠加错乱
     if (this.animTl) {
       this.animTl.kill();
     }
-
-    // 更新基准水位标识
-    this.waterlevel = val;
-
     // GSAP 同时插值 height / y
     this.animTl = gsap.to(this, {
       height: targetH,
       y: targetY,
       duration: this.DURATION / 1000, // gsap 单位是秒
       ease: 'linear', // 水位匀速过渡最合适
-      onUpdate: (target) => {
-        // // 动画每一帧实时同步实例字段，外部读取实时最新值
-        // this.height = target.height;
-        // this.y = target.y;
-      },
+      onUpdate: (target) => {},
       onComplete: () => {
         this.animTl = null;
       }
