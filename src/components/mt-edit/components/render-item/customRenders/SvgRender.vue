@@ -101,8 +101,8 @@ nextTick(() => {});
 import { registerCompInstance } from './SvgRenderUtil.ts';
 import { WaterShape } from './WaterShape.ts';
 const waterShapeObj = new WaterShape(null);
-const updateWater = (waterval: number) => {
-  waterShapeObj.setLevel(waterval);
+const updateWater = (...waterval: Array<number>) => {
+  waterShapeObj.setLevel(...waterval);
 };
 onMounted(async () => {
   registerCompInstance(svgRenderProps.renderitemid);
@@ -110,7 +110,8 @@ onMounted(async () => {
   // if (svgRenderProps.renderitemid == '集水池-u8enKirF1O') {
   //   debugger;
   // }
-  svgroot && waterShapeObj.init(svgroot as SVGSVGElement, 'water1');
+
+  svgroot && waterShapeObj.init(svgroot as SVGSVGElement, 'water1', 'water2');
   // updateWater(0.7);
   // waterShapeObj.setLevel(0.7);
 });

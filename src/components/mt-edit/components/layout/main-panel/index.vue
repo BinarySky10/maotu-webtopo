@@ -242,7 +242,7 @@ const onDrop = (e: DragEvent | TouchEvent, isTouch?: boolean) => {
   console.log('leftAsideStore.config', leftAsideStore.config);
   console.log('globalStore.create_item_info.config_key', globalStore.create_item_info.config_key);
   console.log('find_cfg', find_cfg);
-  debugger;
+
   const deep_find_cfg = objectDeepClone<ILeftAsideConfigItem>(find_cfg);
 
   // 自由连线 直角连线都有自定义宽高以及禁止缩放和旋转

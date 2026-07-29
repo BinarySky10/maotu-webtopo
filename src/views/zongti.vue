@@ -573,23 +573,30 @@ const ctrlState = controls.map((item) => {
     }
   };
 });
-const jishuis = ['集水池-u8enKirF1O', '集水池-5qwrzHCJ4k'];
+const jishuis = [
+  '集水池-u8enKirF1O',
+  '集水池-5qwrzHCJ4k',
+  '集水池2-dkew2mJlqD',
+  '集水池2-IUid4iJQtv',
+  '集水池-F7MkrbZy92'
+];
 const jishuisState = jishuis.map((item) => {
   return {
     targetId: item,
     data: [
-      Math.random(),
-      Math.random(),
-      Math.random(),
-      Math.random(),
-      Math.random(),
-      Math.random(),
-      Math.random(),
-      Math.random(),
-      Math.random(),
-      Math.random(),
-      Math.random(),
-      Math.random()
+      [Math.random(), Math.random()],
+      [Math.random(), Math.random()],
+      [Math.random(), Math.random()],
+      [Math.random(), Math.random()],
+      [Math.random(), Math.random()],
+      [Math.random(), Math.random()],
+      [Math.random(), Math.random()],
+      [Math.random(), Math.random()],
+      [Math.random(), Math.random()],
+      [Math.random(), Math.random()],
+      [Math.random(), Math.random()],
+      [Math.random(), Math.random()],
+      [Math.random(), Math.random()]
     ]
   };
 });
@@ -606,18 +613,20 @@ onMounted(async () => {
   // const json = await getDatalist('test');
 
   MtPreviewRef.value?.setImportJson(json);
-  // loadJson.value = true;
+  loadJson.value = true;
   //
 
   nextTick(() => {
     jishuisState.map(({ targetId, data }) => {
       const ins = getComInstance(targetId);
+      if (!ins) return;
       const sleep = (ms) => new Promise((res) => setTimeout(res, ms));
       async function loopItems() {
         for (const item of data) {
           // 执行操作（可放await请求）
-          console.log('处理元素', targetId, item);
-          ins?.exposed?.updateWater(item);
+          // console.log('处理元素', targetId, item);
+
+          ins?.exposed?.updateWater(...item);
           // 间隔3秒
           await sleep(3000);
         }
