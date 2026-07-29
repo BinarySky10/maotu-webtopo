@@ -576,6 +576,7 @@ const ctrlState = controls.map((item) => {
 const loadJson = ref(false);
 
 import { getDatalist } from '@/api/api';
+import { getComInstance } from '@/components/mt-edit/components/render-item/customRenders/SvgRenderUtil';
 onMounted(async () => {
   // const json = await getDatalist('zongti');
 
@@ -588,11 +589,16 @@ onMounted(async () => {
   // loadJson.value = true;
   //
 
-  // nextTick(() => {
-  //   // 传入目标组件唯一标识
-  //   const compId = '集水池 - 副本-F7MkrbZy92';
+  nextTick(() => {
+    // 传入目标组件唯一标识
+    const compId = '集水池 - 副本-F7MkrbZy92';
+    const xx = getComInstance(compId);
+    xx?.exposed?.updateWater(0.8);
 
-  // });
+    setTimeout(() => {
+      xx?.exposed?.updateWater(0.2);
+    }, 5000);
+  });
 });
 </script>
 <style scoped lang="less"></style>

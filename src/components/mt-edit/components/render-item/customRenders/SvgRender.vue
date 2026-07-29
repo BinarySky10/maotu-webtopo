@@ -48,13 +48,19 @@ const compApi = {
 };
 
 nextTick(() => {});
+
+import { registerCompInstance } from './SvgRenderUtil.ts';
 import { WaterShape } from './SvgRenderUtil.ts';
 const waterShapeObj = new WaterShape(null);
+const updateWater = (waterval: number) => {
+  waterShapeObj.setLevel(waterval);
+};
 onMounted(async () => {
-  // registerComp(svgRenderProps.renderitemid, compApi);
+  registerCompInstance(svgRenderProps.renderitemid);
   const svgroot = compApi?.getSvgRoot();
   waterShapeObj.init(svgroot as SVGSVGElement, 'water');
-  waterShapeObj.setLevel(0.7);
+  // updateWater(0.7);
+  // waterShapeObj.setLevel(0.7);
 });
 
 // 卸载注销
@@ -62,6 +68,6 @@ onUnmounted(() => {
   // unRegisterComp(svgRenderProps.renderitemid);
 });
 defineExpose({
-  setWaterValue
+  updateWater
 });
 </script>
