@@ -573,17 +573,37 @@ const ctrlState = controls.map((item) => {
     }
   };
 });
+const jishuis = ['集水池-u8enKirF1O', '集水池-5qwrzHCJ4k'];
+const jishuisState = jishuis.map((item) => {
+  return {
+    targetId: item,
+    data: [
+      Math.random(),
+      Math.random(),
+      Math.random(),
+      Math.random(),
+      Math.random(),
+      Math.random(),
+      Math.random(),
+      Math.random(),
+      Math.random(),
+      Math.random(),
+      Math.random(),
+      Math.random()
+    ]
+  };
+});
 const loadJson = ref(false);
 
 import { getDatalist } from '@/api/api';
 import { getComInstance } from '@/components/mt-edit/components/render-item/customRenders/SvgRenderUtil';
 onMounted(async () => {
-  // const json = await getDatalist('zongti');
+  const json = await getDatalist('zongti');
 
   // MtPreviewRef.value?.setImportJson(json);
   // loadJson.value = true;
 
-  const json = await getDatalist('test');
+  // const json = await getDatalist('test');
 
   MtPreviewRef.value?.setImportJson(json);
   // loadJson.value = true;
@@ -591,13 +611,28 @@ onMounted(async () => {
 
   nextTick(() => {
     // 传入目标组件唯一标识
-    const compId = '集水池 - 副本-F7MkrbZy92';
-    const xx = getComInstance(compId);
-    xx?.exposed?.updateWater(0.8);
+    jishuisState.map(({ targetId, data }) => {
+      const ins = getComInstance(targetId);
+      const sleep = (ms) => new Promise((res) => setTimeout(res, ms));
+      async function loopItems() {
+        for (const item of data) {
+          // 执行操作（可放await请求）
+          console.log('处理元素', targetId, item);
+          ins?.exposed?.updateWater(item);
+          // 间隔3秒
+          await sleep(3000);
+        }
+        console.log('全部遍历完成');
+      }
+      loopItems();
+    });
 
-    setTimeout(() => {
-      xx?.exposed?.updateWater(0.2);
-    }, 5000);
+    //   const compId = '集水池-F7MkrbZy92';
+    //   const xx = getComInstance(compId);
+    //   xx?.exposed?.updateWater(0.8);
+    //   setTimeout(() => {
+    //     xx?.exposed?.updateWater(0.2);
+    //   }, 5000);
   });
 });
 </script>

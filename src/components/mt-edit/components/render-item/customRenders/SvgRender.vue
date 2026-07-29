@@ -24,6 +24,52 @@ type SvgRenderProps = {
   renderitemid: string;
 };
 const svgRenderProps = withDefaults(defineProps<SvgRenderProps>(), {});
+/**
+ * 处理带symbol+use的svg字符串
+ * 支持传入关键字数组，任意一个关键字命中则执行平铺逻辑
+ * 兼容两种use标签：自闭合<use .../> / 分段<use></use>
+ * 模糊匹配 use href / symbol id 包含数组内任意关键字
+ * 移除symbol容器、完整删除整段use标签，平铺内部图形到svg根节点
+ * @param svgStr 原始svg文本
+ * @param keywordList 匹配关键字数组，默认["集水池"]
+ * @returns 处理后的纯平铺svg字符串
+ */
+function resolveSvgSymbolUse(svgStr: string, keywordList: string[] = ['集水池']): string {
+  // 关键字转义，拼接或组
+  const keywordGroup = keywordList.map((k) => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+
+  // 正则1：匹配 <use 开头 包含关键字href，两种闭合全部捕获
+  const useAllReg = new RegExp(
+    `<use\\s+[^>]*xlink:href="#[^"]*(${keywordGroup})[^"]*"[\\s\\S]*?(?:\\/>|<\\/use>)`,
+    's'
+  );
+  if (!useAllReg.test(svgStr)) return svgStr;
+
+  // 匹配symbol块
+  const symbolContentReg = new RegExp(
+    `<symbol[^>]*id="[^"]*(${keywordGroup})[^"]*"[^>]*>([\\s\\S]*?)<\/symbol>`,
+    's'
+  );
+  const symbolMatch = svgStr.match(symbolContentReg);
+  if (!symbolMatch) return svgStr;
+
+  let innerContent = symbolMatch[2];
+  // 冗余清理规则，可自由追加
+  const cleanRules = [
+    /<defs[\s\S]*?<\/defs>/s,
+    /<sodipodi:namedview[\s\S]*?<\/sodipodi:namedview>/s
+  ];
+  cleanRules.forEach((reg) => {
+    innerContent = innerContent.replace(reg, '');
+  });
+
+  // 1. 删除整个symbol区块
+  let result = svgStr.replace(symbolContentReg, '');
+  // 2. 完整删除整段use（包含<use到</use>全部内容）
+  result = result.replace(useAllReg, innerContent);
+
+  return result;
+}
 
 const svgInnerHtml = computed(() => {
   const svgStr = symbolGenSvg2(
@@ -34,7 +80,10 @@ const svgInnerHtml = computed(() => {
     genDomPropstr(svgRenderProps.props)
   );
   // preserveAspectRatio="none "viewBox="0 0 1774 800"
-  return svgStr;
+  // todo:  临时修改svg 补充正确解决方案
+  const result = resolveSvgSymbolUse(svgStr, ['集水池']);
+
+  return result;
 });
 
 const svgRenderRef = ref<HTMLDivElement | null>(null);
@@ -58,7 +107,10 @@ const updateWater = (waterval: number) => {
 onMounted(async () => {
   registerCompInstance(svgRenderProps.renderitemid);
   const svgroot = compApi?.getSvgRoot();
-  waterShapeObj.init(svgroot as SVGSVGElement, 'water');
+  // if (svgRenderProps.renderitemid == '集水池-u8enKirF1O') {
+  //   debugger;
+  // }
+  svgroot && waterShapeObj.init(svgroot as SVGSVGElement, 'water');
   // updateWater(0.7);
   // waterShapeObj.setLevel(0.7);
 });

@@ -231,6 +231,7 @@ const onDrop = (e: DragEvent | TouchEvent, isTouch?: boolean) => {
   }
   globalStore.setSelectItems([]);
   //找到要创建图形的信息
+
   const find_cfg = leftAsideStore.config
     .get(globalStore.create_item_info.config_key)
     ?.find((f) => f.id === globalStore.create_item_info!.item_id);
@@ -238,7 +239,12 @@ const onDrop = (e: DragEvent | TouchEvent, isTouch?: boolean) => {
     console.error('拖拽配置不匹配', globalStore.create_item_info, leftAsideStore.config);
     return;
   }
+  console.log('leftAsideStore.config', leftAsideStore.config);
+  console.log('globalStore.create_item_info.config_key', globalStore.create_item_info.config_key);
+  console.log('find_cfg', find_cfg);
+  debugger;
   const deep_find_cfg = objectDeepClone<ILeftAsideConfigItem>(find_cfg);
+
   // 自由连线 直角连线都有自定义宽高以及禁止缩放和旋转
   const is_line = deep_find_cfg.type === 'sys-line' || deep_find_cfg.type == 'sys-line2';
   // 横线

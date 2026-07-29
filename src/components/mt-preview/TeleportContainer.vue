@@ -17,7 +17,7 @@ watch(
   () => props.targetAId,
   (val) => {
     if (val) {
-      console.log('val', val);
+      // console.log('val', val);
       mountTest(props.targetAId);
     }
   },

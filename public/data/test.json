@@ -24,8 +24,8 @@
   },
   "json": [
     {
-      "id": "集水池 - 副本-F7MkrbZy92",
-      "title": "集水池 - 副本",
+      "id": "集水池-F7MkrbZy92",
+      "title": "集水池",
       "type": "svg",
       "binfo": {
         "left": 380,
@@ -39,7 +39,33 @@
       "lock": false,
       "active": false,
       "hide": false,
-      "tag": "集水池 - 副本",
+      "tag": "集水池",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": [],
+      "props": {}
+    },
+    {
+      "id": "集水池-sTYRKElznP",
+      "title": "集水池",
+      "type": "svg",
+      "binfo": {
+        "left": 860,
+        "top": 210,
+        "width": 320,
+        "height": 290,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "tag": "集水池",
       "common_animations": {
         "val": "",
         "delay": "delay-0s",

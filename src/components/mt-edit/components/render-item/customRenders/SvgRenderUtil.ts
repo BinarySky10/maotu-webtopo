@@ -23,8 +23,13 @@ export class WaterShape {
   }
 
   public init(svgRoot: SVGSVGElement, rectId: string) {
+    console.log('init WaterShape', svgRoot);
     const rect = svgRoot.getElementById(rectId) as SVGRectElement;
-    if (!rect) throw new Error(`找不到 #${rectId}`);
+
+    if (!rect) {
+      return;
+      // throw new Error(`找不到 #${rectId}`);
+    }
     this.rect = rect;
 
     const getNum = (s: string | null) => {
@@ -85,6 +90,8 @@ export class WaterShape {
   //   this.waterlevel = val;
   // }
   public setLevel(val: number) {
+    // debugger;
+    console.log('setLevel', val);
     !this.updateWater && (this.updateWater = true);
     // 原值校验、边界截断逻辑完全保留
     const tmp = typeof val === 'number' && !Number.isNaN(val) ? val : 0;
@@ -110,9 +117,9 @@ export class WaterShape {
       duration: this.DURATION / 1000, // gsap 单位是秒
       ease: 'linear', // 水位匀速过渡最合适
       onUpdate: (target) => {
-        // 动画每一帧实时同步实例字段，外部读取实时最新值
-        this.height = target.height;
-        this.y = target.y;
+        // // 动画每一帧实时同步实例字段，外部读取实时最新值
+        // this.height = target.height;
+        // this.y = target.y;
       },
       onComplete: () => {
         this.animTl = null;

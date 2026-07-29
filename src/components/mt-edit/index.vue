@@ -199,7 +199,7 @@ const onExportFileClick = async (fileName: string) => {
     globalStore.gridCfg,
     objectDeepClone(globalStore.done_json)
   );
-  //todo: 修改json文件名
+
   if (!fileName) {
     return ElMessage.error('请输入文件名');
   }

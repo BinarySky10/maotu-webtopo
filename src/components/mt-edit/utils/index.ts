@@ -148,6 +148,7 @@ export const svgToSymbol = (svgStr: string, id: string) => {
     .replaceAll('stroke="currentColor"', '');
   return { symbol_str: symbol.outerHTML, width, height };
 };
+
 export const symbolGenSvg = (
   symbol_id: string,
   symbol_str: string,
