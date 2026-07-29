@@ -99,7 +99,7 @@ const compApi = {
 nextTick(() => {});
 
 import { registerCompInstance } from './SvgRenderUtil.ts';
-import { WaterShape } from './SvgRenderUtil.ts';
+import { WaterShape } from './WaterShape.ts';
 const waterShapeObj = new WaterShape(null);
 const updateWater = (waterval: number) => {
   waterShapeObj.setLevel(waterval);
