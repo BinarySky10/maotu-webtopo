@@ -7,13 +7,17 @@ type WaterProps = {
 };
 
 export class WaterShape {
-  private readonly originY: number;
-  private readonly originHeight: number;
-  private readonly rect: SVGRectElement;
+  private originY: number;
+  private originHeight: number;
+  private rect: SVGRectElement;
 
   private _data: WaterProps;
 
   constructor(svgRoot: SVGSVGElement, rectId = 'water') {
+    if (svgRoot) this.init(svgRoot, rectId);
+  }
+
+  public init(svgRoot: SVGSVGElement, rectId: string) {
     const rect = svgRoot.getElementById(rectId) as SVGRectElement;
     if (!rect) throw new Error(`找不到 #${rectId}`);
     this.rect = rect;

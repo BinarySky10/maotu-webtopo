@@ -10,11 +10,11 @@
 import { ref, nextTick, onMounted, onUnmounted, computed, watch, reactive } from 'vue';
 import { symbolGenSvg2, svgToImgSrc, genDomPropstr } from '@/components/mt-edit/utils/index';
 import type { ILeftAsideConfigItemPublicProps } from '../../../store/types';
-import {
-  registerComp,
-  unRegisterComp,
-  getCompApiById
-} from '@/components/mt-edit/utils/compRegistry';
+// import {
+//   registerComp,
+//   unRegisterComp,
+//   getCompApiById
+// } from '@/components/mt-edit/utils/compRegistry';
 type SvgRenderProps = {
   symbolId: string;
   symbolStr: string;
@@ -47,68 +47,19 @@ const compApi = {
   }
 };
 
-const waterShape = reactive({
-  x: 0,
-  y: 0,
-  width: 100,
-  height: 100
-});
-
-let y;
-let height;
-function bindWaterShapeAutoSync(svgRoot: SVGSVGElement) {
-  const rect = svgRoot.getElementById('water') as SVGRectElement;
-
-  if (!rect) return;
-  console.log(rect);
-  waterShape.x = Number(rect.getAttribute('x')) || 0;
-  waterShape.y = Number(rect.getAttribute('y')) || 0;
-  y = waterShape.y;
-  waterShape.width = Number(rect.getAttribute('width')) || 0;
-  waterShape.height = Number(rect.getAttribute('height')) || 0;
-  height = waterShape.height;
-  // 数据变化自动同步到 SVG 属性
-  watch(
-    () => waterShape.x,
-    (val) => rect.setAttribute('x', `${val}`)
-  );
-  watch(
-    () => waterShape.y,
-    (val) => rect.setAttribute('y', `${val}`)
-  );
-  watch(
-    () => waterShape.width,
-    (val) => rect.setAttribute('width', `${val}`)
-  );
-  watch(
-    () => waterShape.height,
-    (val) => rect.setAttribute('height', `${val}`)
-  );
-}
-const setWaterValue = (val: number) => {
-  const Y = y;
-  const Height = height;
-  let tmp = typeof val === 'number' && !Number.isNaN(val) ? val : 0;
-  //num = 0.5
-  let num = Math.max(0, Math.min(1, tmp));
-  const newHeight = Height * num;
-  const newY = Y + (Height - newHeight);
-  waterShape.y = newY;
-  waterShape.height = newHeight;
-};
-
 nextTick(() => {});
+import { WaterShape } from './SvgRenderUtil.ts';
+const waterShapeObj = new WaterShape(null);
 onMounted(async () => {
-  registerComp(svgRenderProps.renderitemid, compApi);
-  // const compApi = getCompApiById(svgRenderProps.renderitemid);
+  // registerComp(svgRenderProps.renderitemid, compApi);
   const svgroot = compApi?.getSvgRoot();
-  bindWaterShapeAutoSync(svgroot as SVGSVGElement);
-  setWaterValue(0.3);
+  waterShapeObj.init(svgroot as SVGSVGElement, 'water');
+  waterShapeObj.setLevel(0.7);
 });
 
 // 卸载注销
 onUnmounted(() => {
-  unRegisterComp(svgRenderProps.renderitemid);
+  // unRegisterComp(svgRenderProps.renderitemid);
 });
 defineExpose({
   setWaterValue

@@ -574,11 +574,6 @@ const ctrlState = controls.map((item) => {
   };
 });
 const loadJson = ref(false);
-import {
-  getCompApiById,
-  registerComp,
-  unRegisterComp
-} from '@/components/mt-edit/utils/compRegistry';
 
 import { getDatalist } from '@/api/api';
 onMounted(async () => {
@@ -596,12 +591,7 @@ onMounted(async () => {
   // nextTick(() => {
   //   // 传入目标组件唯一标识
   //   const compId = '集水池 - 副本-F7MkrbZy92';
-  //   debugger;
-  //   const api = getCompApiById(compId);
-  //   if (!api) return;
-  //   // 直接获取当前组件内部svg根节点
-  //   const svgRoot = api.getSvgRoot();
-  //   console.log(svgRoot);
+
   // });
 });
 </script>
