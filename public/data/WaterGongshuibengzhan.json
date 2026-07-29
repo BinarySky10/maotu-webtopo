@@ -13,8 +13,8 @@
       "y": 624
     },
     "drag_offset": {
-      "x": -314,
-      "y": -269
+      "x": -768,
+      "y": -311
     }
   },
   "gridCfg": {
@@ -1720,40 +1720,14 @@
       "events": []
     },
     {
-      "id": "VueContainer-UuuTsweNX1",
-      "title": "vue容器",
-      "type": "vue",
-      "binfo": {
-        "left": 1410,
-        "top": 210,
-        "width": 340,
-        "height": 410,
-        "angle": 0
-      },
-      "resize": true,
-      "rotate": true,
-      "lock": false,
-      "active": false,
-      "hide": false,
-      "props": {},
-      "tag": "VueContainer",
-      "common_animations": {
-        "val": "",
-        "delay": "delay-0s",
-        "speed": "slow",
-        "repeat": "infinite"
-      },
-      "events": []
-    },
-    {
       "id": "VueContainer-PdMslzlaLE",
       "title": "vue容器",
       "type": "vue",
       "binfo": {
-        "left": 1510,
+        "left": 1490,
         "top": 780,
-        "width": 270,
-        "height": 190,
+        "width": 340,
+        "height": 230,
         "angle": 0
       },
       "resize": true,
@@ -2853,6 +2827,94 @@
       "hide": false,
       "props": {},
       "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "card-vue-k4V9mem4yF",
+      "title": "卡片",
+      "type": "vue",
+      "binfo": {
+        "left": 1470,
+        "top": 210,
+        "width": 370,
+        "height": 450,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "shadow": "always",
+        "backGroundColor": "#ffffff",
+        "boxShadow": "#ffffff"
+      },
+      "tag": "card-vue",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "VueContainer-UuuTsweNX1",
+      "title": "vue容器",
+      "type": "vue",
+      "binfo": {
+        "left": 1490,
+        "top": 290,
+        "width": 330,
+        "height": 350,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {},
+      "tag": "VueContainer",
+      "common_animations": {
+        "val": "",
+        "delay": "delay-0s",
+        "speed": "slow",
+        "repeat": "infinite"
+      },
+      "events": []
+    },
+    {
+      "id": "text-vue-eT49YRBW7Q",
+      "title": "文字",
+      "type": "vue",
+      "binfo": {
+        "left": 1530,
+        "top": 227.5,
+        "width": 240,
+        "height": 50,
+        "angle": 0
+      },
+      "resize": true,
+      "rotate": true,
+      "lock": false,
+      "active": false,
+      "hide": false,
+      "props": {
+        "text": "供水泵站参数设置",
+        "fontFamily": "宋体",
+        "fontSize": 26,
+        "fill": "#000000",
+        "vertical": false
+      },
+      "tag": "text-vue",
       "common_animations": {
         "val": "",
         "delay": "delay-0s",
