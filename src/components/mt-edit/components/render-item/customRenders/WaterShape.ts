@@ -104,10 +104,14 @@ export class WaterShape {
     });
     //
   }
-  public setLevel(val1: number, val2: number) {
-    val1 && this.waterList[0] && this.setLevel2(val1, 0);
-    val2 && this.waterList[1] && this.setLevel2(val2, 1);
+  public setLevel(...vals: Array<number>) {
+    vals.forEach((val1, index) => {
+      val1 && this.waterList[index] && this.setLevel2(val1, index);
+    });
+    // val1 && this.waterList[0] && this.setLevel2(val1, 0);
+    // val2 && this.waterList[1] && this.setLevel2(val2, 1);
   }
+
   public setLevel2(val: number, index: number) {
     // 原值校验、边界截断逻辑完全保留
     const tmp = typeof val === 'number' && !Number.isNaN(val) ? val : 0;
