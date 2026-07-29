@@ -107,13 +107,8 @@ const updateWater = (...waterval: Array<number>) => {
 onMounted(async () => {
   registerCompInstance(svgRenderProps.renderitemid);
   const svgroot = compApi?.getSvgRoot();
-  // if (svgRenderProps.renderitemid == '集水池-u8enKirF1O') {
-  //   debugger;
-  // }
 
   svgroot && waterShapeObj.init(svgroot as SVGSVGElement, 'water1', 'water2');
-  // updateWater(0.7);
-  // waterShapeObj.setLevel(0.7);
 });
 
 // 卸载注销

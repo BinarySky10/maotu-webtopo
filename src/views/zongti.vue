@@ -623,9 +623,6 @@ onMounted(async () => {
       const sleep = (ms) => new Promise((res) => setTimeout(res, ms));
       async function loopItems() {
         for (const item of data) {
-          // 执行操作（可放await请求）
-          // console.log('处理元素', targetId, item);
-
           ins?.exposed?.updateWater(...item);
           // 间隔3秒
           await sleep(3000);
@@ -634,13 +631,6 @@ onMounted(async () => {
       }
       loopItems();
     });
-
-    //   const compId = '集水池-F7MkrbZy92';
-    //   const xx = getComInstance(compId);
-    //   xx?.exposed?.updateWater(0.8);
-    //   setTimeout(() => {
-    //     xx?.exposed?.updateWater(0.2);
-    //   }, 5000);
   });
 });
 </script>

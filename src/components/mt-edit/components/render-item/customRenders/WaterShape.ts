@@ -12,12 +12,10 @@ type OriginProps = {
 import gsap from 'gsap';
 
 export class WaterShape {
-  private originY: number;
-  private originHeight: number;
   private origins: Array<OriginProps> = [];
-  private rect: SVGRectElement;
+
   private waterList: Array<SVGRectElement> = [];
-  private animTl: gsap.core.Tween | null = null;
+
   private animTls: Array<gsap.core.Tween | null> = [];
 
   private _data: Array<WaterProps> = [];
